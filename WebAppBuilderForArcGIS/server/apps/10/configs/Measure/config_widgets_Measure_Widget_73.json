@@ -1,0 +1,31 @@
+{
+  "distanceUnits": [
+    {
+      "unit": "FEET",
+      "abbr": "'"
+    },
+    {
+      "unit": "MILES",
+      "abbr": "mi"
+    },
+    {
+      "unit": "METERS",
+      "abbr": "m"
+    }
+  ],
+  "areaUnits": [
+    {
+      "unit": "ACRES",
+      "abbr": "ac"
+    },
+    {
+      "unit": "SQUARE_FEET",
+      "abbr": "sq ft"
+    },
+    {
+      "unit": "SQUARE_MILES",
+      "abbr": "sq mi"
+    }
+  ],
+  "isOperationalLayer": false
+}

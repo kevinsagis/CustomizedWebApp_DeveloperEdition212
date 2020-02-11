@@ -1,0 +1,20 @@
+.jimu-widget-appupdate-setting {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+    .jimu-widget-appupdate-setting .border {
+        border: 1px solid lightgray;
+        padding: 10px;
+    }
+
+    .jimu-widget-appupdate-setting .underline {
+        text-decoration: underline;
+    }

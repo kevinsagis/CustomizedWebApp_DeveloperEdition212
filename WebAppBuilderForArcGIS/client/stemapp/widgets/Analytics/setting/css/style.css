@@ -1,0 +1,21 @@
+
+#codeInput{
+    height:50%!important;
+    width:95%;
+    padding-bottom:5%;
+}
+.title{
+    margin-bottom:2%;
+}
+
+#map-events{
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+}
+#layer-events{
+    float: right;
+    width: 50%;
+    padding-left:5px;
+    padding-bottom: 10px;
+}

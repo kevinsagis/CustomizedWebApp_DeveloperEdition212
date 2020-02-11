@@ -1,0 +1,5020 @@
+{
+  "theme": {
+    "name": "LaunchpadTheme",
+    "styles": [
+      "style3",
+      "default",
+      "style2"
+    ],
+    "version": "2.12",
+    "sharedTheme": {
+      "useHeader": false,
+      "useLogo": false,
+      "isPortalSupport": true
+    },
+    "customStyles": {
+      "mainBackgroundColor": "#1e4683"
+    }
+  },
+  "portalUrl": "http://sagis.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "",
+  "subtitle": "",
+  "keepAppState": true,
+  "logo": "images/app-logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+        "position": {
+          "bottom": 10,
+          "height": 40,
+          "relativeTo": "map",
+          "zIndex": 0
+        },
+        "version": "2.12",
+        "id": "themes_LaunchpadTheme_widgets_AnchorBarController_Widget_20",
+        "name": "AnchorBarController"
+      },
+      {
+        "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+        "position": {
+          "left": 15,
+          "top": 17,
+          "width": 670,
+          "height": 46,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "themes_LaunchpadTheme_widgets_Header_Widget_21",
+        "name": "Header"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 350,
+          "top": 25,
+          "width": 300,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_Search_Widget_22",
+        "name": "Search",
+        "config": "configs/Search/config_widgets_Search_Widget_22.json"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 20,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_OverviewMap_Widget_23",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 25,
+          "top": 95,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_ZoomSlider_Widget_24",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 25,
+          "top": 175,
+          "relativeTo": "map"
+        },
+        "id": "widgets_HomeButton_Widget_25",
+        "name": "HomeButton",
+        "version": "2.12"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 25,
+          "top": 215,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_MyLocation_Widget_26",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "version": "2.12",
+        "position": {
+          "right": 20,
+          "bottom": 80,
+          "relativeTo": "map"
+        },
+        "closeable": true,
+        "id": "widgets_AttributeTable_Widget_27",
+        "name": "AttributeTable",
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_27.json"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 20,
+          "bottom": 60,
+          "relativeTo": "map"
+        },
+        "id": "widgets_Coordinate_Widget_28",
+        "name": "Coordinate",
+        "version": "2.12",
+        "config": "configs/Coordinate/config_widgets_Coordinate_Widget_28.json"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 27,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_Scalebar_Widget_29",
+        "name": "Scalebar",
+        "config": "configs/Scalebar/config_widgets_Scalebar_Widget_29.json"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.12",
+        "id": "widgets_Splash_Widget_30",
+        "name": "Splash",
+        "config": "configs/Splash/config_widgets_Splash_Widget_30.json"
+      },
+      {
+        "position": {
+          "right": 130,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_31"
+      },
+      {
+        "position": {
+          "right": 180,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_32"
+      },
+      {
+        "position": {
+          "right": 230,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 3,
+        "id": "_33"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "position": {
+          "top": 255,
+          "left": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_ExtentNavigate_Widget_34",
+        "name": "ExtentNavigate"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "position": {
+          "right": 70,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_FullScreen_Widget_35",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "38d75ef6abc74010bc01cceae965a734",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "http://sagis.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "name": "eSearch",
+        "version": "2.12",
+        "uri": "widgets/eSearch/Widget",
+        "config": "configs/eSearch/config_widgets_eSearch_Widget_55.json",
+        "index": 2,
+        "id": "widgets_eSearch_Widget_55",
+        "label": "Property Search"
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.12",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 3,
+        "icon": "configs\\LayerList\\icon_widgets_LayerList_Widget_19.png",
+        "config": "configs/LayerList/config_widgets_LayerList_Widget_19.json"
+      },
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.12",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 4,
+        "config": "configs/Legend/config_widgets_Legend_Widget_18.json"
+      },
+      {
+        "name": "BasemapGallery",
+        "version": "2.12",
+        "uri": "widgets/BasemapGallery/Widget",
+        "index": 5,
+        "id": "widgets_BasemapGallery_Widget_38",
+        "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_38.json"
+      },
+      {
+        "name": "Streetview",
+        "version": "1.2",
+        "uri": "widgets/Streetview/Widget",
+        "index": 6,
+        "id": "widgets_Streetview_Widget_54",
+        "label": "Street View and Earth"
+      },
+      {
+        "name": "Pictometry",
+        "version": "1.2",
+        "uri": "widgets/Pictometry/Widget",
+        "index": 7,
+        "id": "widgets_Pictometry_Widget_53",
+        "label": "Pictometry 45° View",
+        "config": "configs/Pictometry/config_widgets_Pictometry_Widget_53.json"
+      },
+      {
+        "name": "eDraw",
+        "version": "2.8.1",
+        "uri": "widgets/eDraw/Widget",
+        "index": 8,
+        "id": "widgets_eDraw_Widget_52",
+        "label": "Draw",
+        "config": "configs/eDraw/config_widgets_eDraw_Widget_52.json"
+      },
+      {
+        "name": "Measure",
+        "version": "2.4",
+        "icon": "configs\\Measure\\icon_widgets_Measure_Widget_73.png",
+        "uri": "widgets/Measure/Widget",
+        "config": "configs/Measure/config_widgets_Measure_Widget_73.json",
+        "index": 9,
+        "id": "widgets_Measure_Widget_73"
+      },
+      {
+        "name": "Print",
+        "version": "2.12",
+        "uri": "widgets/Print/Widget",
+        "index": 10,
+        "id": "widgets_Print_Widget_47",
+        "config": "configs/Print/config_widgets_Print_Widget_47.json"
+      },
+      {
+        "name": "Screening",
+        "version": "2.9",
+        "IsController": false,
+        "uri": "widgets/Screening/Widget",
+        "index": 11,
+        "id": "widgets_Screening_Widget_48",
+        "label": "Property Printout",
+        "config": "configs/Screening/config_widgets_Screening_Widget_48.json"
+      },
+      {
+        "name": "Bookmark",
+        "version": "2.12",
+        "uri": "widgets/Bookmark/Widget",
+        "index": 12,
+        "id": "widgets_Bookmark_Widget_39",
+        "config": "configs/Bookmark/config_widgets_Bookmark_Widget_39.json",
+        "icon": "configs\\Bookmark\\icon_widgets_Bookmark_Widget_39.png",
+        "label": "Bookmarks"
+      },
+      {
+        "name": "Identify",
+        "version": "2.9.0.1",
+        "IsController": false,
+        "icon": "configs\\Identify\\icon_widgets_Identify_Widget_56.png",
+        "uri": "widgets/Identify/Widget",
+        "config": "configs/Identify/config_widgets_Identify_Widget_56.json",
+        "index": 13,
+        "id": "widgets_Identify_Widget_56"
+      },
+      {
+        "name": "SituationAwareness",
+        "version": "2.12",
+        "uri": "widgets/SituationAwareness/Widget",
+        "index": 15,
+        "id": "widgets_SituationAwareness_Widget_50",
+        "position": {
+          "relativeTo": "map"
+        },
+        "label": "Location Planning ",
+        "icon": "configs\\SituationAwareness\\icon_widgets_SituationAwareness_Widget_50.png",
+        "config": "configs/SituationAwareness/config_widgets_SituationAwareness_Widget_50.json"
+      },
+      {
+        "name": "Share",
+        "version": "2.12",
+        "uri": "widgets/Share/Widget",
+        "config": "configs/Share/config_widgets_Share_Widget_57.json",
+        "index": 16,
+        "id": "widgets_Share_Widget_57"
+      },
+      {
+        "name": "About",
+        "version": "2.12",
+        "uri": "widgets/About/Widget",
+        "index": 29,
+        "id": "widgets_About_Widget_36",
+        "config": "configs/About/config_widgets_About_Widget_36.json",
+        "icon": "configs\\About\\icon_widgets_About_Widget_36.png"
+      }
+    ],
+    "groups": [
+      {
+        "label": "Property Analysis & Advanced Tools",
+        "widgets": [
+          {
+            "name": "SaveSession",
+            "label": "Save My SAGIS Session ",
+            "version": "2.7",
+            "IsController": false,
+            "uri": "widgets/SaveSession/Widget",
+            "config": "configs/SaveSession/config_widgets_SaveSession_Widget_66.json",
+            "index": 20,
+            "id": "widgets_SaveSession_Widget_66"
+          },
+          {
+            "name": "Query",
+            "version": "2.12",
+            "uri": "widgets/Query/Widget",
+            "config": "configs/Query/config_widgets_Query_Widget_69.json",
+            "index": 21,
+            "id": "widgets_Query_Widget_69",
+            "label": "Site Selection and Query"
+          },
+          {
+            "name": "AddData",
+            "version": "2.12",
+            "uri": "widgets/AddData/Widget",
+            "index": 14,
+            "id": "widgets_AddData_Widget_37",
+            "label": "Add Data Layers to the Map",
+            "config": "configs/AddData/config_widgets_AddData_Widget_37.json"
+          },
+          {
+            "name": "Infographic",
+            "version": "2.12",
+            "uri": "widgets/Infographic/Widget",
+            "index": 18,
+            "id": "widgets_Infographic_Widget_60",
+            "label": "Sale Price ",
+            "icon": "configs\\Infographic\\icon_widgets_Infographic_Widget_60.png",
+            "config": "configs/Infographic/config_widgets_Infographic_Widget_60.json"
+          },
+          {
+            "name": "Infographic",
+            "label": "Fair Market Value",
+            "version": "2.12",
+            "uri": "widgets/Infographic/Widget",
+            "index": 19,
+            "id": "widgets_Infographic_Widget_61",
+            "icon": "configs\\Infographic\\icon_widgets_Infographic_Widget_61.png",
+            "config": "configs/Infographic/config_widgets_Infographic_Widget_61.json"
+          },
+          {
+            "name": "Infographic",
+            "label": "Zoning",
+            "version": "2.12",
+            "uri": "widgets/Infographic/Widget",
+            "index": 19,
+            "id": "widgets_Infographic_Widget_62",
+            "icon": "configs\\Infographic\\icon_widgets_Infographic_Widget_62.png",
+            "config": "configs/Infographic/config_widgets_Infographic_Widget_62.json"
+          },
+          {
+            "name": "Infographic",
+            "label": "Land and Building Values",
+            "version": "2.12",
+            "uri": "widgets/Infographic/Widget",
+            "index": 22,
+            "id": "widgets_Infographic_Widget_63",
+            "icon": "configs\\Infographic\\icon_widgets_Infographic_Widget_63.png",
+            "config": "configs/Infographic/config_widgets_Infographic_Widget_63.json"
+          },
+          {
+            "name": "Select",
+            "version": "2.13",
+            "uri": "widgets/Select/Widget",
+            "index": 25,
+            "id": "widgets_Select_Widget_49",
+            "label": "Select and Download Data",
+            "config": "configs/Select/config_widgets_Select_Widget_49.json"
+          },
+          {
+            "name": "DistanceAndDirection",
+            "version": "2.12",
+            "keepConfigAfterMapSwithched": false,
+            "uri": "widgets/DistanceAndDirection/Widget",
+            "index": 16,
+            "id": "widgets_DistanceAndDirection_Widget_41",
+            "config": "configs/DistanceAndDirection/config_widgets_DistanceAndDirection_Widget_41.json"
+          },
+          {
+            "name": "GriddedReferenceGraphic",
+            "version": "2.12",
+            "keepConfigAfterMapSwithched": true,
+            "uri": "widgets/GriddedReferenceGraphic/Widget",
+            "index": 32,
+            "id": "widgets_GriddedReferenceGraphic_Widget_72",
+            "config": "configs/GriddedReferenceGraphic/config_widgets_GriddedReferenceGraphic_Widget_72.json",
+            "label": "Grid Overlay"
+          }
+        ],
+        "index": 14,
+        "id": "_58",
+        "visible": true,
+        "panel": {
+          "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel",
+          "position": {
+            "relativeTo": "map"
+          }
+        },
+        "groupPopupTitle": "Configure"
+      }
+    ]
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+          "position": {
+            "bottom": 0,
+            "height": 40,
+            "width": "100%",
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+          "position": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "height": 46,
+            "relativeTo": "map"
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 10,
+            "top": 10,
+            "right": 10,
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 20,
+            "top": 20
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 160,
+            "relativeTo": "map"
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 75,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "right": 10,
+            "bottom": 115,
+            "relativeTo": "map"
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.12",
+          "position": {
+            "left": 10,
+            "bottom": 70,
+            "relativeTo": "map"
+          },
+          "closeable": true
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 20,
+            "bottom": 60
+          }
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 50,
+            "bottom": 70,
+            "relativeTo": "map"
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.12"
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 195,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 155,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 115,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "right": 10,
+            "bottom": 238,
+            "relativeTo": "map"
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "right": 70,
+            "top": 20
+          },
+          "version": "2.12"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel"
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#265a8b",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 297,
+      "height": 297
+    }
+  },
+  "wabVersion": "2.12",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "url": "https://sagis-22.mpc.local:3344/proxy.js"
+  },
+  "dataSource": {
+    "dataSources": {
+      "widget~widgets_Query_Widget_69~0": {
+        "id": "widget~widgets_Query_Widget_69~0",
+        "type": "Features",
+        "label": "Combined Search by Sale Price, Date, Market Value, Zoning, Acres",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "PIN",
+              "type": "esriFieldTypeString",
+              "alias": "PIN",
+              "length": 15,
+              "domain": null
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Name",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_1",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 1",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_2",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 2",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_3",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 3",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "CITY",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's City",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "STATE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's State",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "ZIP_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Zip Code",
+              "length": 12,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 34,
+              "domain": null
+            },
+            {
+              "name": "STREET_LIGHTING",
+              "type": "esriFieldTypeString",
+              "alias": "Street Lighting",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "MUN_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Municipal Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "LAND_UNITS",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Units",
+              "domain": null
+            },
+            {
+              "name": "LAND_FRONTAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Frontage",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_DEPTH",
+              "type": "esriFieldTypeString",
+              "alias": "Land Depth",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Type",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "REAL_ESTATE_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Real Estate Value",
+              "domain": null
+            },
+            {
+              "name": "LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Value",
+              "domain": null
+            },
+            {
+              "name": "BUILDING_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Building Value",
+              "domain": null
+            },
+            {
+              "name": "PROP_CLASS_CODES",
+              "type": "esriFieldTypeString",
+              "alias": "Property Class",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "SALE_PRICE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Sale Price",
+              "domain": null
+            },
+            {
+              "name": "SALE_YY",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Year",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "SALE_MM",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Month",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "SALE_DD",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Day",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "TRANSIT_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Transit Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "COMM_CAT",
+              "type": "esriFieldTypeString",
+              "alias": "Commercial Category",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "TOTAL_ASSESSMENT",
+              "type": "esriFieldTypeDouble",
+              "alias": "Total Assessment",
+              "domain": null
+            },
+            {
+              "name": "LEGAL_1",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 1",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "LEGAL_2",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 2",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_BOOK",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Book",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_PAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Page",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value",
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VAL_CPI",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value w/ CPI",
+              "domain": null
+            },
+            {
+              "name": "CAMA_LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Land Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_BLDG_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Building Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_TOTAL_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Total Value",
+              "domain": null
+            },
+            {
+              "name": "CALCAC",
+              "type": "esriFieldTypeDouble",
+              "alias": "Calculated Acreage",
+              "domain": null
+            },
+            {
+              "name": "OWNERNAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner Name",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "FULLADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Full Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "ZIPCODE",
+              "type": "esriFieldTypeString",
+              "alias": "Property Zip Code",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "ZONEID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Zoning",
+              "length": 25,
+              "domain": null
+            },
+            {
+              "name": "ZONE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Zoning Description",
+              "length": 120,
+              "domain": null
+            },
+            {
+              "name": "NBHD_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood",
+              "length": 100,
+              "domain": null
+            },
+            {
+              "name": "LANDUSE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "FLOODID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Flood Zone",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ELEMENTARY",
+              "type": "esriFieldTypeString",
+              "alias": "Elementary School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "MIDDLE",
+              "type": "esriFieldTypeString",
+              "alias": "Middle School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "HIGH",
+              "type": "esriFieldTypeString",
+              "alias": "High School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "VOT_PRECINCT",
+              "type": "esriFieldTypeString",
+              "alias": "Voter Precinct",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ALDER_TXT",
+              "type": "esriFieldTypeString",
+              "alias": "Alder Text",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "Shape",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "Shape_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Length",
+              "domain": null
+            },
+            {
+              "name": "Shape_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Area",
+              "domain": null
+            },
+            {
+              "name": "NEIGHBORHOOD_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "LAND_USE_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use Code",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "APC_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "APC Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "AGENT",
+              "type": "esriFieldTypeString",
+              "alias": "Agent",
+              "length": 3,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRE2",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "SALE_DATE",
+              "type": "esriFieldTypeDate",
+              "alias": "Sale Date",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "ALDERID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Alderman",
+              "domain": null
+            },
+            {
+              "name": "COMMID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Commissioner",
+              "domain": null
+            },
+            {
+              "name": "NBHD_CODE",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Neighborhood Text",
+              "domain": null
+            }
+          ],
+          "displayField": "NAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~1": {
+        "id": "widget~widgets_Query_Widget_69~1",
+        "type": "Features",
+        "label": "Parcels: Search by Zoning",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "PIN",
+              "type": "esriFieldTypeString",
+              "alias": "PIN",
+              "length": 15,
+              "domain": null
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Name",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_1",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 1",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_2",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 2",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_3",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 3",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "CITY",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's City",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "STATE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's State",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "ZIP_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Zip Code",
+              "length": 12,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 34,
+              "domain": null
+            },
+            {
+              "name": "STREET_LIGHTING",
+              "type": "esriFieldTypeString",
+              "alias": "Street Lighting",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "MUN_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Municipal Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "LAND_UNITS",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Units",
+              "domain": null
+            },
+            {
+              "name": "LAND_FRONTAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Frontage",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_DEPTH",
+              "type": "esriFieldTypeString",
+              "alias": "Land Depth",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Type",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "REAL_ESTATE_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Real Estate Value",
+              "domain": null
+            },
+            {
+              "name": "LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Value",
+              "domain": null
+            },
+            {
+              "name": "BUILDING_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Building Value",
+              "domain": null
+            },
+            {
+              "name": "PROP_CLASS_CODES",
+              "type": "esriFieldTypeString",
+              "alias": "Property Class",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "SALE_PRICE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Sale Price",
+              "domain": null
+            },
+            {
+              "name": "SALE_YY",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Year",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "SALE_MM",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Month",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "SALE_DD",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Day",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "TRANSIT_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Transit Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "COMM_CAT",
+              "type": "esriFieldTypeString",
+              "alias": "Commercial Category",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "TOTAL_ASSESSMENT",
+              "type": "esriFieldTypeDouble",
+              "alias": "Total Assessment",
+              "domain": null
+            },
+            {
+              "name": "LEGAL_1",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 1",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "LEGAL_2",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 2",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_BOOK",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Book",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_PAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Page",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value",
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VAL_CPI",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value w/ CPI",
+              "domain": null
+            },
+            {
+              "name": "CAMA_LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Land Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_BLDG_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Building Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_TOTAL_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Total Value",
+              "domain": null
+            },
+            {
+              "name": "CALCAC",
+              "type": "esriFieldTypeDouble",
+              "alias": "Calculated Acreage",
+              "domain": null
+            },
+            {
+              "name": "OWNERNAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner Name",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "FULLADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Full Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "ZIPCODE",
+              "type": "esriFieldTypeString",
+              "alias": "Property Zip Code",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "ZONEID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Zoning",
+              "length": 25,
+              "domain": null
+            },
+            {
+              "name": "ZONE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Zoning Description",
+              "length": 120,
+              "domain": null
+            },
+            {
+              "name": "NBHD_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood",
+              "length": 100,
+              "domain": null
+            },
+            {
+              "name": "LANDUSE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "FLOODID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Flood Zone",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ELEMENTARY",
+              "type": "esriFieldTypeString",
+              "alias": "Elementary School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "MIDDLE",
+              "type": "esriFieldTypeString",
+              "alias": "Middle School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "HIGH",
+              "type": "esriFieldTypeString",
+              "alias": "High School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "VOT_PRECINCT",
+              "type": "esriFieldTypeString",
+              "alias": "Voter Precinct",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ALDER_TXT",
+              "type": "esriFieldTypeString",
+              "alias": "Alder Text",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "Shape",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "Shape_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Length",
+              "domain": null
+            },
+            {
+              "name": "Shape_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Area",
+              "domain": null
+            },
+            {
+              "name": "NEIGHBORHOOD_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "LAND_USE_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use Code",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "APC_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "APC Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "AGENT",
+              "type": "esriFieldTypeString",
+              "alias": "Agent",
+              "length": 3,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRE2",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "SALE_DATE",
+              "type": "esriFieldTypeDate",
+              "alias": "Sale Date",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "ALDERID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Alderman",
+              "domain": null
+            },
+            {
+              "name": "COMMID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Commissioner",
+              "domain": null
+            },
+            {
+              "name": "NBHD_CODE",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Neighborhood Text",
+              "domain": null
+            }
+          ],
+          "displayField": "NAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~2": {
+        "id": "widget~widgets_Query_Widget_69~2",
+        "type": "Features",
+        "label": "Parcels: Search by Sale Price",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "PIN",
+              "type": "esriFieldTypeString",
+              "alias": "PIN",
+              "length": 15,
+              "domain": null
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Name",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_1",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 1",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_2",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 2",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_3",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 3",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "CITY",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's City",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "STATE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's State",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "ZIP_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Zip Code",
+              "length": 12,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 34,
+              "domain": null
+            },
+            {
+              "name": "STREET_LIGHTING",
+              "type": "esriFieldTypeString",
+              "alias": "Street Lighting",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "MUN_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Municipal Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "LAND_UNITS",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Units",
+              "domain": null
+            },
+            {
+              "name": "LAND_FRONTAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Frontage",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_DEPTH",
+              "type": "esriFieldTypeString",
+              "alias": "Land Depth",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Type",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "REAL_ESTATE_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Real Estate Value",
+              "domain": null
+            },
+            {
+              "name": "LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Value",
+              "domain": null
+            },
+            {
+              "name": "BUILDING_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Building Value",
+              "domain": null
+            },
+            {
+              "name": "PROP_CLASS_CODES",
+              "type": "esriFieldTypeString",
+              "alias": "Property Class",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "SALE_PRICE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Sale Price",
+              "domain": null
+            },
+            {
+              "name": "SALE_YY",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Year",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "SALE_MM",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Month",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "SALE_DD",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Day",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "TRANSIT_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Transit Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "COMM_CAT",
+              "type": "esriFieldTypeString",
+              "alias": "Commercial Category",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "TOTAL_ASSESSMENT",
+              "type": "esriFieldTypeDouble",
+              "alias": "Total Assessment",
+              "domain": null
+            },
+            {
+              "name": "LEGAL_1",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 1",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "LEGAL_2",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 2",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_BOOK",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Book",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_PAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Page",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value",
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VAL_CPI",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value w/ CPI",
+              "domain": null
+            },
+            {
+              "name": "CAMA_LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Land Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_BLDG_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Building Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_TOTAL_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Total Value",
+              "domain": null
+            },
+            {
+              "name": "CALCAC",
+              "type": "esriFieldTypeDouble",
+              "alias": "Calculated Acreage",
+              "domain": null
+            },
+            {
+              "name": "OWNERNAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner Name",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "FULLADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Full Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "ZIPCODE",
+              "type": "esriFieldTypeString",
+              "alias": "Property Zip Code",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "ZONEID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Zoning",
+              "length": 25,
+              "domain": null
+            },
+            {
+              "name": "ZONE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Zoning Description",
+              "length": 120,
+              "domain": null
+            },
+            {
+              "name": "NBHD_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood",
+              "length": 100,
+              "domain": null
+            },
+            {
+              "name": "LANDUSE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "FLOODID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Flood Zone",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ELEMENTARY",
+              "type": "esriFieldTypeString",
+              "alias": "Elementary School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "MIDDLE",
+              "type": "esriFieldTypeString",
+              "alias": "Middle School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "HIGH",
+              "type": "esriFieldTypeString",
+              "alias": "High School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "VOT_PRECINCT",
+              "type": "esriFieldTypeString",
+              "alias": "Voter Precinct",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ALDER_TXT",
+              "type": "esriFieldTypeString",
+              "alias": "Alder Text",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "Shape",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "Shape_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Length",
+              "domain": null
+            },
+            {
+              "name": "Shape_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Area",
+              "domain": null
+            },
+            {
+              "name": "NEIGHBORHOOD_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "LAND_USE_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use Code",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "APC_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "APC Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "AGENT",
+              "type": "esriFieldTypeString",
+              "alias": "Agent",
+              "length": 3,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRE2",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "SALE_DATE",
+              "type": "esriFieldTypeDate",
+              "alias": "Sale Date",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "ALDERID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Alderman",
+              "domain": null
+            },
+            {
+              "name": "COMMID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Commissioner",
+              "domain": null
+            },
+            {
+              "name": "NBHD_CODE",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Neighborhood Text",
+              "domain": null
+            }
+          ],
+          "displayField": "NAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~3": {
+        "id": "widget~widgets_Query_Widget_69~3",
+        "type": "Features",
+        "label": "Parcels: Search by Fair Market Value",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "PIN",
+              "type": "esriFieldTypeString",
+              "alias": "PIN",
+              "length": 15,
+              "domain": null
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Name",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_1",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 1",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_2",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 2",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_3",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 3",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "CITY",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's City",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "STATE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's State",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "ZIP_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Zip Code",
+              "length": 12,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 34,
+              "domain": null
+            },
+            {
+              "name": "STREET_LIGHTING",
+              "type": "esriFieldTypeString",
+              "alias": "Street Lighting",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "MUN_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Municipal Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "LAND_UNITS",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Units",
+              "domain": null
+            },
+            {
+              "name": "LAND_FRONTAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Frontage",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_DEPTH",
+              "type": "esriFieldTypeString",
+              "alias": "Land Depth",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Type",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "REAL_ESTATE_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Real Estate Value",
+              "domain": null
+            },
+            {
+              "name": "LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Value",
+              "domain": null
+            },
+            {
+              "name": "BUILDING_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Building Value",
+              "domain": null
+            },
+            {
+              "name": "PROP_CLASS_CODES",
+              "type": "esriFieldTypeString",
+              "alias": "Property Class",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "SALE_PRICE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Sale Price",
+              "domain": null
+            },
+            {
+              "name": "SALE_YY",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Year",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "SALE_MM",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Month",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "SALE_DD",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Day",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "TRANSIT_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Transit Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "COMM_CAT",
+              "type": "esriFieldTypeString",
+              "alias": "Commercial Category",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "TOTAL_ASSESSMENT",
+              "type": "esriFieldTypeDouble",
+              "alias": "Total Assessment",
+              "domain": null
+            },
+            {
+              "name": "LEGAL_1",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 1",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "LEGAL_2",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 2",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_BOOK",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Book",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_PAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Page",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value",
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VAL_CPI",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value w/ CPI",
+              "domain": null
+            },
+            {
+              "name": "CAMA_LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Land Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_BLDG_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Building Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_TOTAL_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Total Value",
+              "domain": null
+            },
+            {
+              "name": "CALCAC",
+              "type": "esriFieldTypeDouble",
+              "alias": "Calculated Acreage",
+              "domain": null
+            },
+            {
+              "name": "OWNERNAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner Name",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "FULLADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Full Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "ZIPCODE",
+              "type": "esriFieldTypeString",
+              "alias": "Property Zip Code",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "ZONEID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Zoning",
+              "length": 25,
+              "domain": null
+            },
+            {
+              "name": "ZONE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Zoning Description",
+              "length": 120,
+              "domain": null
+            },
+            {
+              "name": "NBHD_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood",
+              "length": 100,
+              "domain": null
+            },
+            {
+              "name": "LANDUSE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "FLOODID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Flood Zone",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ELEMENTARY",
+              "type": "esriFieldTypeString",
+              "alias": "Elementary School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "MIDDLE",
+              "type": "esriFieldTypeString",
+              "alias": "Middle School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "HIGH",
+              "type": "esriFieldTypeString",
+              "alias": "High School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "VOT_PRECINCT",
+              "type": "esriFieldTypeString",
+              "alias": "Voter Precinct",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ALDER_TXT",
+              "type": "esriFieldTypeString",
+              "alias": "Alder Text",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "Shape",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "Shape_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Length",
+              "domain": null
+            },
+            {
+              "name": "Shape_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Area",
+              "domain": null
+            },
+            {
+              "name": "NEIGHBORHOOD_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "LAND_USE_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use Code",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "APC_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "APC Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "AGENT",
+              "type": "esriFieldTypeString",
+              "alias": "Agent",
+              "length": 3,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRE2",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "SALE_DATE",
+              "type": "esriFieldTypeDate",
+              "alias": "Sale Date",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "ALDERID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Alderman",
+              "domain": null
+            },
+            {
+              "name": "COMMID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Commissioner",
+              "domain": null
+            },
+            {
+              "name": "NBHD_CODE",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Neighborhood Text",
+              "domain": null
+            }
+          ],
+          "displayField": "NAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~4": {
+        "id": "widget~widgets_Query_Widget_69~4",
+        "type": "Features",
+        "label": "Parcels: Search by Acreage",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "PIN",
+              "type": "esriFieldTypeString",
+              "alias": "PIN",
+              "length": 15,
+              "domain": null
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Name",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_1",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 1",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_2",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 2",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_3",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 3",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "CITY",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's City",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "STATE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's State",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "ZIP_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Zip Code",
+              "length": 12,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 34,
+              "domain": null
+            },
+            {
+              "name": "STREET_LIGHTING",
+              "type": "esriFieldTypeString",
+              "alias": "Street Lighting",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "MUN_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Municipal Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "LAND_UNITS",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Units",
+              "domain": null
+            },
+            {
+              "name": "LAND_FRONTAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Frontage",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_DEPTH",
+              "type": "esriFieldTypeString",
+              "alias": "Land Depth",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Type",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "REAL_ESTATE_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Real Estate Value",
+              "domain": null
+            },
+            {
+              "name": "LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Value",
+              "domain": null
+            },
+            {
+              "name": "BUILDING_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Building Value",
+              "domain": null
+            },
+            {
+              "name": "PROP_CLASS_CODES",
+              "type": "esriFieldTypeString",
+              "alias": "Property Class",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "SALE_PRICE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Sale Price",
+              "domain": null
+            },
+            {
+              "name": "SALE_YY",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Year",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "SALE_MM",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Month",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "SALE_DD",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Day",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "TRANSIT_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Transit Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "COMM_CAT",
+              "type": "esriFieldTypeString",
+              "alias": "Commercial Category",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "TOTAL_ASSESSMENT",
+              "type": "esriFieldTypeDouble",
+              "alias": "Total Assessment",
+              "domain": null
+            },
+            {
+              "name": "LEGAL_1",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 1",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "LEGAL_2",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 2",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_BOOK",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Book",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_PAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Page",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value",
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VAL_CPI",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value w/ CPI",
+              "domain": null
+            },
+            {
+              "name": "CAMA_LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Land Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_BLDG_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Building Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_TOTAL_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Total Value",
+              "domain": null
+            },
+            {
+              "name": "CALCAC",
+              "type": "esriFieldTypeDouble",
+              "alias": "Calculated Acreage",
+              "domain": null
+            },
+            {
+              "name": "OWNERNAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner Name",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "FULLADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Full Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "ZIPCODE",
+              "type": "esriFieldTypeString",
+              "alias": "Property Zip Code",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "ZONEID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Zoning",
+              "length": 25,
+              "domain": null
+            },
+            {
+              "name": "ZONE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Zoning Description",
+              "length": 120,
+              "domain": null
+            },
+            {
+              "name": "NBHD_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood",
+              "length": 100,
+              "domain": null
+            },
+            {
+              "name": "LANDUSE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "FLOODID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Flood Zone",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ELEMENTARY",
+              "type": "esriFieldTypeString",
+              "alias": "Elementary School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "MIDDLE",
+              "type": "esriFieldTypeString",
+              "alias": "Middle School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "HIGH",
+              "type": "esriFieldTypeString",
+              "alias": "High School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "VOT_PRECINCT",
+              "type": "esriFieldTypeString",
+              "alias": "Voter Precinct",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ALDER_TXT",
+              "type": "esriFieldTypeString",
+              "alias": "Alder Text",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "Shape",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "Shape_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Length",
+              "domain": null
+            },
+            {
+              "name": "Shape_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Area",
+              "domain": null
+            },
+            {
+              "name": "NEIGHBORHOOD_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "LAND_USE_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use Code",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "APC_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "APC Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "AGENT",
+              "type": "esriFieldTypeString",
+              "alias": "Agent",
+              "length": 3,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRE2",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "SALE_DATE",
+              "type": "esriFieldTypeDate",
+              "alias": "Sale Date",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "ALDERID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Alderman",
+              "domain": null
+            },
+            {
+              "name": "COMMID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Commissioner",
+              "domain": null
+            },
+            {
+              "name": "NBHD_CODE",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Neighborhood Text",
+              "domain": null
+            }
+          ],
+          "displayField": "NAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~5": {
+        "id": "widget~widgets_Query_Widget_69~5",
+        "type": "Features",
+        "label": "Parcels: Search by Sale Date",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "PIN",
+              "type": "esriFieldTypeString",
+              "alias": "PIN",
+              "length": 15,
+              "domain": null
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Name",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_1",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 1",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_2",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 2",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_3",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 3",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "CITY",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's City",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "STATE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's State",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "ZIP_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Zip Code",
+              "length": 12,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 34,
+              "domain": null
+            },
+            {
+              "name": "STREET_LIGHTING",
+              "type": "esriFieldTypeString",
+              "alias": "Street Lighting",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "MUN_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Municipal Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "LAND_UNITS",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Units",
+              "domain": null
+            },
+            {
+              "name": "LAND_FRONTAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Frontage",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_DEPTH",
+              "type": "esriFieldTypeString",
+              "alias": "Land Depth",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Type",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "REAL_ESTATE_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Real Estate Value",
+              "domain": null
+            },
+            {
+              "name": "LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Value",
+              "domain": null
+            },
+            {
+              "name": "BUILDING_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Building Value",
+              "domain": null
+            },
+            {
+              "name": "PROP_CLASS_CODES",
+              "type": "esriFieldTypeString",
+              "alias": "Property Class",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "SALE_PRICE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Sale Price",
+              "domain": null
+            },
+            {
+              "name": "SALE_YY",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Year",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "SALE_MM",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Month",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "SALE_DD",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Day",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "TRANSIT_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Transit Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "COMM_CAT",
+              "type": "esriFieldTypeString",
+              "alias": "Commercial Category",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "TOTAL_ASSESSMENT",
+              "type": "esriFieldTypeDouble",
+              "alias": "Total Assessment",
+              "domain": null
+            },
+            {
+              "name": "LEGAL_1",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 1",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "LEGAL_2",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 2",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_BOOK",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Book",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_PAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Page",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value",
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VAL_CPI",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value w/ CPI",
+              "domain": null
+            },
+            {
+              "name": "CAMA_LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Land Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_BLDG_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Building Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_TOTAL_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Total Value",
+              "domain": null
+            },
+            {
+              "name": "CALCAC",
+              "type": "esriFieldTypeDouble",
+              "alias": "Calculated Acreage",
+              "domain": null
+            },
+            {
+              "name": "OWNERNAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner Name",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "FULLADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Full Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "ZIPCODE",
+              "type": "esriFieldTypeString",
+              "alias": "Property Zip Code",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "ZONEID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Zoning",
+              "length": 25,
+              "domain": null
+            },
+            {
+              "name": "ZONE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Zoning Description",
+              "length": 120,
+              "domain": null
+            },
+            {
+              "name": "NBHD_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood",
+              "length": 100,
+              "domain": null
+            },
+            {
+              "name": "LANDUSE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "FLOODID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Flood Zone",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ELEMENTARY",
+              "type": "esriFieldTypeString",
+              "alias": "Elementary School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "MIDDLE",
+              "type": "esriFieldTypeString",
+              "alias": "Middle School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "HIGH",
+              "type": "esriFieldTypeString",
+              "alias": "High School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "VOT_PRECINCT",
+              "type": "esriFieldTypeString",
+              "alias": "Voter Precinct",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ALDER_TXT",
+              "type": "esriFieldTypeString",
+              "alias": "Alder Text",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "Shape",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "Shape_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Length",
+              "domain": null
+            },
+            {
+              "name": "Shape_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Area",
+              "domain": null
+            },
+            {
+              "name": "NEIGHBORHOOD_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "LAND_USE_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use Code",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "APC_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "APC Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "AGENT",
+              "type": "esriFieldTypeString",
+              "alias": "Agent",
+              "length": 3,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRE2",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "SALE_DATE",
+              "type": "esriFieldTypeDate",
+              "alias": "Sale Date",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "ALDERID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Alderman",
+              "domain": null
+            },
+            {
+              "name": "COMMID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Commissioner",
+              "domain": null
+            },
+            {
+              "name": "NBHD_CODE",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Neighborhood Text",
+              "domain": null
+            }
+          ],
+          "displayField": "NAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~6": {
+        "id": "widget~widgets_Query_Widget_69~6",
+        "type": "Features",
+        "label": "Search Population by Census Blocks",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "STATEFP10",
+              "type": "esriFieldTypeString",
+              "alias": "STATEP10",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "COUNTYFP10",
+              "type": "esriFieldTypeString",
+              "alias": "COUNTYFP10",
+              "length": 3,
+              "domain": null
+            },
+            {
+              "name": "NAME10",
+              "type": "esriFieldTypeString",
+              "alias": "NAME10",
+              "length": 10,
+              "domain": null
+            },
+            {
+              "name": "GEOID10",
+              "type": "esriFieldTypeString",
+              "alias": "GEOID10",
+              "length": 15,
+              "domain": null
+            },
+            {
+              "name": "MTFCC10",
+              "type": "esriFieldTypeString",
+              "alias": "MTFCC10",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "FUNCSTAT10",
+              "type": "esriFieldTypeString",
+              "alias": "FUNCSTAT10",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "BLOCKCE10",
+              "type": "esriFieldTypeString",
+              "alias": "BLOCKCE10",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "TRACTCE10",
+              "type": "esriFieldTypeString",
+              "alias": "TRACTCE10",
+              "length": 6,
+              "domain": null
+            },
+            {
+              "name": "UR10",
+              "type": "esriFieldTypeString",
+              "alias": "UR10",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "UACE10",
+              "type": "esriFieldTypeString",
+              "alias": "UACE10",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "INTPTLAT10",
+              "type": "esriFieldTypeString",
+              "alias": "INTPTLAT10",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "INTPTLON10",
+              "type": "esriFieldTypeString",
+              "alias": "INTPTLON10",
+              "length": 12,
+              "domain": null
+            },
+            {
+              "name": "GEOID",
+              "type": "esriFieldTypeString",
+              "alias": "GEOID",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "GEOID_DISPLAY",
+              "type": "esriFieldTypeString",
+              "alias": "GEOID_DISPLAY",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "D001",
+              "type": "esriFieldTypeInteger",
+              "alias": "TOTAL POPULATION",
+              "domain": null
+            },
+            {
+              "name": "D002",
+              "type": "esriFieldTypeInteger",
+              "alias": "TOTAL POPULATION ONE RACE",
+              "domain": null
+            },
+            {
+              "name": "D003",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Population of one race: White alone",
+              "domain": null
+            },
+            {
+              "name": "D004",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Population of one race: Black or African American alone",
+              "domain": null
+            },
+            {
+              "name": "D005",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Population of one race: American Indian and Alaska Native alone",
+              "domain": null
+            },
+            {
+              "name": "D006",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Population of one race: Asian alone",
+              "domain": null
+            },
+            {
+              "name": "D007",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Population of one race: Native Hawaiian and Other Pacific Islander alone",
+              "domain": null
+            },
+            {
+              "name": "D008",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Population of one race: Some Other Race alone",
+              "domain": null
+            },
+            {
+              "name": "D009",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races:",
+              "domain": null
+            },
+            {
+              "name": "D010",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races:",
+              "domain": null
+            },
+            {
+              "name": "D011",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: White; Black or African American",
+              "domain": null
+            },
+            {
+              "name": "D012",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: White; American Indian and Alaska Native",
+              "domain": null
+            },
+            {
+              "name": "D013",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: White; Asian",
+              "domain": null
+            },
+            {
+              "name": "D014",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: White; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D015",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: White; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D016",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: Black or African American; American Indian and Alaska Native",
+              "domain": null
+            },
+            {
+              "name": "D017",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: Black or African American; Asian",
+              "domain": null
+            },
+            {
+              "name": "D018",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: Black or African American; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D019",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: Black or African American; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D020",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: American Indian and Alaska Native; Asian",
+              "domain": null
+            },
+            {
+              "name": "D021",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D022",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: American Indian and Alaska Native; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D023",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: Asian; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D024",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: Asian; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D025",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of two races: Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D026",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races:",
+              "domain": null
+            },
+            {
+              "name": "D027",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: White; Black or African American; American Indian and Alaska Native",
+              "domain": null
+            },
+            {
+              "name": "D028",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: White; Black or African American; Asian",
+              "domain": null
+            },
+            {
+              "name": "D029",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: White; Black or African American; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D030",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: White; Black or African American; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D031",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: White; American Indian and Alaska Native; Asian",
+              "domain": null
+            },
+            {
+              "name": "D032",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D033",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: White; American Indian and Alaska Native; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D034",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: White; Asian; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D035",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: White; Asian; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D036",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: White; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D037",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Asian",
+              "domain": null
+            },
+            {
+              "name": "D038",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D039",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D040",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D041",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: Black or African American; Asian; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D042",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D043",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D044",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: American Indian and Alaska Native; Asian; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D045",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D046",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of three races: Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D047",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races:",
+              "domain": null
+            },
+            {
+              "name": "D048",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Asian",
+              "domain": null
+            },
+            {
+              "name": "D049",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D050",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D051",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D052",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: White; Black or African American; Asian; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D053",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: White; Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D054",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D055",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: White; American Indian and Alaska Native; Asian; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D056",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D057",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: White; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D058",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D059",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Asian; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D060",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D061",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D062",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of four races: American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D063",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of five races:",
+              "domain": null
+            },
+            {
+              "name": "D064",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+              "domain": null
+            },
+            {
+              "name": "D065",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Asian; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D066",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D067",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of five races: White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D068",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of five races: White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D069",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of five races: Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "D070",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of six races:",
+              "domain": null
+            },
+            {
+              "name": "D071",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total Two or More Races: Population of six races: White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+              "domain": null
+            },
+            {
+              "name": "ALAND10",
+              "type": "esriFieldTypeInteger",
+              "alias": "ALAND10",
+              "domain": null
+            },
+            {
+              "name": "AWATER10",
+              "type": "esriFieldTypeInteger",
+              "alias": "AWATER10",
+              "domain": null
+            },
+            {
+              "name": "SHAPE",
+              "type": "esriFieldTypeGeometry",
+              "alias": "SHAPE",
+              "domain": null
+            },
+            {
+              "name": "SHAPE_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "SHAPE_Length",
+              "domain": null
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "SHAPE_Area",
+              "domain": null
+            }
+          ],
+          "displayField": "NAME10",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~7": {
+        "id": "widget~widgets_Query_Widget_69~7",
+        "type": "Features",
+        "label": "Zoning Boundaries",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "ZONE",
+              "type": "esriFieldTypeString",
+              "alias": "ZONE",
+              "length": 25,
+              "domain": null
+            },
+            {
+              "name": "CODE",
+              "type": "esriFieldTypeString",
+              "alias": "CODE",
+              "length": 6,
+              "domain": {
+                "type": "codedValue",
+                "name": "MUN_CODE",
+                "description": "Municipality code",
+                "codedValues": [
+                  {
+                    "name": "UNICORP",
+                    "code": "01"
+                  },
+                  {
+                    "name": "SAVANNAH",
+                    "code": "02"
+                  },
+                  {
+                    "name": "THUNDERBOLT",
+                    "code": "03"
+                  },
+                  {
+                    "name": "TYBEE ISLAND",
+                    "code": "04"
+                  },
+                  {
+                    "name": "POOLER",
+                    "code": "05"
+                  },
+                  {
+                    "name": "GARDEN CITY",
+                    "code": "06"
+                  },
+                  {
+                    "name": "PORT WENTWORTH",
+                    "code": "07"
+                  },
+                  {
+                    "name": "BLOOMINGDALE",
+                    "code": "08"
+                  },
+                  {
+                    "name": "VERNONBURG",
+                    "code": "09"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              }
+            },
+            {
+              "name": "ZONING_DISTRICT",
+              "type": "esriFieldTypeString",
+              "alias": "ZONING_DISTRICT",
+              "length": 120,
+              "domain": null
+            },
+            {
+              "name": "POLYGON_AREA",
+              "type": "esriFieldTypeDouble",
+              "alias": "POLYGON_AREA",
+              "domain": null
+            },
+            {
+              "name": "SHAPE",
+              "type": "esriFieldTypeGeometry",
+              "alias": "SHAPE",
+              "domain": null
+            },
+            {
+              "name": "SHAPE_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "SHAPE_Length",
+              "domain": null
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "SHAPE_Area",
+              "domain": null
+            },
+            {
+              "name": "GlobalID",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "length": 38,
+              "domain": null
+            }
+          ],
+          "displayField": "ZONE",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~8": {
+        "id": "widget~widgets_Query_Widget_69~8",
+        "type": "Features",
+        "label": "Schools",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "NAME",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "TYPE",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "ADDRESS",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "CITY",
+              "type": "esriFieldTypeString",
+              "alias": "CITY",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "GlobalID",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "length": 38,
+              "domain": null
+            },
+            {
+              "name": "Shape",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "GRADES",
+              "type": "esriFieldTypeString",
+              "alias": "GRADES",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "AFFILIATION",
+              "type": "esriFieldTypeString",
+              "alias": "AFFILIATION",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "RESTRICTIONS",
+              "type": "esriFieldTypeString",
+              "alias": "RESTRICTIONS",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "ZIP",
+              "type": "esriFieldTypeDouble",
+              "alias": "ZIP",
+              "domain": null
+            },
+            {
+              "name": "SCHOOL_TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "SCHOOL_TYPE",
+              "length": 30,
+              "domain": null
+            }
+          ],
+          "displayField": "NAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~9": {
+        "id": "widget~widgets_Query_Widget_69~9",
+        "type": "Features",
+        "label": "CAT Bus Routes",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolyline",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "SHAPE",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "RTE_NO",
+              "type": "esriFieldTypeString",
+              "alias": "RTE_NO",
+              "length": 10,
+              "domain": null
+            },
+            {
+              "name": "RTE_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "RTE_NAME",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "FULLNAME",
+              "type": "esriFieldTypeString",
+              "alias": "FULLNAME",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "DIR_TO_FROM_ORIGIN",
+              "type": "esriFieldTypeString",
+              "alias": "DIR_TO_FROM_ORIGIN",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "GlobalID",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "length": 38,
+              "domain": null
+            },
+            {
+              "name": "SHAPE_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Length",
+              "domain": null
+            }
+          ],
+          "displayField": "RTE_NAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~10": {
+        "id": "widget~widgets_Query_Widget_69~10",
+        "type": "Features",
+        "label": "Libraries",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "NAME",
+              "length": 254,
+              "domain": null
+            },
+            {
+              "name": "FULL_ADDRE",
+              "type": "esriFieldTypeString",
+              "alias": "ADDRESS",
+              "length": 254,
+              "domain": null
+            },
+            {
+              "name": "WEBSITE",
+              "type": "esriFieldTypeString",
+              "alias": "WEBSITE",
+              "length": 254,
+              "domain": null
+            },
+            {
+              "name": "BRANCH",
+              "type": "esriFieldTypeString",
+              "alias": "BRANCH",
+              "length": 254,
+              "domain": null
+            },
+            {
+              "name": "TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "TYPE",
+              "length": 254,
+              "domain": null
+            },
+            {
+              "name": "CURRENT_ST",
+              "type": "esriFieldTypeString",
+              "alias": "CURRENT_ST",
+              "length": 254,
+              "domain": null
+            },
+            {
+              "name": "PHONE_NUM",
+              "type": "esriFieldTypeString",
+              "alias": "PHONE_NUM",
+              "length": 15,
+              "domain": null
+            },
+            {
+              "name": "GlobalID",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "length": 38,
+              "domain": null
+            },
+            {
+              "name": "Shape",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            }
+          ],
+          "displayField": "NAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~11": {
+        "id": "widget~widgets_Query_Widget_69~11",
+        "type": "Features",
+        "label": "Wetlands by Type NWI",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "ATTRIBUTE",
+              "type": "esriFieldTypeString",
+              "alias": "ATTRIBUTE",
+              "length": 15,
+              "domain": null
+            },
+            {
+              "name": "WETLAND_TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "WETLAND_TYPE",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "Shape",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "Shape_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Length",
+              "domain": null
+            },
+            {
+              "name": "Shape_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Area",
+              "domain": null
+            },
+            {
+              "name": "ACRES",
+              "type": "esriFieldTypeDouble",
+              "alias": "ACRES",
+              "domain": null
+            },
+            {
+              "name": "GlobalID",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "length": 38,
+              "domain": null
+            }
+          ],
+          "displayField": "ATTRIBUTE",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~12": {
+        "id": "widget~widgets_Query_Widget_69~12",
+        "type": "Features",
+        "label": "Soils by Type",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "MUKEY",
+              "type": "esriFieldTypeString",
+              "alias": "MUKEY",
+              "length": 30,
+              "domain": null
+            },
+            {
+              "name": "SOILS_",
+              "type": "esriFieldTypeDouble",
+              "alias": "SOILS_",
+              "domain": null
+            },
+            {
+              "name": "SOILS_ID",
+              "type": "esriFieldTypeDouble",
+              "alias": "SOILS_ID",
+              "domain": null
+            },
+            {
+              "name": "SOILTYPE",
+              "type": "esriFieldTypeString",
+              "alias": "SOILTYPE",
+              "length": 3,
+              "domain": null
+            },
+            {
+              "name": "HYDRIC",
+              "type": "esriFieldTypeString",
+              "alias": "HYDRIC",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "SOILNAME",
+              "type": "esriFieldTypeString",
+              "alias": "SOILNAME",
+              "length": 35,
+              "domain": null
+            },
+            {
+              "name": "LEGEND_DES",
+              "type": "esriFieldTypeString",
+              "alias": "LEGEND_DES",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "Shape",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "Shape_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Length",
+              "domain": null
+            },
+            {
+              "name": "Shape_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Area",
+              "domain": null
+            }
+          ],
+          "displayField": "SOILNAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~13": {
+        "id": "widget~widgets_Query_Widget_69~13",
+        "type": "Features",
+        "label": "Geology by Type",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "AREA",
+              "type": "esriFieldTypeDouble",
+              "alias": "AREA",
+              "domain": null
+            },
+            {
+              "name": "PERIMETER",
+              "type": "esriFieldTypeDouble",
+              "alias": "PERIMETER",
+              "domain": null
+            },
+            {
+              "name": "GEOLOGY_",
+              "type": "esriFieldTypeInteger",
+              "alias": "GEOLOGY_",
+              "domain": null
+            },
+            {
+              "name": "GEOLOGY_ID",
+              "type": "esriFieldTypeInteger",
+              "alias": "GEOLOGY_ID",
+              "domain": null
+            },
+            {
+              "name": "ACODE",
+              "type": "esriFieldTypeString",
+              "alias": "ACODE",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "CODE2",
+              "type": "esriFieldTypeString",
+              "alias": "CODE2",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "SHAPE",
+              "type": "esriFieldTypeGeometry",
+              "alias": "SHAPE",
+              "domain": null
+            },
+            {
+              "name": "SHAPE_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "SHAPE_Length",
+              "domain": null
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "SHAPE_Area",
+              "domain": null
+            }
+          ],
+          "displayField": "ACODE",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_Query_Widget_69~14": {
+        "id": "widget~widgets_Query_Widget_69~14",
+        "type": "Features",
+        "label": "Future Landuse",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "SHAPE",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "LAST_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "LAST_NAME",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "FIRST_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "FIRST_NAME",
+              "length": 10,
+              "domain": null
+            },
+            {
+              "name": "PIN",
+              "type": "esriFieldTypeString",
+              "alias": "PIN",
+              "length": 15,
+              "domain": null
+            },
+            {
+              "name": "FUTURE_LU",
+              "type": "esriFieldTypeString",
+              "alias": "FUTURE_LU",
+              "length": 65,
+              "domain": null
+            },
+            {
+              "name": "CALC_SQ_FT",
+              "type": "esriFieldTypeDouble",
+              "alias": "CALC_SQ_FT",
+              "domain": null
+            },
+            {
+              "name": "CALC_ACRES",
+              "type": "esriFieldTypeDouble",
+              "alias": "CALC_ACRES",
+              "domain": null
+            },
+            {
+              "name": "COMMENT",
+              "type": "esriFieldTypeString",
+              "alias": "COMMENT",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "COMMENT2",
+              "type": "esriFieldTypeString",
+              "alias": "COMMENT2",
+              "length": 60,
+              "domain": null
+            },
+            {
+              "name": "SHAPE_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Length",
+              "domain": null
+            },
+            {
+              "name": "SHAPE_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Area",
+              "domain": null
+            },
+            {
+              "name": "GlobalID",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "length": 38,
+              "domain": null
+            }
+          ],
+          "displayField": "LAST_NAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      },
+      "widget~widgets_eSearch_Widget_55~0": {
+        "id": "widget~widgets_eSearch_Widget_55~0",
+        "type": "Features",
+        "label": "Search for Parcels by:",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null
+            },
+            {
+              "name": "PIN",
+              "type": "esriFieldTypeString",
+              "alias": "PIN",
+              "length": 15,
+              "domain": null
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Name",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_1",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 1",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_2",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 2",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "ADDRESS_3",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Address 3",
+              "length": 45,
+              "domain": null
+            },
+            {
+              "name": "CITY",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's City",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "STATE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's State",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "ZIP_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Owner's Zip Code",
+              "length": 12,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 34,
+              "domain": null
+            },
+            {
+              "name": "STREET_LIGHTING",
+              "type": "esriFieldTypeString",
+              "alias": "Street Lighting",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "MUN_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Municipal Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "NEIGHBORHOOD_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "LAND_UNITS",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Units",
+              "domain": null
+            },
+            {
+              "name": "LAND_FRONTAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Frontage",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_DEPTH",
+              "type": "esriFieldTypeString",
+              "alias": "Land Depth",
+              "length": 11,
+              "domain": null
+            },
+            {
+              "name": "LAND_TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Type",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "REAL_ESTATE_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Real Estate Value",
+              "domain": null
+            },
+            {
+              "name": "LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Land Value",
+              "domain": null
+            },
+            {
+              "name": "BUILDING_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Building Value",
+              "domain": null
+            },
+            {
+              "name": "PROP_CLASS_CODES",
+              "type": "esriFieldTypeString",
+              "alias": "Property Class",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "LAND_USE_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use Code",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "SALE_PRICE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Sale Price",
+              "domain": null
+            },
+            {
+              "name": "SALE_YY",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Year",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "SALE_MM",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Month",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "SALE_DD",
+              "type": "esriFieldTypeString",
+              "alias": "Sale Day",
+              "length": 2,
+              "domain": null
+            },
+            {
+              "name": "TRANSIT_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "Transit Code",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "APC_CODE",
+              "type": "esriFieldTypeString",
+              "alias": "APC Code",
+              "length": 1,
+              "domain": null
+            },
+            {
+              "name": "COMM_CAT",
+              "type": "esriFieldTypeString",
+              "alias": "Commercial Category",
+              "length": 4,
+              "domain": null
+            },
+            {
+              "name": "AGENT",
+              "type": "esriFieldTypeString",
+              "alias": "Agent",
+              "length": 3,
+              "domain": null
+            },
+            {
+              "name": "TOTAL_ASSESSMENT",
+              "type": "esriFieldTypeDouble",
+              "alias": "Total Assessment",
+              "domain": null
+            },
+            {
+              "name": "LEGAL_1",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 1",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "LEGAL_2",
+              "type": "esriFieldTypeString",
+              "alias": "Legal Description 2",
+              "length": 32,
+              "domain": null
+            },
+            {
+              "name": "ZONING",
+              "type": "esriFieldTypeString",
+              "alias": "Old Zoning",
+              "length": 6,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_BOOK",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Book",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "SALE_OR_PAGE",
+              "type": "esriFieldTypeString",
+              "alias": "Sale or Page",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value",
+              "domain": null
+            },
+            {
+              "name": "BASE_YR_VAL_CPI",
+              "type": "esriFieldTypeDouble",
+              "alias": "Base Year Value w/ CPI",
+              "domain": null
+            },
+            {
+              "name": "CAMA_LAND_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Land Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_BLDG_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Building Value",
+              "domain": null
+            },
+            {
+              "name": "CAMA_TOTAL_VALUE",
+              "type": "esriFieldTypeDouble",
+              "alias": "CAMA Total Value",
+              "domain": null
+            },
+            {
+              "name": "FULLADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "Full Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "PROP_ADDRE2",
+              "type": "esriFieldTypeString",
+              "alias": "Property Address",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "ZIPCODE",
+              "type": "esriFieldTypeString",
+              "alias": "Property Zip Code",
+              "length": 5,
+              "domain": null
+            },
+            {
+              "name": "OWNERNAME",
+              "type": "esriFieldTypeString",
+              "alias": "Owner Name",
+              "length": 255,
+              "domain": null
+            },
+            {
+              "name": "SALE_DATE",
+              "type": "esriFieldTypeDate",
+              "alias": "Sale Date",
+              "length": 8,
+              "domain": null
+            },
+            {
+              "name": "ZONEID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Zoning",
+              "length": 25,
+              "domain": null
+            },
+            {
+              "name": "ZONE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Zoning Description",
+              "length": 120,
+              "domain": null
+            },
+            {
+              "name": "ALDERID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Alderman",
+              "domain": null
+            },
+            {
+              "name": "ALDER_TXT",
+              "type": "esriFieldTypeString",
+              "alias": "Alder Text",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "COMMID",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Commissioner",
+              "domain": null
+            },
+            {
+              "name": "VOT_PRECINCT",
+              "type": "esriFieldTypeString",
+              "alias": "Voter Precinct",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "LANDUSE_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Land Use",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "FLOODID",
+              "type": "esriFieldTypeString",
+              "alias": "Calculated Flood Zone",
+              "length": 20,
+              "domain": null
+            },
+            {
+              "name": "ELEMENTARY",
+              "type": "esriFieldTypeString",
+              "alias": "Elementary School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "MIDDLE",
+              "type": "esriFieldTypeString",
+              "alias": "Middle School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "HIGH",
+              "type": "esriFieldTypeString",
+              "alias": "High School",
+              "length": 50,
+              "domain": null
+            },
+            {
+              "name": "CALCAC",
+              "type": "esriFieldTypeDouble",
+              "alias": "Calculated Acreage",
+              "domain": null
+            },
+            {
+              "name": "NBHD_CODE",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Neighborhood Text",
+              "domain": null
+            },
+            {
+              "name": "NBHD_DESC",
+              "type": "esriFieldTypeString",
+              "alias": "Neighborhood",
+              "length": 100,
+              "domain": null
+            },
+            {
+              "name": "PIN_LEGACY",
+              "type": "esriFieldTypeString",
+              "alias": "PIN Legacy",
+              "length": 16,
+              "domain": null
+            },
+            {
+              "name": "Shape",
+              "type": "esriFieldTypeGeometry",
+              "alias": "Shape",
+              "domain": null
+            },
+            {
+              "name": "Shape_Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Length",
+              "domain": null
+            },
+            {
+              "name": "Shape_Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Area",
+              "domain": null
+            }
+          ],
+          "displayField": "NAME",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null
+          },
+          "typeIdField": null
+        }
+      }
+    },
+    "settings": {}
+  },
+  "logoLink": "https://www.sagis.org/"
+}

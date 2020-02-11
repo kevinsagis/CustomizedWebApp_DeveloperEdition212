@@ -1,0 +1,6 @@
+{
+  "useServerToDownloadFile": false,
+  "saveToFileUrl": "",
+  "fileNameForAllSessions": "Saved_SAGIS_AllSession.json",
+  "fileNameTplForSession": "Saved_SAGIS_Session_Number_${name}.json"
+}

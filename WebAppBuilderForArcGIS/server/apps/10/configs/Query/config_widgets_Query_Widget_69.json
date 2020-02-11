@@ -1,0 +1,3006 @@
+{
+  "hideLayersAfterWidgetClosed": true,
+  "labelTasks": "Search a Layer",
+  "labelResults": "Results",
+  "showFilterLabel": true,
+  "criteiraLabel": "Query search criteria",
+  "spatialFilterLabel": "Spatial filters",
+  "queries": [
+    {
+      "url": "",
+      "name": "Combined Search by Sale Price, Date, Market Value, Zoning, Acres",
+      "icon": {
+        "color": [
+          1,
+          255,
+          73,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "logicalOperator": "AND",
+            "parts": [
+              {
+                "fieldObj": {
+                  "name": "REAL_ESTATE_VALUE",
+                  "label": "REAL_ESTATE_VALUE",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeDouble"
+                },
+                "operator": "numberOperatorIsBetween",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value1": 0,
+                  "value2": 100
+                },
+                "interactiveObj": {
+                  "prompt": "Fair Market Value is between:",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false,
+                "displaySQL": "REAL_ESTATE_VALUE BETWEEN 0 AND 100",
+                "expr": "REAL_ESTATE_VALUE BETWEEN 0 AND 100"
+              },
+              {
+                "fieldObj": {
+                  "name": "SALE_PRICE",
+                  "label": "SALE_PRICE",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeDouble"
+                },
+                "operator": "numberOperatorIsBetween",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value1": 0,
+                  "value2": 100
+                },
+                "interactiveObj": {
+                  "prompt": "Sale Price is between:",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false,
+                "displaySQL": "SALE_PRICE BETWEEN 0 AND 100",
+                "expr": "SALE_PRICE BETWEEN 0 AND 100"
+              },
+              {
+                "fieldObj": {
+                  "name": "SALE_DATE",
+                  "label": "SALE_DATE",
+                  "dateFormat": "shortDate",
+                  "shortType": "date",
+                  "type": "esriFieldTypeDate"
+                },
+                "operator": "dateOperatorIsBetween",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value1": "Thu Feb 01 2018",
+                  "value2": "Thu Jul 18 2019",
+                  "virtualDate1": "",
+                  "virtualDate2": ""
+                },
+                "interactiveObj": {
+                  "prompt": "Sale Date is between:",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false,
+                "displaySQL": "SALE_DATE is between 2/1/2018 and 7/18/2019",
+                "expr": "SALE_DATE BETWEEN timestamp '2018-02-01 05:00:00' AND timestamp '2019-07-19 03:59:59'"
+              },
+              {
+                "fieldObj": {
+                  "name": "CALCAC",
+                  "label": "CALCAC",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeDouble"
+                },
+                "operator": "numberOperatorIsBetween",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value1": 0,
+                  "value2": 100
+                },
+                "interactiveObj": {
+                  "prompt": "Calculated Acreage is between:",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false,
+                "displaySQL": "CALCAC BETWEEN 0 AND 100",
+                "expr": "CALCAC BETWEEN 0 AND 100"
+              }
+            ],
+            "expr": "REAL_ESTATE_VALUE BETWEEN 0 AND 100 AND SALE_PRICE BETWEEN 0 AND 100 AND SALE_DATE BETWEEN timestamp '2018-02-01 05:00:00' AND timestamp '2019-07-19 03:59:59' AND CALCAC BETWEEN 0 AND 100",
+            "displaySQL": "REAL_ESTATE_VALUE BETWEEN 0 AND 100 AND SALE_PRICE BETWEEN 0 AND 100 AND SALE_DATE is between 2/1/2018 and 7/18/2019 AND CALCAC BETWEEN 0 AND 100"
+          },
+          {
+            "fieldObj": {
+              "name": "ZONEID",
+              "label": "ZONEID",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsAnyOf",
+            "valueObj": {
+              "isValid": true,
+              "type": "multiple",
+              "value": [
+                "C-M/EO-HO",
+                "C-M/EO",
+                "C-M",
+                "C-A/EO",
+                "R-A"
+              ]
+            },
+            "interactiveObj": {
+              "prompt": "Zoning (by Abbreviation) is any of:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "ZONEID IN ('C-M/EO-HO','C-M/EO','C-M','C-A/EO','R-A')",
+            "expr": "ZONEID IN ('C-M/EO-HO','C-M/EO','C-M','C-A/EO','R-A')"
+          }
+        ],
+        "expr": "(REAL_ESTATE_VALUE BETWEEN 0 AND 100 AND SALE_PRICE BETWEEN 0 AND 100 AND SALE_DATE BETWEEN timestamp '2018-02-01 05:00:00' AND timestamp '2019-07-19 03:59:59' AND CALCAC BETWEEN 0 AND 100) AND (ZONEID IN ('C-M/EO-HO','C-M/EO','C-M','C-A/EO','R-A'))",
+        "displaySQL": "(REAL_ESTATE_VALUE BETWEEN 0 AND 100 AND SALE_PRICE BETWEEN 0 AND 100 AND SALE_DATE is between 2/1/2018 and 7/18/2019 AND CALCAC BETWEEN 0 AND 100) AND (ZONEID IN ('C-M/EO-HO','C-M/EO','C-M','C-A/EO','R-A'))"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": {
+          "default": true,
+          "relationships": [
+            {
+              "relationship": "SPATIAL_REL_INTERSECTS",
+              "label": "intersect"
+            },
+            {
+              "relationship": "SPATIAL_REL_WITHIN",
+              "label": "contain"
+            },
+            {
+              "relationship": "SPATIAL_REL_CROSSES",
+              "label": "cross"
+            },
+            {
+              "relationship": "SPATIAL_REL_CONTAINS",
+              "label": "within"
+            }
+          ],
+          "buffer": {
+            "defaultDistance": 5280,
+            "defaultUnit": "FEET"
+          }
+        },
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          5,
+          241,
+          111,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": true,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_124",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/124",
+      "name": "Parcels: Search by Zoning",
+      "icon": {
+        "color": [
+          30,
+          182,
+          121,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "ZONEID",
+              "label": "ZONEID",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "B"
+            },
+            "interactiveObj": {
+              "prompt": "Calculated Zoning is:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "UPPER(ZONEID) = 'B'",
+            "expr": "UPPER(ZONEID) = 'B'"
+          }
+        ],
+        "displaySQL": "UPPER(ZONEID) = 'B'",
+        "expr": "UPPER(ZONEID) = 'B'"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          0,
+          204,
+          156,
+          128
+        ],
+        "outline": {
+          "color": [
+            0,
+            168,
+            134,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": true,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_124",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/124",
+      "name": "Parcels: Search by Sale Price",
+      "icon": {
+        "color": [
+          216,
+          78,
+          200,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "SALE_PRICE",
+              "label": "SALE_PRICE",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBetween",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value1": 1,
+              "value2": 3
+            },
+            "interactiveObj": {
+              "prompt": "Sale Price is between:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "SALE_PRICE BETWEEN 1 AND 3",
+            "expr": "SALE_PRICE BETWEEN 1 AND 3"
+          }
+        ],
+        "displaySQL": "SALE_PRICE BETWEEN 1 AND 3",
+        "expr": "SALE_PRICE BETWEEN 1 AND 3"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          221,
+          111,
+          221,
+          255
+        ],
+        "outline": {
+          "color": [
+            145,
+            122,
+            171,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": true,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_124",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/124",
+      "name": "Parcels: Search by Fair Market Value",
+      "icon": {
+        "color": [
+          151,
+          179,
+          43,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "REAL_ESTATE_VALUE",
+              "label": "REAL_ESTATE_VALUE",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBetween",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value1": 0,
+              "value2": 3
+            },
+            "interactiveObj": {
+              "prompt": "Real Estate Value is between:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "REAL_ESTATE_VALUE BETWEEN 0 AND 3",
+            "expr": "REAL_ESTATE_VALUE BETWEEN 0 AND 3"
+          }
+        ],
+        "displaySQL": "REAL_ESTATE_VALUE BETWEEN 0 AND 3",
+        "expr": "REAL_ESTATE_VALUE BETWEEN 0 AND 3"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_124",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/124",
+      "name": "Parcels: Search by Acreage",
+      "icon": {
+        "color": [
+          206,
+          40,
+          73,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "CALCAC",
+              "label": "CALCAC",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBetween",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value1": 5,
+              "value2": 5.2
+            },
+            "interactiveObj": {
+              "prompt": "Calculated Acreage is between:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "CALCAC BETWEEN 5 AND 5.2",
+            "expr": "CALCAC BETWEEN 5 AND 5.2"
+          }
+        ],
+        "displaySQL": "CALCAC BETWEEN 5 AND 5.2",
+        "expr": "CALCAC BETWEEN 5 AND 5.2"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          205,
+          49,
+          106,
+          122
+        ],
+        "outline": {
+          "color": [
+            160,
+            63,
+            60,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": true,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_124",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/124",
+      "name": "Parcels: Search by Sale Date",
+      "icon": {
+        "color": [
+          255,
+          176,
+          5,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "SALE_DATE",
+              "label": "SALE_DATE",
+              "dateFormat": "shortDate",
+              "shortType": "date",
+              "type": "esriFieldTypeDate"
+            },
+            "operator": "dateOperatorIsBetween",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value1": "Mon Jul 01 2019",
+              "value2": "Wed Jul 31 2019",
+              "virtualDate1": "",
+              "virtualDate2": ""
+            },
+            "interactiveObj": {
+              "prompt": "Sale Date is between:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "SALE_DATE is between 7/1/2019 and 7/31/2019",
+            "expr": "SALE_DATE BETWEEN timestamp '2019-07-01 04:00:00' AND timestamp '2019-08-01 03:59:59'"
+          }
+        ],
+        "displaySQL": "SALE_DATE is between 7/1/2019 and 7/31/2019",
+        "expr": "SALE_DATE BETWEEN timestamp '2019-07-01 04:00:00' AND timestamp '2019-08-01 03:59:59'"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          255,
+          196,
+          0,
+          255
+        ],
+        "outline": {
+          "color": [
+            46,
+            0,
+            163,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": true,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_124",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/103",
+      "name": "Search Population by Census Blocks",
+      "icon": {
+        "color": [
+          245,
+          5,
+          5,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "D001",
+              "label": "D001",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBetween",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value1": 100,
+              "value2": 109
+            },
+            "interactiveObj": {
+              "prompt": "Total Population is between:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "D001 BETWEEN 100 AND 109",
+            "expr": "D001 BETWEEN 100 AND 109"
+          }
+        ],
+        "displaySQL": "D001 BETWEEN 100 AND 109",
+        "expr": "D001 BETWEEN 100 AND 109"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "Total Block Population: {D001}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "STATEFP10",
+            "label": "STATEP10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "COUNTYFP10",
+            "label": "COUNTYFP10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "NAME10",
+            "label": "NAME10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GEOID10",
+            "label": "GEOID10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "MTFCC10",
+            "label": "MTFCC10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "FUNCSTAT10",
+            "label": "FUNCSTAT10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "BLOCKCE10",
+            "label": "BLOCKCE10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "TRACTCE10",
+            "label": "TRACTCE10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "UR10",
+            "label": "UR10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "UACE10",
+            "label": "UACE10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "INTPTLAT10",
+            "label": "INTPTLAT10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "INTPTLON10",
+            "label": "INTPTLON10",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GEOID",
+            "label": "GEOID",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GEOID_DISPLAY",
+            "label": "GEOID_DISPLAY",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D001",
+            "label": "TOTAL POPULATION",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D002",
+            "label": "TOTAL POPULATION ONE RACE",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D003",
+            "label": "Total Population of one race: White alone",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D004",
+            "label": "Total Population of one race: Black or African American alone",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D005",
+            "label": "Total Population of one race: American Indian and Alaska Native alone",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D006",
+            "label": "Total Population of one race: Asian alone",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D007",
+            "label": "Total Population of one race: Native Hawaiian and Other Pacific Islander alone",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D008",
+            "label": "Total Population of one race: Some Other Race alone",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D009",
+            "label": "Total Two or More Races:",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D010",
+            "label": "Total Two or More Races: Population of two races:",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D011",
+            "label": "Total Two or More Races: Population of two races: White; Black or African American",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D012",
+            "label": "Total Two or More Races: Population of two races: White; American Indian and Alaska Native",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D013",
+            "label": "Total Two or More Races: Population of two races: White; Asian",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D014",
+            "label": "Total Two or More Races: Population of two races: White; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D015",
+            "label": "Total Two or More Races: Population of two races: White; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D016",
+            "label": "Total Two or More Races: Population of two races: Black or African American; American Indian and Alaska Native",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D017",
+            "label": "Total Two or More Races: Population of two races: Black or African American; Asian",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D018",
+            "label": "Total Two or More Races: Population of two races: Black or African American; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D019",
+            "label": "Total Two or More Races: Population of two races: Black or African American; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D020",
+            "label": "Total Two or More Races: Population of two races: American Indian and Alaska Native; Asian",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D021",
+            "label": "Total Two or More Races: Population of two races: American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D022",
+            "label": "Total Two or More Races: Population of two races: American Indian and Alaska Native; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D023",
+            "label": "Total Two or More Races: Population of two races: Asian; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D024",
+            "label": "Total Two or More Races: Population of two races: Asian; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D025",
+            "label": "Total Two or More Races: Population of two races: Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D026",
+            "label": "Total Two or More Races: Population of three races:",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D027",
+            "label": "Total Two or More Races: Population of three races: White; Black or African American; American Indian and Alaska Native",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D028",
+            "label": "Total Two or More Races: Population of three races: White; Black or African American; Asian",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D029",
+            "label": "Total Two or More Races: Population of three races: White; Black or African American; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D030",
+            "label": "Total Two or More Races: Population of three races: White; Black or African American; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D031",
+            "label": "Total Two or More Races: Population of three races: White; American Indian and Alaska Native; Asian",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D032",
+            "label": "Total Two or More Races: Population of three races: White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D033",
+            "label": "Total Two or More Races: Population of three races: White; American Indian and Alaska Native; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D034",
+            "label": "Total Two or More Races: Population of three races: White; Asian; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D035",
+            "label": "Total Two or More Races: Population of three races: White; Asian; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D036",
+            "label": "Total Two or More Races: Population of three races: White; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D037",
+            "label": "Total Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Asian",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D038",
+            "label": "Total Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D039",
+            "label": "Total Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D040",
+            "label": "Total Two or More Races: Population of three races: Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D041",
+            "label": "Total Two or More Races: Population of three races: Black or African American; Asian; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D042",
+            "label": "Total Two or More Races: Population of three races: Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D043",
+            "label": "Total Two or More Races: Population of three races: American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D044",
+            "label": "Total Two or More Races: Population of three races: American Indian and Alaska Native; Asian; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D045",
+            "label": "Total Two or More Races: Population of three races: American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D046",
+            "label": "Total Two or More Races: Population of three races: Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D047",
+            "label": "Total Two or More Races: Population of four races:",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D048",
+            "label": "Total Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Asian",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D049",
+            "label": "Total Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D050",
+            "label": "Total Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D051",
+            "label": "Total Two or More Races: Population of four races: White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D052",
+            "label": "Total Two or More Races: Population of four races: White; Black or African American; Asian; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D053",
+            "label": "Total Two or More Races: Population of four races: White; Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D054",
+            "label": "Total Two or More Races: Population of four races: White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D055",
+            "label": "Total Two or More Races: Population of four races: White; American Indian and Alaska Native; Asian; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D056",
+            "label": "Total Two or More Races: Population of four races: White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D057",
+            "label": "Total Two or More Races: Population of four races: White; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D058",
+            "label": "Total Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D059",
+            "label": "Total Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Asian; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D060",
+            "label": "Total Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D061",
+            "label": "Total Two or More Races: Population of four races: Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D062",
+            "label": "Total Two or More Races: Population of four races: American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D063",
+            "label": "Total Two or More Races: Population of five races:",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D064",
+            "label": "Total Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D065",
+            "label": "Total Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Asian; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D066",
+            "label": "Total Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D067",
+            "label": "Total Two or More Races: Population of five races: White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D068",
+            "label": "Total Two or More Races: Population of five races: White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D069",
+            "label": "Total Two or More Races: Population of five races: Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D070",
+            "label": "Total Two or More Races: Population of six races:",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "D071",
+            "label": "Total Two or More Races: Population of six races: White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ALAND10",
+            "label": "ALAND10",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "AWATER10",
+            "label": "AWATER10",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SHAPE_Length",
+            "label": "SHAPE_Length",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SHAPE_Area",
+            "label": "SHAPE_Area",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          227,
+          11,
+          11,
+          153
+        ],
+        "outline": {
+          "color": [
+            201,
+            0,
+            0,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": true,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_103",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/96",
+      "name": "Zoning Boundaries",
+      "icon": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "ZONE",
+              "label": "ZONE",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "B"
+            },
+            "interactiveObj": {
+              "prompt": "Zoning is:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "UPPER(ZONE) = 'B'",
+            "expr": "UPPER(ZONE) = 'B'"
+          }
+        ],
+        "displaySQL": "UPPER(ZONE) = 'B'",
+        "expr": "UPPER(ZONE) = 'B'"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": true,
+      "resultsSymbol": null,
+      "canModifySymbol": true,
+      "enableExport": true,
+      "defaultExpand": false,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_96",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/106",
+      "name": "Schools",
+      "icon": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/OCHA/Infrastructure/infrastructure_government_office_bluebox.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 33,
+        "height": 33
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "NAME",
+              "label": "NAME",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "School Name is:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "displaySQL": "",
+        "expr": ""
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{NAME}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "NAME",
+            "label": "NAME",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ADDRESS",
+            "label": "ADDRESS",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CITY",
+            "label": "CITY",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GRADES",
+            "label": "GRADES",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "AFFILIATION",
+            "label": "AFFILIATION",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "RESTRICTIONS",
+            "label": "RESTRICTIONS",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ZIP",
+            "label": "ZIP",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SCHOOL_TYPE",
+            "label": "TYPE",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": true,
+      "resultsSymbol": null,
+      "canModifySymbol": true,
+      "enableExport": true,
+      "defaultExpand": false,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_106",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/155",
+      "name": "CAT Bus Routes",
+      "icon": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Transportation/esriDefaultMarker_191_Yellow.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 33,
+        "height": 33
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "RTE_NO",
+              "label": "RTE_NO",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "14"
+            },
+            "interactiveObj": {
+              "prompt": "Route Number is:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "UPPER(RTE_NO) = '14'",
+            "expr": "UPPER(RTE_NO) = '14'"
+          }
+        ],
+        "displaySQL": "UPPER(RTE_NO) = '14'",
+        "expr": "UPPER(RTE_NO) = '14'"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{RTE_NAME}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "RTE_NO",
+            "label": "Route Number",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "RTE_NAME",
+            "label": "Route Name",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "FULLNAME",
+            "label": "FULLNAME",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "DIR_TO_FROM_ORIGIN",
+            "label": "Direction",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SHAPE_Length",
+            "label": "Shape_Length",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          255,
+          0,
+          212,
+          255
+        ],
+        "width": 3,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "canModifySymbol": true,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_155",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/126",
+      "name": "Libraries",
+      "icon": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "https://static.arcgis.com/images/Symbols/State-Government/Library.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 24,
+        "height": 24
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "NAME",
+              "label": "NAME",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Bull Street Library"
+            },
+            "interactiveObj": {
+              "prompt": "Name is:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "UPPER(NAME) = 'BULL STREET LIBRARY'",
+            "expr": "UPPER(NAME) = 'BULL STREET LIBRARY'"
+          }
+        ],
+        "displaySQL": "UPPER(NAME) = 'BULL STREET LIBRARY'",
+        "expr": "UPPER(NAME) = 'BULL STREET LIBRARY'"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{NAME}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "NAME",
+            "label": "NAME",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "FULL_ADDRE",
+            "label": "ADDRESS",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "WEBSITE",
+            "label": "WEBSITE",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "BRANCH",
+            "label": "BRANCH",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CURRENT_ST",
+            "label": "CURRENT_ST",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "PHONE_NUM",
+            "label": "PHONE_NUM",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "https://static.arcgis.com/images/Symbols/State-Government/Library.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 25.5,
+        "height": 25.5
+      },
+      "canModifySymbol": true,
+      "enableExport": true,
+      "defaultExpand": false,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_126",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/188",
+      "name": "Wetlands by Type NWI",
+      "icon": {
+        "color": [
+          0,
+          128,
+          66,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "WETLAND_TYPE",
+              "label": "WETLAND_TYPE",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "Wetland Type is:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "displaySQL": "",
+        "expr": ""
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{WETLAND_TYPE}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ATTRIBUTE",
+            "label": "ATTRIBUTE",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "WETLAND_TYPE",
+            "label": "WETLAND_TYPE",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape_Length",
+            "label": "Shape_Length",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape_Area",
+            "label": "Shape_Area",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ACRES",
+            "label": "ACRES",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": true,
+      "resultsSymbol": null,
+      "canModifySymbol": false,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_188",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/107",
+      "name": "Soils by Type",
+      "icon": {
+        "color": [
+          202,
+          9,
+          170,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSSquare",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "LEGEND_DES",
+              "label": "LEGEND_DES",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Craven loamy fine sand"
+            },
+            "interactiveObj": {
+              "prompt": "Soil Name is:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "UPPER(LEGEND_DES) = 'CRAVEN LOAMY FINE SAND'",
+            "expr": "UPPER(LEGEND_DES) = 'CRAVEN LOAMY FINE SAND'"
+          }
+        ],
+        "displaySQL": "UPPER(LEGEND_DES) = 'CRAVEN LOAMY FINE SAND'",
+        "expr": "UPPER(LEGEND_DES) = 'CRAVEN LOAMY FINE SAND'"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{SOILNAME}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "MUKEY",
+            "label": "MUKEY",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SOILS_",
+            "label": "SOILS_",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SOILS_ID",
+            "label": "SOILS_ID",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SOILTYPE",
+            "label": "SOILTYPE",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "HYDRIC",
+            "label": "HYDRIC",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SOILNAME",
+            "label": "SOILNAME",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "LEGEND_DES",
+            "label": "LEGEND_DES",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape_Length",
+            "label": "Shape_Length",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape_Area",
+            "label": "Shape_Area",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": true,
+      "resultsSymbol": null,
+      "canModifySymbol": true,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_107",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/118",
+      "name": "Geology by Type",
+      "icon": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "ACODE",
+              "label": "ACODE",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Qal"
+            },
+            "interactiveObj": {
+              "prompt": "CODE is:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "UPPER(ACODE) = 'QAL'",
+            "expr": "UPPER(ACODE) = 'QAL'"
+          }
+        ],
+        "displaySQL": "UPPER(ACODE) = 'QAL'",
+        "expr": "UPPER(ACODE) = 'QAL'"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{ACODE}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "AREA",
+            "label": "AREA",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "PERIMETER",
+            "label": "PERIMETER",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GEOLOGY_",
+            "label": "GEOLOGY_",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GEOLOGY_ID",
+            "label": "GEOLOGY_ID",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ACODE",
+            "label": "ACODE",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CODE2",
+            "label": "CODE2",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SHAPE_Length",
+            "label": "SHAPE_Length",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SHAPE_Area",
+            "label": "SHAPE_Area",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": true,
+      "resultsSymbol": null,
+      "canModifySymbol": true,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_118",
+      "customResultName": true
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/137",
+      "name": "Future Landuse",
+      "icon": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "FUTURE_LU",
+              "label": "FUTURE_LU",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Commercial- Suburban"
+            },
+            "interactiveObj": {
+              "prompt": "Future Land Use is:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "UPPER(FUTURE_LU) = 'COMMERCIAL- SUBURBAN'",
+            "expr": "UPPER(FUTURE_LU) = 'COMMERCIAL- SUBURBAN'"
+          }
+        ],
+        "displaySQL": "UPPER(FUTURE_LU) = 'COMMERCIAL- SUBURBAN'",
+        "expr": "UPPER(FUTURE_LU) = 'COMMERCIAL- SUBURBAN'"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{FUTURE_LU}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "LAST_NAME",
+            "label": "LAST_NAME",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "FIRST_NAME",
+            "label": "FIRST_NAME",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "PIN",
+            "label": "PIN",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "FUTURE_LU",
+            "label": "FUTURE_LU",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CALC_SQ_FT",
+            "label": "CALC_SQ_FT",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CALC_ACRES",
+            "label": "CALC_ACRES",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "COMMENT",
+            "label": "COMMENT",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "COMMENT2",
+            "label": "COMMENT2",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape_Length",
+            "label": "Shape_Length",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape_Area",
+            "label": "Shape_Area",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": true,
+      "resultsSymbol": null,
+      "canModifySymbol": false,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "SAGISOrg_7276_137",
+      "customResultName": true
+    }
+  ]
+}

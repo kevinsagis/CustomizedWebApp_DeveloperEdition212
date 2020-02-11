@@ -1,0 +1,256 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+  <title>SAGIS Property Map Viewer</title>
+  <link rel="shortcut icon" href="images/shortcut.ico">
+  <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css"  href="jimu.js/css/jimu-ie.css" />
+    <![endif]-->
+  <style type="text/css">
+
+
+
+
+
+
+
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+
+    
+		/* Kevin M custom CSS */
+
+
+     .claro .jimu-anchorbar-iconitem .icon-item:hover
+     {
+         background-color: #de921a;
+                          
+
+     }
+
+
+            .map-loading {
+                left: 50% !important;
+                top: 46% !important;
+            }
+
+            .jimu-appstate-popup {
+              right: 9% !important;
+                background-color: #317501f0!important;
+                width: 350px!important;
+                border: 1px solid black;
+            }
+
+      .jimu-appstate-popup .mobile 
+      {
+                background-color: #317501f0!important;
+                border: 1px solid black;
+              
+
+      }
+
+            .appstate-title  {
+                                width: 440px!important;
+                font-size: 14pt !important;
+                color: #b6eeff !important;
+                font-style: italic;
+            }
+
+            .appstate-tips, .jimu-appstate-popup.mobile .appstate-tips {
+                font-size: 12pt !important;
+                font-weight:lighter!important;
+                color: white!important;
+            }
+
+        
+
+
+
+            .map .load-container {
+                display: none !important;
+            }
+
+            .esriControlsBR {
+                visibility: hidden;
+            }
+
+            .contentPane {
+                background-color: rgba(249,249,249,0.91) !important;
+                width: 430px !Important;
+                max-height: 410px!important;
+            }
+
+            .esriPopup .sizer {
+                width: 430px !Important;
+            }
+
+            .esriViewPopup table > tbody > tr:nth-child(even) {
+                text-decoration: none !important;
+                font-style: normal!important;
+            }
+
+            .esriViewPopup table > tbody > tr:nth-child(odd) {
+                background-color: #e0e0e0 !important;
+                text-decoration: none !important;
+                font-style: normal !important;
+            }
+
+            .esriViewPopup a:link, .esriViewPopup a:visited, .esriViewPopup a:hover, .esriViewPopup a:active {
+                text-decoration: none !important;
+                font-style: normal !important;
+            }
+
+            .esriViewPopup table tbody > tr > td:nth-child(4), .esriViewPopup table tbody > tr > td:nth-child(1) {
+                padding-left: 6px !important;
+            }
+
+            
+
+
+
+
+
+            /* end Kevin M custom CSS */
+
+
+
+
+
+    #main-loading {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    #main-loading #ie-note {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    #main-loading #ie-note {
+      width: 586px;
+      height: 253px;
+      background-image: url('images/notes.png');
+      padding: 0 30px 40px 30px;
+      font-size: 14px;
+      color: #596679;
+    }
+
+    #ie-note .hint-title {
+      height: 40px;
+      line-height: 48px;
+      text-align: left;
+      font-weight: bold;
+    }
+
+    #ie-note .hint-img {
+      background-image: url('images/hint.png');
+      background-position: left;
+      padding-left: 40px;
+      margin-top: 20px;
+      background-repeat: no-repeat;
+      height: 30px;
+      text-align: left;
+      line-height: 30px;
+      font-weight: bold;
+    }
+
+    #ie-note span {
+      display: block;
+      line-height: 14px;
+    }
+
+    #main-page {
+      display: none;
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    #jimu-layout-manager {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="configs/loading/loading.css" />
+  <script>
+    /*******************************
+     * This is the function you can modify to customize the loading page
+     * This function will be invoked when one resource is loaded.
+     ********************************/
+    // var progress;
+    // function loadingCallback(url, i, count) {
+    // 	var loading = document.getElementById('main-loading-bar');
+    // 	loading.setAttribute('title', url);
+    //   if(!progress){
+    //     progress = document.createElement('div');
+    //     progress.setAttribute('class', 'loading-progress');
+    //     loading.appendChild(progress);
+    //   }
+    //   progress.style.width = (((i - 1)/count) * 100) + '%';
+    // }
+  </script>
+</head>
+
+<body class="claro jimu-main-font">
+
+  <div id="main-loading">
+
+    <!-- This is section you can modify to customize the loading page -->
+    <div id="app-loading"></div>
+    <div id="loading-gif"></div>
+
+    <!-- //////////////////    END    ////////////////////////////// -->
+    <div id="ie-note" style="display:none;">
+      <div class="hint-title">Error</div>
+      <div class="hint-img">Your browser is currently not supported.</div>
+      <p class="hint-text">
+        <span>
+          Please note that creating presentations is not supported in Internet Explorer versions 6, 7.
+        </span>
+        <br>
+        <span>
+          We recommend upgrading to the latest Internet Explorer, Google Chrome, or Firefox.
+        </span>
+        <br>
+        <span>
+          If you are using IE 8 or later, make sure you turn off "Compatibility View".
+        </span>
+      </p>
+    </div>
+  </div>
+  <div id="main-page">
+    <a role="link" id="trapLinkNode" tabindex="0">Trap Link Node</a>
+    <div id="jimu-layout-manager"></div>
+    <div id="skipContainer"></div>
+  </div>
+
+  <script src="env.js"></script>
+  <script type="text/javascript" src="simpleLoader.js"></script>
+  <script type="text/javascript" src="init.js"></script>
+</body>
+
+</html>

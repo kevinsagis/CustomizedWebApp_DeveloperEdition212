@@ -1,0 +1,194 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 16.782608695652176,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "3168577189597621-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "3168577189597621-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 60.839605407380354,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "3168577189597621-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "3168577189597621-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 22.37778589696749,
+            "width": 59.15915915915916,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "3168577189597621-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "3168577189597621-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "3168577189597621-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "Zoning"
+      }
+    },
+    {
+      "id": "3168577189597621-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "data": {
+          "mode": "count",
+          "type": "pie",
+          "clusterField": "ZONEID",
+          "sortOrder": {
+            "isAsc": true,
+            "isLabelAxis": false
+          },
+          "maxLabels": 100
+        },
+        "display": {
+          "backgroundColor": "#ffffff",
+          "seriesStyle": {
+            "styles": [
+              {
+                "style": {
+                  "color": [
+                    "#68D2E0",
+                    "#087E92",
+                    "#47BCF5",
+                    "#FBE66A",
+                    "#F29157",
+                    "#C8501D"
+                  ]
+                },
+                "label": ""
+              }
+            ]
+          },
+          "legend": {
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 12
+            },
+            "show": true
+          },
+          "dataLabel": {
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 12
+            },
+            "show": true
+          },
+          "innerRadius": 0
+        }
+      }
+    },
+    {
+      "id": "3168577189597621-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Property Zoning"
+      }
+    }
+  ],
+  "name": "column",
+  "wid": "5303431198910378",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FROM_FRAMEWORK",
+    "name": "Search Parcels by ...",
+    "frameWorkDsId": "widget~widgets_eSearch_Widget_55~0",
+    "useSelection": false,
+    "filterByExtent": false
+  }
+}

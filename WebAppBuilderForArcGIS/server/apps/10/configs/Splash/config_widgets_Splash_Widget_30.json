@@ -1,0 +1,35 @@
+{
+  "splash": {
+    "splashContent": "<div align=\"center\"><p style=\"text-align: center; box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><font size=\"4\" style=\"color: rgb(255, 255, 0); text-align: left;\"><b style=\"\">SAGIS has updated the map viewer with new tools.  </b></font></p><p style=\"text-align: center; box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><font size=\"4\" style=\"text-align: left;\"><b style=\"color: rgb(255, 255, 0);\">Help videos are available </b><a href=\"https://www.youtube.com/watch?v=sr0MR7Mxljo&amp;list=PLF-NDdpCXNK-_52wvFpJM9eX8SxnSTLRd&amp;index=1\" style=\"\" target=\"_blank\"><b style=\"color: rgb(255, 140, 0);\">here</b></a><b style=\"color: rgb(255, 255, 0);\">.   </b></font><br /></p><p style=\"text-align: left; box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><font size=\"3\"><br /></font></p><p style=\"text-align: left; box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><font size=\"3\"><font style=\"\"><b style=\"\"><span style=\"color: rgb(255, 255, 255);\">You may need to clear your cache for the site to work correctly. For instructions on how to clear your browser cache,</span><span style=\"color: rgb(255, 255, 0);\"> </span></b></font><a href=\"https://www.refreshyourcache.com/en/home/\" style=\"\" target=\"_blank\"><b style=\"color: rgb(255, 255, 0);\">click here.</b></a><font style=\"\"><font color=\"#ffffff\" style=\"\"><b style=\"\">  </b></font></font></font></p><p style=\"text-align: left; box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><font size=\"2\"><span style=\"color: rgb(255, 255, 255);\"><br /></span></font></p><p style=\"text-align: left; box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><font size=\"2\"><span style=\"color: rgb(255, 255, 255);\">This website is a public resource of general information. SAGIS makes no warranty, representation or guaranty as to the content, sequence, accuracy, timeliness or completeness of any of the information provided herein. The reader should not rely on the data provided herein for any reason. SAGIS explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose. SAGIS shall assume no liability for: any errors, omissions, or inaccuracies in the information provided regardless of how caused; or any decision made or action taken or not taken by any person in reliance upon any information or data furnished hereunder.</span></font><span style=\"font-size: small; color: rgb(255, 255, 255);\"> </span><br /></p><p style=\"text-align: left; box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\"><span style=\"font-size: small; color: rgb(255, 255, 255);\">If you have read and understood this disclaimer and wish to continue, click &quot;Agree.&quot;</span></p></div>",
+    "requireConfirm": false,
+    "confirm": {
+      "text": "",
+      "color": "#ffffff",
+      "transparency": 0
+    },
+    "showOption": true,
+    "confirmEverytime": false,
+    "contentVertical": "middle",
+    "size": {
+      "mode": "percent",
+      "percent": "50%",
+      "wh": {
+        "w": 600,
+        "h": 264
+      }
+    },
+    "background": {
+      "mode": "color",
+      "image": null,
+      "type": "fill",
+      "fileName": "No%20file%20chosen",
+      "color": "#1d3162",
+      "transparency": 0.1
+    },
+    "button": {
+      "color": "#008000",
+      "transparency": 0,
+      "text": "I agree"
+    }
+  }
+}

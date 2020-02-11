@@ -1,0 +1,710 @@
+{
+  "layerInfos": [
+    {
+      "name": "Schools",
+      "id": "SAGISOrg_7276_106",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/106"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Libraries",
+      "id": "SAGISOrg_7276_126",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/126"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Community Centers",
+      "id": "SAGISOrg_7276_156",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/156"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Owner, PIN and Address Labels",
+      "id": "SAGISOrg_7276_187",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/187"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Property Boundaries  (Parcels)",
+      "id": "SAGISOrg_7276_124",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/124"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Zoning",
+      "id": "SAGISOrg_7276_96",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/96"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Zoning - City of Savannah (NewZO)",
+      "id": "SAGISOrg_7276_195",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/195"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Local Historic Districts",
+      "id": "SAGISOrg_7276_135",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/135"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Savannah Neighborhoods",
+      "id": "SAGISOrg_7276_136",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/136"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Cell Towers",
+      "id": "SAGISOrg_7276_105",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/105"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Buildings",
+      "id": "SAGISOrg_7276_163",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/163"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "CAT Bus Stops",
+      "id": "SAGISOrg_7276_154",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/154"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "CAT Bus Routes",
+      "id": "SAGISOrg_7276_155",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/155"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Bike Paths ",
+      "id": "SAGISOrg_7276_162",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/162"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Annexations",
+      "id": "SAGISOrg_7276_161",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/161"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID_12",
+      "isDescending": false
+    },
+    {
+      "name": "Municipal Boundary",
+      "id": "SAGISOrg_7276_133",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/133"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID_12",
+      "isDescending": false
+    },
+    {
+      "name": "ZIP Codes",
+      "id": "SAGISOrg_7276_97",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/97"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Savannah LOMA Parcels",
+      "id": "SAGISOrg_7276_130",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/130"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Unincorporated Chatham LOMA Parcels",
+      "id": "SAGISOrg_7276_131",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/131"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Federal Opportunity Zones",
+      "id": "SAGISOrg_7276_153",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/153"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Local Enterprise & Opportunity Zones",
+      "id": "SAGISOrg_7276_189",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/189"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Less Developed Census Tracts",
+      "id": "SAGISOrg_7276_125",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/125"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "CENSUS_Tract_2010.OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Military Zones",
+      "id": "SAGISOrg_7276_190",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/190"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Hurricane Evacuation Routes",
+      "id": "SAGISOrg_7276_139",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/139"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Hurricane Evacuation Zones",
+      "id": "SAGISOrg_7276_138",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/138"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Interstate",
+      "id": "SAGISOrg_7276_108",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/108"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Parkways",
+      "id": "SAGISOrg_7276_109",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/109"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Major Roads",
+      "id": "SAGISOrg_7276_110",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/110"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Local Roads",
+      "id": "SAGISOrg_7276_111",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/111"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Interstate",
+      "id": "SAGISOrg_7276_113",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/113"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Parkways",
+      "id": "SAGISOrg_7276_114",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/114"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Major Roads",
+      "id": "SAGISOrg_7276_115",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/115"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Local Roads",
+      "id": "SAGISOrg_7276_116",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/116"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Elevation Certificates (Savannah)",
+      "id": "SAGISOrg_7276_143",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/143"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Elevation Certificates (Unincorporated County)",
+      "id": "SAGISOrg_7276_194",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/194"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "NGS Benchmark",
+      "id": "SAGISOrg_7276_144",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/144"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Contour 1ft",
+      "id": "SAGISOrg_7276_145",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/145"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Contour 5ft",
+      "id": "SAGISOrg_7276_146",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/146"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Contour 10ft",
+      "id": "SAGISOrg_7276_147",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/147"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "City Council Districts",
+      "id": "SAGISOrg_7276_157",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/157"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Chatham County Commissioners",
+      "id": "SAGISOrg_7276_151",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/151"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Limit of Moderate Wave Action (2018)",
+      "id": "SAGISOrg_7276_176",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/176"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Effective Flood Zones (2018) ",
+      "id": "SAGISOrg_7276_150",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/150"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Savannah Stormwater Canals",
+      "id": "SAGISOrg_7276_172",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/172"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Savannah 100-Year Storm Hydraulic Model",
+      "id": "SAGISOrg_7276_171",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/171"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "SCCPSS K-8 Boundary",
+      "id": "SAGISOrg_7276_140",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/140"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "SCCPSS Elementary School Boundary",
+      "id": "SAGISOrg_7276_142",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/142"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "SCCPSS Middle School Boundary",
+      "id": "SAGISOrg_7276_134",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/134"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "SCCPSS High School Boundary",
+      "id": "SAGISOrg_7276_141",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/141"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Tracts",
+      "id": "SAGISOrg_7276_101",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/101"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Block Groups",
+      "id": "SAGISOrg_7276_102",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/102"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Blocks",
+      "id": "SAGISOrg_7276_103",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/103"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "DFIRM Panels",
+      "id": "SAGISOrg_7276_158",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/158"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "DFIRM Cobra Zones",
+      "id": "SAGISOrg_7276_159",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/159"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Future Landuse",
+      "id": "SAGISOrg_7276_137",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/137"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Wetlands NWI",
+      "id": "SAGISOrg_7276_188",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/188"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Geology",
+      "id": "SAGISOrg_7276_118",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/118"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Soils",
+      "id": "SAGISOrg_7276_107",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer/107"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Traffic Incidents Overview",
+      "id": "Traffic_5483_2",
+      "layer": {
+        "url": "https://utility.arcgis.com/usrsvcs/servers/f0495a96ac614bb5853b76f0a12d91c4/rest/services/World/Traffic/MapServer/2"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "objectid",
+      "isDescending": false
+    },
+    {
+      "name": "Traffic Incidents Intermediate",
+      "id": "Traffic_5483_3",
+      "layer": {
+        "url": "https://utility.arcgis.com/usrsvcs/servers/f0495a96ac614bb5853b76f0a12d91c4/rest/services/World/Traffic/MapServer/3"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "objectid",
+      "isDescending": false
+    },
+    {
+      "name": "Traffic Incidents Detailed",
+      "id": "Traffic_5483_4",
+      "layer": {
+        "url": "https://utility.arcgis.com/usrsvcs/servers/f0495a96ac614bb5853b76f0a12d91c4/rest/services/World/Traffic/MapServer/4"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "objectid",
+      "isDescending": false
+    },
+    {
+      "name": "Parcels Outline",
+      "id": "ParcelsTransparent2019_7092_0",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/ParcelsTransparent2019/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Chatham County",
+      "id": "Chatham_County_5278_0",
+      "layer": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/Chatham_County/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": false
+}

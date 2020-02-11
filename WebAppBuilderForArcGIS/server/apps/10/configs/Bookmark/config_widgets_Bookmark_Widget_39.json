@@ -1,0 +1,2209 @@
+{
+  "bookmarks2D": [
+    {
+      "displayName": "Bloomingdale",
+      "name": "Bloomingdale",
+      "extent": {
+        "xmin": -9051797.419887578,
+        "ymin": 3778602.790805203,
+        "xmax": -9046637.920478335,
+        "ymax": 3781469.179365893,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9051797.419887578,
+                "ymin": 3778602.790805203,
+                "xmax": -9046637.920478335,
+                "ymax": 3781469.179365893,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533668212873.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 0,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Garden City - Ports",
+      "name": "Garden City - Ports",
+      "extent": {
+        "xmin": -9035759.975890506,
+        "ymin": 3774050.010307977,
+        "xmax": -9025440.977072023,
+        "ymax": 3779782.787429358,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9035759.975890506,
+                "ymin": 3774050.010307977,
+                "xmax": -9025440.977072023,
+                "ymax": 3779782.787429358,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533661148910.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 1,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Pooler",
+      "name": "Pooler",
+      "extent": {
+        "xmin": -9047363.391957488,
+        "ymin": 3779028.631020654,
+        "xmax": -9042203.892548244,
+        "ymax": 3781895.019581344,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9047363.391957488,
+                "ymin": 3779028.631020654,
+                "xmax": -9042203.892548244,
+                "ymax": 3781895.019581344,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533658981643.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "SAGIS2018allLayers_2485": {
+          "selected": true
+        },
+        "Traffic_5483": {
+          "selected": false
+        },
+        "ParcelsTransparent_3375": {
+          "selected": true
+        },
+        "Chatham_County_5278": {
+          "selected": true
+        }
+      },
+      "_uID": 2,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Port Wentworth",
+      "name": "Port Wentworth",
+      "extent": {
+        "xmin": -9040050.004103014,
+        "ymin": 3779467.4846877074,
+        "xmax": -9029731.005284531,
+        "ymax": 3785200.2618090883,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9040050.004103014,
+                "ymin": 3779467.4846877074,
+                "xmax": -9029731.005284531,
+                "ymax": 3785200.2618090883,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533668212880.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 3,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Savannah River front",
+      "name": "Savannah River front",
+      "extent": {
+        "xmin": -9027176.504663976,
+        "ymin": 3773793.1245539654,
+        "xmax": -9026531.567237874,
+        "ymax": 3774151.423124022,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9027176.504663976,
+                "ymin": 3773793.1245539654,
+                "xmax": -9026531.567237874,
+                "ymax": 3774151.423124022,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533658227793.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "SAGIS2018allLayers_2485": {
+          "selected": true
+        },
+        "Traffic_5483": {
+          "selected": false
+        },
+        "ParcelsTransparent_3375": {
+          "selected": true
+        },
+        "Chatham_County_5278": {
+          "selected": true
+        }
+      },
+      "_uID": 4,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Thunderbolt",
+      "name": "Thunderbolt",
+      "extent": {
+        "xmin": -9024309.005893592,
+        "ymin": 3766601.672758458,
+        "xmax": -9021729.2561889,
+        "ymax": 3768034.867038843,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9024309.005893592,
+                "ymin": 3766601.672758458,
+                "xmax": -9021729.2561889,
+                "ymax": 3768034.867038843,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533668212861.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 5,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Tybee Island",
+      "name": "Tybee Island",
+      "extent": {
+        "xmin": -9006404.160774823,
+        "ymin": 3761297.49967213,
+        "xmax": -8996085.16195634,
+        "ymax": 3767030.276793511,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9006404.160774823,
+                "ymin": 3761297.49967213,
+                "xmax": -8996085.16195634,
+                "ymax": 3767030.276793511,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533661148886.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 6,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Chatham Crescent - Ardsley Park",
+      "name": "Chatham Crescent - Ardsley Park",
+      "extent": {
+        "xmin": -9028903.849626673,
+        "ymin": 3768803.5736084864,
+        "xmax": -9026324.09992198,
+        "ymax": 3770236.7678888715,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9028903.849626673,
+                "ymin": 3768803.5736084864,
+                "xmax": -9026324.09992198,
+                "ymax": 3770236.7678888715,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533661148869.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "SAGIS2018allLayers_2485": {
+          "selected": true
+        },
+        "Traffic_5483": {
+          "selected": false
+        },
+        "ParcelsTransparent_3375": {
+          "selected": true
+        },
+        "Chatham_County_5278": {
+          "selected": true
+        }
+      },
+      "_uID": 7,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Civic Center",
+      "name": "Civic Center",
+      "extent": {
+        "xmin": -9027820.287950933,
+        "ymin": 3773241.142660449,
+        "xmax": -9027497.81923781,
+        "ymax": 3773420.2919455166,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9027820.287950933,
+                "ymin": 3773241.142660449,
+                "xmax": -9027497.81923781,
+                "ymax": 3773420.2919455166,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533668212895.png",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 8,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Downtown - Historic District",
+      "name": "Downtown - Historic District",
+      "extent": {
+        "xmin": -9027610.021711592,
+        "ymin": 3773111.8465591352,
+        "xmax": -9026320.146859244,
+        "ymax": 3773828.4436993273,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9027610.021711592,
+                "ymin": 3773111.8465591352,
+                "xmax": -9026320.146859244,
+                "ymax": 3773828.4436993273,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533661148850.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 9,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Forsyth Park",
+      "name": "Forsyth Park",
+      "extent": {
+        "xmin": -9028158.588600876,
+        "ymin": 3771831.5884147845,
+        "xmax": -9026868.713748528,
+        "ymax": 3772548.1855549766,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9028158.588600876,
+                "ymin": 3771831.5884147845,
+                "xmax": -9026868.713748528,
+                "ymax": 3772548.1855549766,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533661148857.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "SAGIS2018allLayers_2485": {
+          "selected": true
+        },
+        "Traffic_5483": {
+          "selected": false
+        },
+        "ParcelsTransparent_3375": {
+          "selected": true
+        },
+        "Chatham_County_5278": {
+          "selected": true
+        }
+      },
+      "_uID": 10,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Gordonston - East Side",
+      "name": "Gordonston - East Side",
+      "extent": {
+        "xmin": -9025756.876978053,
+        "ymin": 3769917.036301998,
+        "xmax": -9023177.12727336,
+        "ymax": 3771350.230582383,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9025756.876978053,
+                "ymin": 3769917.036301998,
+                "xmax": -9023177.12727336,
+                "ymax": 3771350.230582383,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533661148880.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 11,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Hunter Air Field",
+      "name": "Hunter Air Field",
+      "extent": {
+        "xmin": -9039308.840101948,
+        "ymin": 3761728.408500639,
+        "xmax": -9028989.841283465,
+        "ymax": 3767461.1856220197,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9039308.840101948,
+                "ymin": 3761728.408500639,
+                "xmax": -9028989.841283465,
+                "ymax": 3767461.1856220197,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533658227787.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "SAGIS2018allLayers_2485": {
+          "selected": true
+        },
+        "Traffic_5483": {
+          "selected": false
+        },
+        "ParcelsTransparent_3375": {
+          "selected": true
+        },
+        "Chatham_County_5278": {
+          "selected": true
+        }
+      },
+      "_uID": 12,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Laurel Grove Cemetery - Cuyler-Brownville",
+      "name": "Laurel Grove Cemetery - Cuyler-Brownville",
+      "extent": {
+        "xmin": -9030558.128183085,
+        "ymin": 3770730.5467420025,
+        "xmax": -9027978.378478393,
+        "ymax": 3772163.7410223875,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9030558.128183085,
+                "ymin": 3770730.5467420025,
+                "xmax": -9027978.378478393,
+                "ymax": 3772163.7410223875,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533668212888.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 13,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Memorial Hospital - Candler Hospital",
+      "name": "Memorial Hospital - Candler Hospital",
+      "extent": {
+        "xmin": -9028347.972804023,
+        "ymin": 3766568.702988825,
+        "xmax": -9025768.22309933,
+        "ymax": 3768001.89726921,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9028347.972804023,
+                "ymin": 3766568.702988825,
+                "xmax": -9025768.22309933,
+                "ymax": 3768001.89726921,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 14,
+      "isSaveExtent": true,
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533668212908.jpeg"
+    },
+    {
+      "displayName": "Midtown - Daffin Park",
+      "name": "Midtown - Daffin Park",
+      "extent": {
+        "xmin": -9027069.360947816,
+        "ymin": 3768526.489380949,
+        "xmax": -9024489.611243123,
+        "ymax": 3769959.683661334,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9027069.360947816,
+                "ymin": 3768526.489380949,
+                "xmax": -9024489.611243123,
+                "ymax": 3769959.683661334,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533661148842.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "SAGIS2018allLayers_2485": {
+          "selected": true
+        },
+        "Traffic_5483": {
+          "selected": false
+        },
+        "ParcelsTransparent_3375": {
+          "selected": true
+        },
+        "Chatham_County_5278": {
+          "selected": true
+        }
+      },
+      "_uID": 15,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Sandfly / Isle of Hope",
+      "name": "Sandfly / Isle of Hope",
+      "extent": {
+        "xmin": -9027020.517007291,
+        "ymin": 3760299.515001859,
+        "xmax": -9021861.017598048,
+        "ymax": 3763165.903562549,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9027020.517007291,
+                "ymin": 3760299.515001859,
+                "xmax": -9021861.017598048,
+                "ymax": 3763165.903562549,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1541173124466.png",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "SAGIS2018allLayers_2485": {
+          "selected": true
+        },
+        "ParcelsTransparent_3375": {
+          "selected": true
+        },
+        "Traffic_256": {
+          "selected": false
+        },
+        "Chatham_County_5278": {
+          "selected": true
+        }
+      },
+      "_uID": 16,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Skidaway Island",
+      "name": "Skidaway Island",
+      "extent": {
+        "xmin": -9026195.792726323,
+        "ymin": 3753803.75244095,
+        "xmax": -9015876.79390784,
+        "ymax": 3759536.529562331,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9026195.792726323,
+                "ymin": 3753803.75244095,
+                "xmax": -9015876.79390784,
+                "ymax": 3759536.529562331,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533668212867.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 17,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Southside - Oglethorpe Mall",
+      "name": "Southside - Oglethorpe Mall",
+      "extent": {
+        "xmin": -9032449.422003124,
+        "ymin": 3761643.075354019,
+        "xmax": -9027289.92259388,
+        "ymax": 3764509.463914709,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9032449.422003124,
+                "ymin": 3761643.075354019,
+                "xmax": -9027289.92259388,
+                "ymax": 3764509.463914709,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533661148898.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 18,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "St Joseph's Hospital",
+      "name": "St Joseph's Hospital",
+      "extent": {
+        "xmin": -9034447.486782335,
+        "ymin": 3761191.790969208,
+        "xmax": -9033802.549356233,
+        "ymax": 3761550.0895392643,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9034447.486782335,
+                "ymin": 3761191.790969208,
+                "xmax": -9033802.549356233,
+                "ymax": 3761550.0895392643,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533668212915.png",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 19,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Visitor Center - Railroad Museum",
+      "name": "Visitor Center - Railroad Museum",
+      "extent": {
+        "xmin": -9028969.537697848,
+        "ymin": 3772937.9455284243,
+        "xmax": -9027679.6628455,
+        "ymax": 3773654.5426686164,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9028969.537697848,
+                "ymin": 3772937.9455284243,
+                "xmax": -9027679.6628455,
+                "ymax": 3773654.5426686164,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533668212902.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "SAGIS2018allLayers_2485": {
+          "selected": true
+        },
+        "Traffic_5483": {
+          "selected": false
+        },
+        "ParcelsTransparent_3375": {
+          "selected": true
+        },
+        "Chatham_County_5278": {
+          "selected": true
+        }
+      },
+      "_uID": 20,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "West Chatham",
+      "name": "West Chatham",
+      "extent": {
+        "xmin": -9048820.227057017,
+        "ymin": 3760518.455574333,
+        "xmax": -9038501.228238534,
+        "ymax": 3766251.232695714,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9048820.227057017,
+                "ymin": 3760518.455574333,
+                "xmax": -9038501.228238534,
+                "ymax": 3766251.232695714,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533661148892.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 21,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "West Side - Yamacraw - Transit Center",
+      "name": "West Side - Yamacraw - Transit Center",
+      "extent": {
+        "xmin": -9028560.545682546,
+        "ymin": 3773533.946580716,
+        "xmax": -9027270.670830198,
+        "ymax": 3774250.543720908,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9028560.545682546,
+                "ymin": 3773533.946580716,
+                "xmax": -9027270.670830198,
+                "ymax": 3774250.543720908,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533661148904.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Schools_2": {
+          "selected": false
+        },
+        "Libraries_391": {
+          "selected": false
+        },
+        "Parcels_7774": {
+          "selected": true
+        },
+        "Community_Centers_1529": {
+          "selected": false
+        },
+        "CAT_Bus_Routes_7613": {
+          "selected": false
+        },
+        "Telecommunication_Towers_3902": {
+          "selected": false
+        },
+        "Bikeways_579": {
+          "selected": false
+        },
+        "Buildings_2087": {
+          "selected": false
+        },
+        "Elevation_and_Contours_554": {
+          "selected": false
+        },
+        "Flood_Zones_9807": {
+          "selected": false
+        },
+        "Economic_Development_Zones_148": {
+          "selected": false
+        },
+        "Savannah_Aldermanic_Districts_8135": {
+          "selected": false
+        },
+        "Chatham_County_Commissioners_6793": {
+          "selected": false
+        },
+        "LOMA_Parcels_8876": {
+          "selected": false
+        },
+        "Annexations_5298": {
+          "selected": false
+        },
+        "DFIRM_Panels_and_Zones_3898": {
+          "selected": false
+        },
+        "Future_Landuse_9262": {
+          "selected": false
+        },
+        "SCCPSS_School_Boundaries_4389": {
+          "selected": true
+        },
+        "Local_Historic_Districts_1000": {
+          "selected": false
+        },
+        "Zoning_7327": {
+          "selected": false
+        },
+        "ZIP_Codes_9584": {
+          "selected": false
+        },
+        "US_Census_2010_5008": {
+          "selected": false
+        },
+        "Wetlands_7838": {
+          "selected": false
+        },
+        "Soils_and_Geology_1899": {
+          "selected": false
+        },
+        "Chatham_County_3353": {
+          "selected": false
+        }
+      },
+      "_uID": 22,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Windsor Forest - Coffee Bluff",
+      "name": "Windsor Forest - Coffee Bluff",
+      "extent": {
+        "xmin": -9038945.764217593,
+        "ymin": 3754600.6556130503,
+        "xmax": -9028626.76539911,
+        "ymax": 3760333.4327344312,
+        "spatialReference": {
+          "cs": "pcs",
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9038945.764217593,
+                "ymin": 3754600.6556130503,
+                "xmax": -9028626.76539911,
+                "ymax": 3760333.4327344312,
+                "spatialReference": {
+                  "cs": "pcs",
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail1533661148874.jpeg",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "SAGIS2018allLayers_2485": {
+          "selected": true
+        },
+        "Traffic_5483": {
+          "selected": false
+        },
+        "ParcelsTransparent_3375": {
+          "selected": true
+        },
+        "Chatham_County_5278": {
+          "selected": true
+        }
+      },
+      "_uID": 23,
+      "isSaveExtent": true
+    }
+  ],
+  "bookmarks3D": [],
+  "layout": {
+    "cards": true,
+    "list": false,
+    "defaultMode": "cards"
+  },
+  "editable": true,
+  "syncMode": {
+    "webmap": false,
+    "custom": true
+  },
+  "isSaveLayerVisibility": false
+}

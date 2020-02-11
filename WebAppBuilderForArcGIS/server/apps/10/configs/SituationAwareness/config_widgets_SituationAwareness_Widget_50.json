@@ -1,0 +1,367 @@
+{
+  "geocodeService": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+  },
+  "enableRouting": false,
+  "bufferRange": {
+    "minimum": 0,
+    "_default": 0,
+    "maximum": 10
+  },
+  "distanceUnits": "miles",
+  "distanceSettings": {
+    "miles": 9035,
+    "kilometers": 9036,
+    "feet": 9002,
+    "meters": 9001,
+    "yards": 9037,
+    "nauticalMiles": 9030
+  },
+  "maxDistance": "80",
+  "defaultZoomLevel": 13,
+  "tabs": [
+    {
+      "label": "Parcels of Property ",
+      "type": "summary",
+      "layerTitle": "Property Boundaries  (Parcels)",
+      "layers": "SAGISOrg_7276_124",
+      "advStat": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/124",
+        "stats": {
+          "tabCount": true,
+          "count": [
+            {
+              "value": 0,
+              "expression": "OBJECTID",
+              "label": "Number of Parcels: "
+            }
+          ],
+          "avg": [
+            {
+              "value": 0,
+              "expression": "SALE_PRICE",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "0",
+              "truncatePlaces": 2,
+              "label": "Average Sale Price"
+            },
+            {
+              "value": 0,
+              "expression": "REAL_ESTATE_VALUE",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "0",
+              "truncatePlaces": 2,
+              "label": "Average Fair Market Value"
+            },
+            {
+              "value": 0,
+              "expression": "CALCAC",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "2",
+              "truncatePlaces": 2,
+              "label": "Average Acreage"
+            },
+            {
+              "value": 0,
+              "expression": "LAND_VALUE",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "0",
+              "truncatePlaces": 2,
+              "label": "Avg. Land Value"
+            }
+          ],
+          "sum": [
+            {
+              "value": 0,
+              "expression": "SALE_PRICE",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "0",
+              "truncatePlaces": 2,
+              "label": "Total Sale Price"
+            },
+            {
+              "value": 0,
+              "expression": "REAL_ESTATE_VALUE",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "0",
+              "truncatePlaces": 2,
+              "label": "Total Fair Market Value"
+            },
+            {
+              "value": 0,
+              "expression": "NBHD_CODE",
+              "label": "Note: Prices include '0' values"
+            },
+            {
+              "value": 0,
+              "expression": "CALCAC",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": 2,
+              "truncatePlaces": 2,
+              "label": "Total Acreage"
+            }
+          ],
+          "min": [
+            {
+              "value": 0,
+              "expression": "SALE_PRICE",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "0",
+              "truncatePlaces": 2,
+              "label": "Min. Sale Price"
+            },
+            {
+              "value": 0,
+              "expression": "REAL_ESTATE_VALUE",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "0",
+              "truncatePlaces": 2,
+              "label": "Min. Fair Market Value"
+            },
+            {
+              "value": 0,
+              "expression": "CALCAC",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "2",
+              "truncatePlaces": 2,
+              "label": "Min. Acreage"
+            },
+            {
+              "value": 0,
+              "expression": "LAND_VALUE",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "0",
+              "truncatePlaces": 2,
+              "label": "Min. Land Value"
+            }
+          ],
+          "max": [
+            {
+              "value": 0,
+              "expression": "SALE_PRICE",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "0",
+              "truncatePlaces": 2,
+              "label": "Max. Sale Price"
+            },
+            {
+              "value": 0,
+              "expression": "REAL_ESTATE_VALUE",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "0",
+              "truncatePlaces": 2,
+              "label": "Max. Fair Market Value"
+            },
+            {
+              "value": 0,
+              "expression": "CALCAC",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "2",
+              "truncatePlaces": 2,
+              "label": "Max. Acreage"
+            },
+            {
+              "value": 0,
+              "expression": "LAND_VALUE",
+              "modify": true,
+              "round": true,
+              "truncate": false,
+              "roundPlaces": "0",
+              "truncatePlaces": 2,
+              "label": "Max. Land Value"
+            }
+          ]
+        },
+        "fieldOrder": [
+          {
+            "fieldName": "SALE_PRICE",
+            "fieldType": "avg"
+          },
+          {
+            "fieldName": "SALE_PRICE",
+            "fieldType": "sum"
+          },
+          {
+            "fieldName": "REAL_ESTATE_VALUE",
+            "fieldType": "avg"
+          },
+          {
+            "fieldName": "REAL_ESTATE_VALUE",
+            "fieldType": "sum"
+          },
+          {
+            "fieldName": "NBHD_CODE",
+            "fieldType": "sum"
+          },
+          {
+            "fieldName": "SALE_PRICE",
+            "fieldType": "min"
+          },
+          {
+            "fieldName": "SALE_PRICE",
+            "fieldType": "max"
+          },
+          {
+            "fieldName": "REAL_ESTATE_VALUE",
+            "fieldType": "min"
+          },
+          {
+            "fieldName": "REAL_ESTATE_VALUE",
+            "fieldType": "max"
+          },
+          {
+            "fieldName": "CALCAC",
+            "fieldType": "avg"
+          },
+          {
+            "fieldName": "CALCAC",
+            "fieldType": "min"
+          },
+          {
+            "fieldName": "CALCAC",
+            "fieldType": "max"
+          },
+          {
+            "fieldName": "LAND_VALUE",
+            "fieldType": "min"
+          },
+          {
+            "fieldName": "LAND_VALUE",
+            "fieldType": "max"
+          },
+          {
+            "fieldName": "LAND_VALUE",
+            "fieldType": "avg"
+          },
+          {
+            "fieldName": "CALCAC",
+            "fieldType": "sum"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Total Population",
+      "type": "summary",
+      "layerTitle": "Blocks",
+      "layers": "SAGISOrg_7276_103",
+      "advStat": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/103",
+        "stats": {
+          "tabCount": false,
+          "sum": [
+            {
+              "value": 0,
+              "expression": "D001",
+              "label": "Population - Census 2010"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "",
+      "type": "summary",
+      "layerTitle": "Schools",
+      "layers": "SAGISOrg_7276_106",
+      "advStat": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/106",
+        "stats": {
+          "tabCount": true,
+          "count": [
+            {
+              "value": 0,
+              "expression": "OBJECTID",
+              "label": "Number of Schools: "
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "",
+      "type": "summary",
+      "layerTitle": "Libraries",
+      "layers": "SAGISOrg_7276_126",
+      "advStat": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/126",
+        "stats": {
+          "tabCount": true,
+          "count": [
+            {
+              "value": 0,
+              "expression": "OBJECTID",
+              "label": "Number of Libraries: "
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "",
+      "type": "summary",
+      "layerTitle": "Community Centers",
+      "layers": "SAGISOrg_7276_156",
+      "advStat": {
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg_Querying/MapServer/156",
+        "stats": {
+          "tabCount": true,
+          "count": [
+            {
+              "value": 0,
+              "expression": "OBJECTID",
+              "label": "Number of Centers: "
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "csvAllFields": true,
+  "summaryDisplayEnabled": true,
+  "incidentLabel": "Site Analysis",
+  "locateIncidentLabel": "Select an area of interest:",
+  "bufferLabel": "Buffer Distance: Area of Interest",
+  "disableVisibilityManagement": true,
+  "saveEnabled": false,
+  "savePoints": false,
+  "drawGeodesic": true,
+  "saveLines": false,
+  "savePolys": false,
+  "snapshotEnabled": false,
+  "reportEnabled": false,
+  "reportSettings": {
+    "printTaskURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+    "footnote": "",
+    "logo": "${appPath}/widgets/SituationAwareness/images/defaultLogo.png",
+    "textColor": "#0f96cc"
+  }
+}

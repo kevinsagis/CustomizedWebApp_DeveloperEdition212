@@ -1,0 +1,486 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": true,
+    "EnableOrDisablePopup": true,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "SAGISOrgAnno_637": {
+      "display": true
+    },
+    "SAGISOrgAnno_637_186": {
+      "display": false
+    },
+    "SAGISOrgAnno_637_184": {
+      "display": true
+    },
+    "SAGISOrgAnno_637_185": {
+      "display": true
+    },
+    "SAGISOrg_7276": {
+      "display": true
+    },
+    "SAGISOrg_7276_106": {
+      "display": true
+    },
+    "SAGISOrg_7276_126": {
+      "display": true
+    },
+    "SAGISOrg_7276_156": {
+      "display": true
+    },
+    "SAGISOrg_7276_186": {
+      "display": false
+    },
+    "SAGISOrg_7276_184": {
+      "display": true
+    },
+    "SAGISOrg_7276_185": {
+      "display": true
+    },
+    "SAGISOrg_7276_187": {
+      "display": true
+    },
+    "SAGISOrg_7276_124": {
+      "display": true
+    },
+    "SAGISOrg_7276_96": {
+      "display": true
+    },
+    "SAGISOrg_7276_195": {
+      "display": true
+    },
+    "SAGISOrg_7276_135": {
+      "display": true
+    },
+    "SAGISOrg_7276_136": {
+      "display": true
+    },
+    "SAGISOrg_7276_105": {
+      "display": true
+    },
+    "SAGISOrg_7276_163": {
+      "display": true
+    },
+    "SAGISOrg_7276_154": {
+      "display": true
+    },
+    "SAGISOrg_7276_155": {
+      "display": true
+    },
+    "SAGISOrg_7276_162": {
+      "display": true
+    },
+    "SAGISOrg_7276_161": {
+      "display": true
+    },
+    "SAGISOrg_7276_133": {
+      "display": true
+    },
+    "SAGISOrg_7276_97": {
+      "display": true
+    },
+    "SAGISOrg_7276_132": {
+      "display": true
+    },
+    "SAGISOrg_7276_130": {
+      "display": true
+    },
+    "SAGISOrg_7276_131": {
+      "display": true
+    },
+    "SAGISOrg_7276_153": {
+      "display": true
+    },
+    "SAGISOrg_7276_189": {
+      "display": true
+    },
+    "SAGISOrg_7276_125": {
+      "display": true
+    },
+    "SAGISOrg_7276_190": {
+      "display": true
+    },
+    "SAGISOrg_7276_139": {
+      "display": true
+    },
+    "SAGISOrg_7276_138": {
+      "display": true
+    },
+    "SAGISOrg_7276_117": {
+      "display": true
+    },
+    "SAGISOrg_7276_112": {
+      "display": true
+    },
+    "SAGISOrg_7276_108": {
+      "display": true
+    },
+    "SAGISOrg_7276_109": {
+      "display": true
+    },
+    "SAGISOrg_7276_110": {
+      "display": true
+    },
+    "SAGISOrg_7276_111": {
+      "display": true
+    },
+    "SAGISOrg_7276_113": {
+      "display": true
+    },
+    "SAGISOrg_7276_114": {
+      "display": true
+    },
+    "SAGISOrg_7276_115": {
+      "display": true
+    },
+    "SAGISOrg_7276_116": {
+      "display": true
+    },
+    "SAGISOrg_7276_149": {
+      "display": true
+    },
+    "SAGISOrg_7276_143": {
+      "display": true
+    },
+    "SAGISOrg_7276_194": {
+      "display": true
+    },
+    "SAGISOrg_7276_144": {
+      "display": true
+    },
+    "SAGISOrg_7276_148": {
+      "display": true
+    },
+    "SAGISOrg_7276_145": {
+      "display": true
+    },
+    "SAGISOrg_7276_146": {
+      "display": true
+    },
+    "SAGISOrg_7276_147": {
+      "display": true
+    },
+    "SAGISOrg_7276_157": {
+      "display": true
+    },
+    "SAGISOrg_7276_151": {
+      "display": true
+    },
+    "SAGISOrg_7276_176": {
+      "display": true
+    },
+    "SAGISOrg_7276_150": {
+      "display": true
+    },
+    "SAGISOrg_7276_174": {
+      "display": true
+    },
+    "SAGISOrg_7276_172": {
+      "display": true
+    },
+    "SAGISOrg_7276_171": {
+      "display": true
+    },
+    "SAGISOrg_7276_140": {
+      "display": true
+    },
+    "SAGISOrg_7276_142": {
+      "display": true
+    },
+    "SAGISOrg_7276_134": {
+      "display": true
+    },
+    "SAGISOrg_7276_141": {
+      "display": true
+    },
+    "SAGISOrg_7276_104": {
+      "display": true
+    },
+    "SAGISOrg_7276_101": {
+      "display": true
+    },
+    "SAGISOrg_7276_102": {
+      "display": true
+    },
+    "SAGISOrg_7276_103": {
+      "display": true
+    },
+    "SAGISOrg_7276_160": {
+      "display": true
+    },
+    "SAGISOrg_7276_158": {
+      "display": true
+    },
+    "SAGISOrg_7276_159": {
+      "display": true
+    },
+    "SAGISOrg_7276_137": {
+      "display": true
+    },
+    "SAGISOrg_7276_188": {
+      "display": true
+    },
+    "SAGISOrg_7276_118": {
+      "display": true
+    },
+    "SAGISOrg_7276_107": {
+      "display": true
+    },
+    "Traffic_5483": {
+      "display": true
+    },
+    "Traffic_5483_0": {
+      "display": true
+    },
+    "Traffic_5483_1": {
+      "display": true
+    },
+    "Traffic_5483_2": {
+      "display": true
+    },
+    "Traffic_5483_3": {
+      "display": true
+    },
+    "Traffic_5483_4": {
+      "display": true
+    },
+    "Traffic_5483_5": {
+      "display": true
+    },
+    "Traffic_5483_7": {
+      "display": true
+    },
+    "ParcelsTransparent2019_7092": {
+      "display": true
+    },
+    "ParcelsTransparent2019_7092_0": {
+      "display": true
+    },
+    "Chatham_County_5278": {
+      "display": true
+    },
+    "Chatham_County_5278_0": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303": {
+      "display": false
+    },
+    "SAGISOrg_Querying_3303_106": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_126": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_156": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_186": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_184": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_185": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_187": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_124": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_96": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_195": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_135": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_136": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_105": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_163": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_154": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_155": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_162": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_161": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_133": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_97": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_132": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_130": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_131": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_153": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_189": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_125": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_190": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_139": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_138": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_117": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_112": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_108": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_109": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_110": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_111": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_113": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_114": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_115": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_116": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_149": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_143": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_194": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_144": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_148": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_145": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_146": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_147": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_157": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_151": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_176": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_150": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_174": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_172": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_171": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_140": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_142": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_134": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_141": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_104": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_101": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_102": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_103": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_160": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_158": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_159": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_137": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_188": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_118": {
+      "display": true
+    },
+    "SAGISOrg_Querying_3303_107": {
+      "display": true
+    }
+  }
+}

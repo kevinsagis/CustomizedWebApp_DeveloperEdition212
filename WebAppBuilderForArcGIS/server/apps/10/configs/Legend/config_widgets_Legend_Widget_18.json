@@ -1,0 +1,239 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "Traffic_5483": {
+      "selected": false
+    },
+    "Traffic_5483_0": {
+      "selected": false
+    },
+    "Chatham_County_5278": {
+      "selected": false
+    },
+    "Chatham_County_5278_0": {
+      "selected": true
+    },
+    "SAGISOrg_7276": {
+      "selected": false
+    },
+    "ParcelsTransparent2019_7092": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_106": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_126": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_156": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_186": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_187": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_124": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_96": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_195": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_135": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_136": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_105": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_163": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_154": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_155": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_162": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_161": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_133": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_97": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_132": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_153": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_189": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_125": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_190": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_139": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_138": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_117": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_149": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_157": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_151": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_176": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_150": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_174": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_140": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_142": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_134": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_141": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_104": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_160": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_137": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_188": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_118": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_107": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_184": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_185": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_130": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_131": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_112": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_113": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_114": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_115": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_116": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_108": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_109": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_110": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_111": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_143": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_194": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_144": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_148": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_145": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_146": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_147": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_172": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_171": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_101": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_102": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_103": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_158": {
+      "selected": false
+    },
+    "SAGISOrg_Querying_3303_159": {
+      "selected": false
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

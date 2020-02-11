@@ -1,0 +1,71 @@
+{
+  "allPlaceholder": "Find an Address, PIN, or Owner Name",
+  "showInfoWindowOnSelect": false,
+  "sources": [
+    {
+      "layerId": null,
+      "url": "https://cloud.sagis.org/arcgis/rest/services/Locators/MADSearch/MapServer/0",
+      "name": "Search by Address",
+      "placeholder": "Search by Address                              Example:  110 E State",
+      "searchFields": [
+        "FULL_ADDRESS"
+      ],
+      "displayField": "FULL_ADDRESS",
+      "exactMatch": true,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": 3600,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/Locators/ParcelWeb_PINsuggest/GeocodeServer",
+      "name": "Search by Parcel ID (PIN)",
+      "singleLineFieldName": "Single Line Input",
+      "placeholder": "Search by Parcel ID (PIN)                  Example:  20044 12002   (Note there is usually a space in the middle!)",
+      "countryCode": "",
+      "panToScale": false,
+      "zoomScale": 3600,
+      "maxSuggestions": 1,
+      "maxResults": 1,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": false,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "type": "locator"
+    },
+    {
+      "url": "https://cloud.sagis.org/arcgis/rest/services/Locators/ParcelWeb_OwnerNameSuggest/GeocodeServer",
+      "name": "Search by Owner Name",
+      "singleLineFieldName": "Single Line Input",
+      "placeholder": "Search by Owner Name                        Example: MILITARY CAPTAINS ASSOC",
+      "countryCode": "",
+      "panToScale": false,
+      "zoomScale": 3600,
+      "maxSuggestions": 3,
+      "maxResults": 8,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": false,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "type": "locator"
+    },
+    {
+      "url": "https://utility.arcgis.com/usrsvcs/servers/eb4e3b1d1996465e9d9e8f6d56f1d94f/rest/services/World/GeocodeServer",
+      "name": "Find a Business or Point of Interest             (Address is approximate)",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Find Business - Point of Interest",
+      "countryCode": "",
+      "panToScale": false,
+      "zoomScale": 3600,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": true,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "type": "locator"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 15.034420289855072,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "28563867722214087-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "28563867722214087-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 62.93746645195921,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "28563867722214087-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "28563867722214087-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 22.028113258185726,
+            "width": 59.15915915915916,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "28563867722214087-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "28563867722214087-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "28563867722214087-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "Sale Price"
+      }
+    },
+    {
+      "id": "28563867722214087-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "data": {
+          "mode": "feature",
+          "type": "column",
+          "clusterField": "PROP_ADDRESS",
+          "valueFields": [
+            "SALE_PRICE"
+          ],
+          "sortOrder": {
+            "isAsc": true,
+            "field": "SALE_PRICE"
+          }
+        },
+        "display": {
+          "backgroundColor": "#ffffff",
+          "seriesStyle": {
+            "type": "series",
+            "styles": [
+              {
+                "style": {
+                  "color": [
+                    "#ff8c00"
+                  ]
+                },
+                "name": "SALE_PRICE",
+                "label": "Sale Price"
+              }
+            ]
+          },
+          "legend": {
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 12
+            },
+            "show": false
+          },
+          "xAxis": {
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 12
+            },
+            "show": false,
+            "format": null
+          },
+          "yAxis": {
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 12
+            },
+            "show": true,
+            "name": "$",
+            "nameTextStyle": {
+              "color": "#000000"
+            },
+            "format": {
+              "type": "float"
+            }
+          },
+          "marks": {}
+        }
+      }
+    },
+    {
+      "id": "28563867722214087-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Property Sales Price (last transaction in the 2019 Chatham County Board of Assessors' Annual Digest)"
+      }
+    }
+  ],
+  "name": "column",
+  "wid": "13267241326766777",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FROM_FRAMEWORK",
+    "name": "Search Parcels by ...",
+    "frameWorkDsId": "widget~widgets_eSearch_Widget_55~0",
+    "useSelection": false,
+    "filterByExtent": false
+  }
+}

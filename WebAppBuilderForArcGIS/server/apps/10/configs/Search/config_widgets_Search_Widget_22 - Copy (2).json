@@ -1,0 +1,73 @@
+{
+  "allPlaceholder": "Find an Address, PIN, or Owner Name",
+  "showInfoWindowOnSelect": false,
+  "sources": [
+    {
+      "layerId": null,
+      "url": "https://services2.arcgis.com/2SoNIbP3sKErGFHa/ArcGIS/rest/services/MAD_Nov4_AGOL_sagisorgSearch/FeatureServer/0",
+      "name": "Search by Address",
+      "placeholder": "Search by Address                              Example:  110 E State",
+      "searchFields": [
+        "FULL_ADDRESS"
+      ],
+      "displayField": "FULL_ADDRESS",
+      "exactMatch": true,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": 3600,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": null,
+      "url": "https://services2.arcgis.com/2SoNIbP3sKErGFHa/arcgis/rest/services/ParcelWeb3857_2019/FeatureServer/0",
+      "name": "Search by Parcel ID (PIN)",
+      "placeholder": "Search by Parcel ID (PIN)                  Example:  20044 12002   (Note there is usually a space in the middle!)",
+      "searchFields": [
+        "PIN"
+      ],
+      "displayField": "PIN",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": 4000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": null,
+      "url": "https://services2.arcgis.com/2SoNIbP3sKErGFHa/arcgis/rest/services/ParcelWeb3857_2019/FeatureServer/0",
+      "name": "Search by Owner Name",
+      "placeholder": "Search by Owner Name                        Example: MILITARY CAPTAINS ASSOC",
+      "searchFields": [
+        "NAME"
+      ],
+      "displayField": "NAME",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": 4000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "url": "https://utility.arcgis.com/usrsvcs/servers/eb4e3b1d1996465e9d9e8f6d56f1d94f/rest/services/World/GeocodeServer",
+      "name": "                       Find a Business or Point of Interest by Name    (Address is approximate)",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Find Business - Point of Interest",
+      "countryCode": "",
+      "panToScale": false,
+      "zoomScale": 3600,
+      "maxSuggestions": 4,
+      "maxResults": 4,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": true,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "type": "locator"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "AppUpdate",
+    "2D": true,
+    "3D": false,
+    "platform": "HTML",
+    "version": "1.0",
+    "wabVersion": "1.3",
+    "author": "Andrew Terwiel",
+    "description": "Refresh from server if app has been updated",
+    "copyright": "NPDC 2016",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+        "inPanel": false,
+        "hasConfig": true,
+        "hasUIFile": false
+    }
+}

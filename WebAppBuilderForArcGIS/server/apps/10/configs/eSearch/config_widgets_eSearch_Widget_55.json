@@ -1,0 +1,555 @@
+{
+  "layers": [
+    {
+      "name": "Search for Parcels by:",
+      "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/Parcels/MapServer/0",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": true,
+      "export2Geo": true,
+      "export2FC": true,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Search by Address",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "PROP_ADDRESS",
+                    "label": "Property Address",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Address Contains:",
+                  "textsearchhint": "110 E State",
+                  "sqltext": "Upper(PROP_ADDRESS) LIKE Upper('%[value]%')",
+                  "operation": "stringOperatorContains"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Search by Owner Name",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "OWNERNAME",
+                    "label": "Owner Name",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Owner Name Contains:",
+                  "textsearchhint": "Military Captains",
+                  "sqltext": "Upper(OWNERNAME) LIKE Upper('%[value]%')",
+                  "operation": "stringOperatorContains"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Search by Parcel ID  (PIN)",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "PIN",
+                    "label": "PIN",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "PIN is:",
+                  "textsearchhint": "20044 12002",
+                  "sqltext": "Upper(PIN) = Upper('[value]')",
+                  "operation": "stringOperatorIs"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "PROP_ADDRESS",
+            "alias": "Property Address"
+          },
+          {
+            "name": "PIN",
+            "alias": "Parcel ID  (PIN)",
+            "popuponly": true
+          },
+          {
+            "name": "OWNERNAME",
+            "alias": "Owner Name"
+          },
+          {
+            "name": "NAME",
+            "alias": "Owner's Name",
+            "popuponly": true
+          },
+          {
+            "name": "ZONEID",
+            "alias": "Calculated Zoning Code",
+            "popuponly": true
+          },
+          {
+            "name": "ZONE_DESC",
+            "alias": "Calculated Zoning",
+            "popuponly": true
+          },
+          {
+            "name": "FLOODID",
+            "alias": "Calculated Flood Zone",
+            "popuponly": true
+          },
+          {
+            "name": "ALDERID",
+            "alias": "Aldermanic District",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "COMMID",
+            "alias": "Commission District",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "VOT_PRECINCT",
+            "alias": "Voter Precinct",
+            "popuponly": true
+          },
+          {
+            "name": "ELEMENTARY",
+            "alias": "Elementary School",
+            "popuponly": true
+          },
+          {
+            "name": "MIDDLE",
+            "alias": "Middle School",
+            "popuponly": true
+          },
+          {
+            "name": "HIGH",
+            "alias": "High School",
+            "popuponly": true
+          },
+          {
+            "name": "ADDRESS_1",
+            "alias": "Owner's Address 1",
+            "popuponly": true
+          },
+          {
+            "name": "ADDRESS_2",
+            "alias": "Owner's Address 2",
+            "popuponly": true
+          },
+          {
+            "name": "ADDRESS_3",
+            "alias": "Owner's Address 3",
+            "popuponly": true
+          },
+          {
+            "name": "CITY",
+            "alias": "Owner's City",
+            "popuponly": true
+          },
+          {
+            "name": "STATE",
+            "alias": "Owner's State",
+            "popuponly": true
+          },
+          {
+            "name": "ZIP_CODE",
+            "alias": "Owner's Zip Code",
+            "popuponly": true
+          },
+          {
+            "name": "STREET_LIGHTING",
+            "alias": "Street Lighting",
+            "popuponly": true
+          },
+          {
+            "name": "MUN_CODE",
+            "alias": "Municipal Code",
+            "popuponly": true
+          },
+          {
+            "name": "LAND_UNITS",
+            "alias": "Land Units",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "LAND_FRONTAGE",
+            "alias": "Land Frontage",
+            "popuponly": true
+          },
+          {
+            "name": "LAND_DEPTH",
+            "alias": "Land Depth",
+            "popuponly": true
+          },
+          {
+            "name": "LAND_TYPE",
+            "alias": "Land Type",
+            "popuponly": true
+          },
+          {
+            "name": "REAL_ESTATE_VALUE",
+            "alias": "Fair Market Value",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "LAND_VALUE",
+            "alias": "Land Value",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "BUILDING_VALUE",
+            "alias": "Building Value",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "PROP_CLASS_CODES",
+            "alias": "Property Class",
+            "popuponly": true
+          },
+          {
+            "name": "SALE_PRICE",
+            "alias": "Sale Price",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "SALE_YY",
+            "alias": "Sale Year",
+            "popuponly": true
+          },
+          {
+            "name": "SALE_MM",
+            "alias": "Sale Month",
+            "popuponly": true
+          },
+          {
+            "name": "SALE_DD",
+            "alias": "Sale Day",
+            "popuponly": true
+          },
+          {
+            "name": "TOTAL_ASSESSMENT",
+            "alias": "Total Assessment",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "LEGAL_1",
+            "alias": "Legal Description 1",
+            "popuponly": true
+          },
+          {
+            "name": "LEGAL_2",
+            "alias": "Legal Description 2",
+            "popuponly": true
+          },
+          {
+            "name": "SALE_OR_BOOK",
+            "alias": "Sale or Book",
+            "popuponly": true
+          },
+          {
+            "name": "SALE_OR_PAGE",
+            "alias": "Sale or Page",
+            "popuponly": true
+          },
+          {
+            "name": "BASE_YR_VALUE",
+            "alias": "Base Year Value",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "BASE_YR_VAL_CPI",
+            "alias": "Base Year Value w/ CPI",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "CAMA_LAND_VALUE",
+            "alias": "CAMA Land Value",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "CAMA_BLDG_VALUE",
+            "alias": "CAMA Building Value",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "CAMA_TOTAL_VALUE",
+            "alias": "CAMA Total Value",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "CALCAC",
+            "alias": "Calculated Acreage",
+            "numberformat": "2||.",
+            "isnumber": true,
+            "popuponly": true
+          },
+          {
+            "name": "FULLADDRESS",
+            "alias": "Full Address",
+            "popuponly": true
+          },
+          {
+            "name": "ZIPCODE",
+            "alias": "Property Zip Code",
+            "popuponly": true
+          },
+          {
+            "name": "NBHD_DESC",
+            "alias": "Historic District",
+            "popuponly": true
+          },
+          {
+            "name": "ALDER_TXT",
+            "alias": "Alder Text",
+            "popuponly": true
+          }
+        ]
+      },
+      "links": {
+        "link": [
+          {
+            "alias": "View Property Record Card ⇢",
+            "disablelinksifnull": true,
+            "disableinpopup": false,
+            "popuptype": "text",
+            "content": "https://www.chathamtax.org/PT/Datalets/PrintDatalet.aspx?pin={PIN}&amp;gsp=PRC&amp;taxyear=2019&amp;jur=000&amp;ownseq=0&amp;card=1&amp;roll=RE&amp;State=1&amp;item=1&amp;items=-1&amp;all=undefined&amp;ranks=Datalet,Sketch,Photo",
+            "icon": "https://cloud.sagis.org/sagisnext/images/i_parcel.png"
+          },
+          {
+            "alias": "View Tax Assessment ⇢",
+            "disablelinksifnull": true,
+            "disableinpopup": false,
+            "popuptype": "text",
+            "content": "https://www.chathamtax.org/Documents/2019RE/{PIN}.PDF",
+            "icon": ""
+          }
+        ]
+      },
+      "relates": {
+        "relate": []
+      },
+      "orderByFields": [],
+      "showattachments": false,
+      "disablePopups": false,
+      "layersymbolfrom": "config",
+      "popupfrom": "webmap"
+    }
+  ],
+  "disabledtabs": [
+    "spatial"
+  ],
+  "bufferDefaults": {
+    "autoZoom": true,
+    "addtolegend": false,
+    "bufferUnits": {
+      "bufferUnit": [
+        {
+          "name": "UNIT_FOOT",
+          "label": "Feet"
+        },
+        {
+          "name": "UNIT_STATUTE_MILE",
+          "label": "Miles"
+        },
+        {
+          "name": "UNIT_METER",
+          "label": "Meter"
+        }
+      ]
+    },
+    "bufferDefaultValue": 5,
+    "bufferWKID": 102003,
+    "simplefillsymbol": {
+      "color": [
+        1,
+        185,
+        253,
+        128
+      ],
+      "outline": {
+        "color": [
+          1,
+          185,
+          253,
+          204
+        ],
+        "width": 0.75,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "spatialrelationships": {
+    "spatialrelationship": [
+      {
+        "name": "esriSpatialRelContains",
+        "label": "entirely contained in"
+      },
+      {
+        "name": "esriSpatialRelIntersects",
+        "label": "intersected by"
+      },
+      {
+        "name": "esriSpatialRelEnvelopeIntersects",
+        "label": "intersected by envelope of"
+      }
+    ]
+  },
+  "graphicalsearchoptions": {
+    "enablepointselect": true,
+    "enablelineselect": true,
+    "enablepolylineselect": true,
+    "enableextentselect": true,
+    "enablecircleselect": true,
+    "enablepolyselect": true,
+    "enablefreehandpolyselect": true,
+    "showmultigraphicsgraphicaloption": true,
+    "showaddtolerancegraphicaloption": false,
+    "showaddsqltextgraphicaloption": true,
+    "showbuffergraphicaloption": true,
+    "buffercheckedbydefaultgraphicaloption": false,
+    "multipartgraphicsearchchecked": false,
+    "addpointtolerancechecked": false,
+    "toleranceforpointgraphicalselection": 6,
+    "keepgraphicalsearchenabled": false,
+    "autoactivatedtool": "point"
+  },
+  "symbols": {
+    "simplemarkersymbol": {
+      "color": [
+        220,
+        18,
+        203,
+        168
+      ],
+      "size": 6.75,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "outline": {
+        "color": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      }
+    },
+    "picturemarkersymbol": null,
+    "simplelinesymbol": {
+      "color": [
+        234,
+        0,
+        255,
+        212
+      ],
+      "width": 1.5,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "simplefillsymbol": {
+      "color": [
+        247,
+        0,
+        255,
+        69
+      ],
+      "outline": {
+        "color": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "width": 0.75,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "resultFormat": {
+    "attTitlesymbol": {
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "color": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "attValuesymbol": {
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ]
+    },
+    "wrap": true
+  },
+  "initialView": "text",
+  "selectfilter": "contains",
+  "enablePopupsOnResultClick": false,
+  "disablePopups": true,
+  "disableuvcache": false,
+  "exportsearchurlchecked": true,
+  "limitsearch2mapextentchecked": false,
+  "autozoomtoresults": false,
+  "mouseovergraphics": false,
+  "datedisplayformat": "d MMM yyyy",
+  "zoomFactor": 0.9,
+  "containsword": false
+}

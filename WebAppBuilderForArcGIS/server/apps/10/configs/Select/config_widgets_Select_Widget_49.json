@@ -1,0 +1,232 @@
+{
+  "selectionColor": "#00FFFF",
+  "selectionMode": "partial",
+  "allowExport": true,
+  "includeRuntimeLayers": true,
+  "geometryTypes": [
+    "POINT",
+    "POLYLINE",
+    "EXTENT",
+    "CIRCLE",
+    "POLYGON",
+    "FREEHAND_POLYGON"
+  ],
+  "layerState": {
+    "Traffic_5483": {
+      "selected": false
+    },
+    "Traffic_5483_0": {
+      "selected": false
+    },
+    "Traffic_5483_1": {
+      "selected": false
+    },
+    "Traffic_5483_2": {
+      "selected": false
+    },
+    "Traffic_5483_3": {
+      "selected": false
+    },
+    "Traffic_5483_4": {
+      "selected": false
+    },
+    "Traffic_5483_5": {
+      "selected": false
+    },
+    "ParcelsTransparent2019_7092": {
+      "selected": false
+    },
+    "ParcelsTransparent2019_7092_0": {
+      "selected": false
+    },
+    "Chatham_County_5278": {
+      "selected": false
+    },
+    "Chatham_County_5278_0": {
+      "selected": false
+    },
+    "SAGISOrg_7276": {
+      "selected": false
+    },
+    "SAGISOrg_7276_106": {
+      "selected": true
+    },
+    "SAGISOrg_7276_126": {
+      "selected": true
+    },
+    "SAGISOrg_7276_156": {
+      "selected": true
+    },
+    "SAGISOrg_7276_186": {
+      "selected": false
+    },
+    "SAGISOrg_7276_187": {
+      "selected": false
+    },
+    "SAGISOrg_7276_124": {
+      "selected": true
+    },
+    "SAGISOrg_7276_96": {
+      "selected": true
+    },
+    "SAGISOrg_7276_195": {
+      "selected": true
+    },
+    "SAGISOrg_7276_135": {
+      "selected": true
+    },
+    "SAGISOrg_7276_136": {
+      "selected": true
+    },
+    "SAGISOrg_7276_105": {
+      "selected": true
+    },
+    "SAGISOrg_7276_163": {
+      "selected": true
+    },
+    "SAGISOrg_7276_154": {
+      "selected": true
+    },
+    "SAGISOrg_7276_155": {
+      "selected": true
+    },
+    "SAGISOrg_7276_162": {
+      "selected": true
+    },
+    "SAGISOrg_7276_161": {
+      "selected": true
+    },
+    "SAGISOrg_7276_133": {
+      "selected": true
+    },
+    "SAGISOrg_7276_97": {
+      "selected": true
+    },
+    "SAGISOrg_7276_132": {
+      "selected": false
+    },
+    "SAGISOrg_7276_153": {
+      "selected": true
+    },
+    "SAGISOrg_7276_189": {
+      "selected": true
+    },
+    "SAGISOrg_7276_125": {
+      "selected": true
+    },
+    "SAGISOrg_7276_190": {
+      "selected": true
+    },
+    "SAGISOrg_7276_139": {
+      "selected": true
+    },
+    "SAGISOrg_7276_138": {
+      "selected": true
+    },
+    "SAGISOrg_7276_117": {
+      "selected": false
+    },
+    "SAGISOrg_7276_149": {
+      "selected": false
+    },
+    "SAGISOrg_7276_157": {
+      "selected": true
+    },
+    "SAGISOrg_7276_151": {
+      "selected": true
+    },
+    "SAGISOrg_7276_176": {
+      "selected": true
+    },
+    "SAGISOrg_7276_150": {
+      "selected": true
+    },
+    "SAGISOrg_7276_174": {
+      "selected": false
+    },
+    "SAGISOrg_7276_140": {
+      "selected": true
+    },
+    "SAGISOrg_7276_142": {
+      "selected": true
+    },
+    "SAGISOrg_7276_134": {
+      "selected": true
+    },
+    "SAGISOrg_7276_141": {
+      "selected": true
+    },
+    "SAGISOrg_7276_104": {
+      "selected": false
+    },
+    "SAGISOrg_7276_160": {
+      "selected": false
+    },
+    "SAGISOrg_7276_137": {
+      "selected": true
+    },
+    "SAGISOrg_7276_188": {
+      "selected": true
+    },
+    "SAGISOrg_7276_118": {
+      "selected": true
+    },
+    "SAGISOrg_7276_107": {
+      "selected": true
+    },
+    "SAGISOrg_7276_143": {
+      "selected": true
+    },
+    "SAGISOrg_7276_194": {
+      "selected": true
+    },
+    "SAGISOrg_7276_144": {
+      "selected": true
+    },
+    "SAGISOrg_7276_148": {
+      "selected": false
+    },
+    "SAGISOrg_7276_145": {
+      "selected": false
+    },
+    "SAGISOrg_7276_146": {
+      "selected": false
+    },
+    "SAGISOrg_7276_147": {
+      "selected": false
+    },
+    "SAGISOrg_7276_112": {
+      "selected": false
+    },
+    "SAGISOrg_7276_113": {
+      "selected": true
+    },
+    "SAGISOrg_7276_114": {
+      "selected": true
+    },
+    "SAGISOrg_7276_115": {
+      "selected": true
+    },
+    "SAGISOrg_7276_116": {
+      "selected": true
+    },
+    "SAGISOrg_7276_108": {
+      "selected": false
+    },
+    "SAGISOrg_7276_109": {
+      "selected": false
+    },
+    "SAGISOrg_7276_110": {
+      "selected": false
+    },
+    "SAGISOrg_7276_111": {
+      "selected": false
+    },
+    "SAGISOrg_7276_172": {
+      "selected": true
+    },
+    "SAGISOrg_7276_171": {
+      "selected": true
+    }
+  }
+}

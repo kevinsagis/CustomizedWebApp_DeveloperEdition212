@@ -1,0 +1,3025 @@
+{
+  "identifylayeroption": "visible",
+  "identifytolerance": 5,
+  "defaultzoomscale": 5000,
+  "keepidentifyactive": false,
+  "returngeometryforzoom": true,
+  "enablelineselect": true,
+  "enablefreehandlineselect": true,
+  "enablepolylineselect": true,
+  "enableextentselect": true,
+  "enabletriangleselect": false,
+  "enablepolyselect": true,
+  "enablefreehandpolyselect": true,
+  "enablecircleselect": true,
+  "enableellipseselect": false,
+  "enablegraphicclickinfo": true,
+  "usemaptime": false,
+  "infoautoclosemilliseconds": 10000,
+  "autoactivatedtool": "point",
+  "disablelayerdropdown": false,
+  "disablealllayerschoice": false,
+  "replacenullswithemptystring": false,
+  "enablemouseoverrecordinfo": false,
+  "enablemouseovergraphicsinfo": false,
+  "layers": {
+    "onlythese": true,
+    "layer": [
+      {
+        "name": "Parcels",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/ParcelsTransparent2019/MapServer",
+        "id": 0,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "PIN",
+              "alias": "PIN"
+            },
+            {
+              "name": "NAME",
+              "alias": "Owner's Name",
+              "popuponly": true
+            },
+            {
+              "name": "ADDRESS_1",
+              "alias": "Owner's Address 1",
+              "popuponly": true
+            },
+            {
+              "name": "ADDRESS_2",
+              "alias": "Owner's Address 2",
+              "popuponly": true
+            },
+            {
+              "name": "ADDRESS_3",
+              "alias": "Owner's Address 3",
+              "popuponly": true
+            },
+            {
+              "name": "CITY",
+              "alias": "Owner's City",
+              "popuponly": true
+            },
+            {
+              "name": "STATE",
+              "alias": "Owner's State",
+              "popuponly": true
+            },
+            {
+              "name": "ZIP_CODE",
+              "alias": "Owner's Zip Code",
+              "popuponly": true
+            },
+            {
+              "name": "PROP_ADDRESS",
+              "alias": "Property Address",
+              "popuponly": true
+            },
+            {
+              "name": "STREET_LIGHTING",
+              "alias": "Street Lighting",
+              "popuponly": true
+            },
+            {
+              "name": "MUN_CODE",
+              "alias": "Municipal Code",
+              "popuponly": true
+            },
+            {
+              "name": "LAND_UNITS",
+              "alias": "Land Units",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LAND_FRONTAGE",
+              "alias": "Land Frontage",
+              "popuponly": true
+            },
+            {
+              "name": "LAND_DEPTH",
+              "alias": "Land Depth",
+              "popuponly": true
+            },
+            {
+              "name": "LAND_TYPE",
+              "alias": "Land Type",
+              "popuponly": true
+            },
+            {
+              "name": "REAL_ESTATE_VALUE",
+              "alias": "Real Estate Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LAND_VALUE",
+              "alias": "Land Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "BUILDING_VALUE",
+              "alias": "Building Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "PROP_CLASS_CODES",
+              "alias": "Property Class",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_PRICE",
+              "alias": "Sale Price",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SALE_YY",
+              "alias": "Sale Year",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_MM",
+              "alias": "Sale Month",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_DD",
+              "alias": "Sale Day",
+              "popuponly": true
+            },
+            {
+              "name": "TRANSIT_CODE",
+              "alias": "Transit Code",
+              "popuponly": true
+            },
+            {
+              "name": "COMM_CAT",
+              "alias": "Commercial Category",
+              "popuponly": true
+            },
+            {
+              "name": "TOTAL_ASSESSMENT",
+              "alias": "Total Assessment",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LEGAL_1",
+              "alias": "Legal Description 1",
+              "popuponly": true
+            },
+            {
+              "name": "LEGAL_2",
+              "alias": "Legal Description 2",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_OR_BOOK",
+              "alias": "Sale or Book",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_OR_PAGE",
+              "alias": "Sale or Page",
+              "popuponly": true
+            },
+            {
+              "name": "BASE_YR_VALUE",
+              "alias": "Base Year Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "BASE_YR_VAL_CPI",
+              "alias": "Base Year Value w/ CPI",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CAMA_LAND_VALUE",
+              "alias": "CAMA Land Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CAMA_BLDG_VALUE",
+              "alias": "CAMA Building Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CAMA_TOTAL_VALUE",
+              "alias": "CAMA Total Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CALCAC",
+              "alias": "Calculated Acreage",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "OWNERNAME",
+              "alias": "Owner Name",
+              "popuponly": true
+            },
+            {
+              "name": "FULLADDRESS",
+              "alias": "Full Address"
+            },
+            {
+              "name": "ZIPCODE",
+              "alias": "Property Zip Code",
+              "popuponly": true
+            },
+            {
+              "name": "ZONEID",
+              "alias": "Calculated Zoning",
+              "popuponly": true
+            },
+            {
+              "name": "ZONE_DESC",
+              "alias": "Zoning Description",
+              "popuponly": true
+            },
+            {
+              "name": "NBHD_DESC",
+              "alias": "Neighborhood",
+              "popuponly": true
+            },
+            {
+              "name": "LANDUSE_DESC",
+              "alias": "Land Use",
+              "popuponly": true
+            },
+            {
+              "name": "FLOODID",
+              "alias": "Calculated Flood Zone",
+              "popuponly": true
+            },
+            {
+              "name": "ELEMENTARY",
+              "alias": "Elementary School",
+              "popuponly": true
+            },
+            {
+              "name": "MIDDLE",
+              "alias": "Middle School",
+              "popuponly": true
+            },
+            {
+              "name": "HIGH",
+              "alias": "High School",
+              "popuponly": true
+            },
+            {
+              "name": "VOT_PRECINCT",
+              "alias": "Voter Precinct",
+              "popuponly": true
+            },
+            {
+              "name": "ALDER_TXT",
+              "alias": "Alder Text",
+              "popuponly": true
+            },
+            {
+              "name": "Shape_Length",
+              "alias": "Shape_Length",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Shape_Area",
+              "alias": "Shape_Area",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "NEIGHBORHOOD_CODE",
+              "alias": "Neighborhood Code",
+              "popuponly": true
+            },
+            {
+              "name": "LAND_USE_CODE",
+              "alias": "Land Use Code",
+              "popuponly": true
+            },
+            {
+              "name": "APC_CODE",
+              "alias": "APC Code",
+              "popuponly": true
+            },
+            {
+              "name": "AGENT",
+              "alias": "Agent",
+              "popuponly": true
+            },
+            {
+              "name": "PROP_ADDRE2",
+              "alias": "Property Address",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_DATE",
+              "alias": "Sale Date",
+              "isdate": true,
+              "popuponly": true
+            },
+            {
+              "name": "ALDERID",
+              "alias": "Alderman",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "COMMID",
+              "alias": "Commissioner",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "NBHD_CODE",
+              "alias": "Neighborhood Text",
+              "isnumber": true,
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {
+          "link": [
+            {
+              "alias": "View Property Record Card ⇢",
+              "disablelinksifnull": true,
+              "disableinpopup": false,
+              "popuptype": "text",
+              "content": "https://www.chathamtax.org/PT/Datalets/PrintDatalet.aspx?pin={PIN}&amp;gsp=PRC&amp;taxyear=2019&amp;jur=000&amp;ownseq=0&amp;card=1&amp;roll=RE&amp;State=1&amp;item=1&amp;items=-1&amp;all=undefined&amp;ranks=Datalet,Sketch,Photo",
+              "icon": ""
+            },
+            {
+              "alias": "View Tax Assessment ⇢",
+              "disablelinksifnull": true,
+              "disableinpopup": false,
+              "popuptype": "text",
+              "content": "https://www.chathamtax.org/Documents/2019RE/{PIN}.PDF",
+              "icon": ""
+            }
+          ]
+        }
+      },
+      {
+        "name": "Property Boundaries  (Parcels)",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 124,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "PIN",
+              "alias": "PIN"
+            },
+            {
+              "name": "NAME",
+              "alias": "Owner's Name"
+            },
+            {
+              "name": "ADDRESS_1",
+              "alias": "Owner's Address 1",
+              "popuponly": true
+            },
+            {
+              "name": "ADDRESS_2",
+              "alias": "Owner's Address 2",
+              "popuponly": true
+            },
+            {
+              "name": "ADDRESS_3",
+              "alias": "Owner's Address 3",
+              "popuponly": true
+            },
+            {
+              "name": "CITY",
+              "alias": "Owner's City",
+              "popuponly": true
+            },
+            {
+              "name": "STATE",
+              "alias": "Owner's State",
+              "popuponly": true
+            },
+            {
+              "name": "ZIP_CODE",
+              "alias": "Owner's Zip Code",
+              "popuponly": true
+            },
+            {
+              "name": "PROP_ADDRESS",
+              "alias": "Property Address"
+            },
+            {
+              "name": "STREET_LIGHTING",
+              "alias": "Street Lighting",
+              "popuponly": true
+            },
+            {
+              "name": "MUN_CODE",
+              "alias": "Municipal Code",
+              "popuponly": true
+            },
+            {
+              "name": "LAND_UNITS",
+              "alias": "Land Units",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LAND_FRONTAGE",
+              "alias": "Land Frontage",
+              "popuponly": true
+            },
+            {
+              "name": "LAND_DEPTH",
+              "alias": "Land Depth",
+              "popuponly": true
+            },
+            {
+              "name": "LAND_TYPE",
+              "alias": "Land Type",
+              "popuponly": true
+            },
+            {
+              "name": "REAL_ESTATE_VALUE",
+              "alias": "Real Estate Value",
+              "useralias": "Fair Market Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LAND_VALUE",
+              "alias": "Land Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "BUILDING_VALUE",
+              "alias": "Building Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "PROP_CLASS_CODES",
+              "alias": "Property Class",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_PRICE",
+              "alias": "Sale Price",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SALE_YY",
+              "alias": "Sale Year",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_MM",
+              "alias": "Sale Month",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_DD",
+              "alias": "Sale Day",
+              "popuponly": true
+            },
+            {
+              "name": "TRANSIT_CODE",
+              "alias": "Transit Code",
+              "popuponly": true
+            },
+            {
+              "name": "COMM_CAT",
+              "alias": "Commercial Category",
+              "popuponly": true
+            },
+            {
+              "name": "TOTAL_ASSESSMENT",
+              "alias": "Total Assessment",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LEGAL_1",
+              "alias": "Legal Description 1",
+              "popuponly": true
+            },
+            {
+              "name": "LEGAL_2",
+              "alias": "Legal Description 2",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_OR_BOOK",
+              "alias": "Sale or Book",
+              "popuponly": true
+            },
+            {
+              "name": "SALE_OR_PAGE",
+              "alias": "Sale or Page",
+              "popuponly": true
+            },
+            {
+              "name": "BASE_YR_VALUE",
+              "alias": "Base Year Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "BASE_YR_VAL_CPI",
+              "alias": "Base Year Value w/ CPI",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CAMA_LAND_VALUE",
+              "alias": "CAMA Land Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CAMA_BLDG_VALUE",
+              "alias": "CAMA Building Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CAMA_TOTAL_VALUE",
+              "alias": "CAMA Total Value",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "CALCAC",
+              "alias": "Calculated Acreage",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "OWNERNAME",
+              "alias": "Owner Name",
+              "popuponly": true
+            },
+            {
+              "name": "FULLADDRESS",
+              "alias": "Full Address",
+              "popuponly": true
+            },
+            {
+              "name": "ZIPCODE",
+              "alias": "Property Zip Code",
+              "popuponly": true
+            },
+            {
+              "name": "ZONEID",
+              "alias": "Calculated Zoning",
+              "popuponly": true
+            },
+            {
+              "name": "ZONE_DESC",
+              "alias": "Zoning Description",
+              "popuponly": true
+            },
+            {
+              "name": "ALDERID",
+              "alias": "Alderman",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "COMMID",
+              "alias": "Commissioner",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "NBHD_DESC",
+              "alias": "Neighborhood",
+              "popuponly": true
+            },
+            {
+              "name": "LANDUSE_DESC",
+              "alias": "Land Use",
+              "popuponly": true
+            },
+            {
+              "name": "FLOODID",
+              "alias": "Calculated Flood Zone",
+              "popuponly": true
+            },
+            {
+              "name": "ELEMENTARY",
+              "alias": "Elementary School",
+              "popuponly": true
+            },
+            {
+              "name": "MIDDLE",
+              "alias": "Middle School",
+              "popuponly": true
+            },
+            {
+              "name": "HIGH",
+              "alias": "High School",
+              "popuponly": true
+            },
+            {
+              "name": "VOT_PRECINCT",
+              "alias": "Voter Precinct",
+              "popuponly": true
+            },
+            {
+              "name": "ALDER_TXT",
+              "alias": "Alder Text",
+              "popuponly": true
+            },
+            {
+              "name": "SHAPE_Length",
+              "alias": "Shape_Length",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SHAPE_Area",
+              "alias": "Shape_Area",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "NBHD_CODE",
+              "alias": "Neighborhood Text",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "GlobalID",
+              "alias": "GlobalID",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {
+          "link": [
+            {
+              "alias": "View Property Record Card ⇢",
+              "disablelinksifnull": true,
+              "disableinpopup": false,
+              "popuptype": "text",
+              "content": "https://www.chathamtax.org/PT/Datalets/PrintDatalet.aspx?pin={PIN}&amp;gsp=PRC&amp;taxyear=2019&amp;jur=000&amp;ownseq=0&amp;card=1&amp;roll=RE&amp;State=1&amp;item=1&amp;items=-1&amp;all=undefined&amp;ranks=Datalet,Sketch,Photo",
+              "icon": ""
+            },
+            {
+              "alias": "View Tax Assessment ⇢",
+              "disablelinksifnull": true,
+              "disableinpopup": false,
+              "popuptype": "text",
+              "content": "https://www.chathamtax.org/Documents/2019RE/{PIN}.PDF",
+              "icon": ""
+            }
+          ]
+        }
+      },
+      {
+        "name": "Schools",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 106,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            },
+            {
+              "name": "TYPE",
+              "alias": "TYPE"
+            },
+            {
+              "name": "ADDRESS",
+              "alias": "ADDRESS",
+              "popuponly": true
+            },
+            {
+              "name": "CITY",
+              "alias": "CITY",
+              "popuponly": true
+            },
+            {
+              "name": "GRADES",
+              "alias": "GRADES"
+            },
+            {
+              "name": "AFFILIATION",
+              "alias": "AFFILIATION",
+              "popuponly": true
+            },
+            {
+              "name": "RESTRICTIONS",
+              "alias": "RESTRICTIONS",
+              "popuponly": true
+            },
+            {
+              "name": "ZIP",
+              "alias": "ZIP",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SCHOOL_TYPE",
+              "alias": "SCHOOL_TYPE",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Libraries",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 126,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            },
+            {
+              "name": "FULL_ADDRE",
+              "alias": "ADDRESS",
+              "popuponly": true
+            },
+            {
+              "name": "WEBSITE",
+              "alias": "WEBSITE",
+              "popuponly": true
+            },
+            {
+              "name": "BRANCH",
+              "alias": "BRANCH",
+              "popuponly": true
+            },
+            {
+              "name": "TYPE",
+              "alias": "TYPE"
+            },
+            {
+              "name": "CURRENT_ST",
+              "alias": "CURRENT_ST",
+              "popuponly": true
+            },
+            {
+              "name": "PHONE_NUM",
+              "alias": "PHONE_NUM",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Community Centers",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 156,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            },
+            {
+              "name": "ALIAS",
+              "alias": "ALIAS",
+              "popuponly": true
+            },
+            {
+              "name": "ZIP",
+              "alias": "ZIP",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "TYPE",
+              "alias": "TYPE"
+            },
+            {
+              "name": "ADMINISTRATION",
+              "alias": "ADMINISTRATION",
+              "popuponly": true
+            },
+            {
+              "name": "WEBSITE",
+              "alias": "WEBSITE",
+              "popuponly": true
+            },
+            {
+              "name": "Address",
+              "alias": "Address",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Cell Towers",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 105,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "AREA",
+              "alias": "AREA",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "PERIMETER",
+              "alias": "PERIMETER",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "TOWERS_",
+              "alias": "TOWERS_",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "TOWERS_ID",
+              "alias": "TOWERS_ID",
+              "isnumber": true
+            },
+            {
+              "name": "REPORDATE",
+              "alias": "REPORDATE",
+              "popuponly": true
+            },
+            {
+              "name": "TOWERDESC",
+              "alias": "TOWERDESC"
+            },
+            {
+              "name": "HIEGHT",
+              "alias": "HIEGHT",
+              "isnumber": true
+            },
+            {
+              "name": "COLLOCAT",
+              "alias": "COLLOCAT",
+              "isnumber": true
+            },
+            {
+              "name": "MPCFILE",
+              "alias": "MPCFILE",
+              "popuponly": true
+            },
+            {
+              "name": "PIN",
+              "alias": "PIN",
+              "popuponly": true
+            },
+            {
+              "name": "PROLOC",
+              "alias": "PROLOC",
+              "popuponly": true
+            },
+            {
+              "name": "ZONDIST",
+              "alias": "ZONDIST",
+              "popuponly": true
+            },
+            {
+              "name": "X_COORD",
+              "alias": "X_COORD",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Y_COORD",
+              "alias": "Y_COORD",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "TOWERID",
+              "alias": "TOWERID",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LATITUDE",
+              "alias": "LATITUDE",
+              "popuponly": true
+            },
+            {
+              "name": "LONGITUDE",
+              "alias": "LONGITUDE",
+              "popuponly": true
+            },
+            {
+              "name": "ATTACH_1",
+              "alias": "ATTACH_1",
+              "popuponly": true
+            },
+            {
+              "name": "ATTACH_2",
+              "alias": "ATTACH_2",
+              "popuponly": true
+            },
+            {
+              "name": "ATTACH_3",
+              "alias": "ATTACH_3",
+              "popuponly": true
+            },
+            {
+              "name": "ATTACH_4",
+              "alias": "ATTACH_4",
+              "popuponly": true
+            },
+            {
+              "name": "ATTACH_5",
+              "alias": "ATTACH_5",
+              "popuponly": true
+            },
+            {
+              "name": "ATTACH_6",
+              "alias": "ATTACH_6",
+              "popuponly": true
+            },
+            {
+              "name": "ATTACH_7",
+              "alias": "ATTACH_7",
+              "popuponly": true
+            },
+            {
+              "name": "ATTACH_8",
+              "alias": "ATTACH_8",
+              "popuponly": true
+            },
+            {
+              "name": "ATTACH_9",
+              "alias": "ATTACH_9",
+              "popuponly": true
+            },
+            {
+              "name": "ATTACH_10",
+              "alias": "ATTACH_10",
+              "popuponly": true
+            },
+            {
+              "name": "TOWER_OWNER",
+              "alias": "TOWER_OWNER"
+            },
+            {
+              "name": "NOTES",
+              "alias": "NOTES",
+              "popuponly": true
+            },
+            {
+              "name": "POLYGONID",
+              "alias": "POLYGONID",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SCALE",
+              "alias": "SCALE",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "ANGLE",
+              "alias": "ANGLE",
+              "isnumber": true,
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Buildings",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 163,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "Shape_Area",
+              "alias": "Shape_Area",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "status",
+              "alias": "status"
+            },
+            {
+              "name": "area",
+              "alias": "area",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Zoning - City of Savannah (NewZO)",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 195,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ZONE_",
+              "alias": "ZONE"
+            },
+            {
+              "name": "CODE",
+              "alias": "CODE"
+            },
+            {
+              "name": "Comments",
+              "alias": "Comment Reason for Zoning District",
+              "popuponly": true
+            },
+            {
+              "name": "GISArea",
+              "alias": "GIS AREA",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Zoning_DI",
+              "alias": "ZONING DISTRICTS",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Zoning",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 96,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ZONE",
+              "alias": "ZONE"
+            },
+            {
+              "name": "CODE",
+              "alias": "CODE"
+            },
+            {
+              "name": "ZONING_DISTRICT",
+              "alias": "ZONING_DISTRICT"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Local Historic Districts",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 135,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ID",
+              "alias": "ID",
+              "isnumber": true
+            },
+            {
+              "name": "DISTRICT",
+              "alias": "DISTRICT"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Savannah Neighborhoods",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 136,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "NUMBER",
+              "alias": "NUMBER",
+              "isnumber": true
+            },
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Annexations",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 161,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ANNEXATIONS_ID",
+              "alias": "ANNEXATIONS_ID",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SECTION",
+              "alias": "SECTION"
+            },
+            {
+              "name": "ANNEX_DATE",
+              "alias": "ANNEX_DATE"
+            },
+            {
+              "name": "ACREAGE",
+              "alias": "ACREAGE",
+              "isnumber": true
+            },
+            {
+              "name": "DISTANCE",
+              "alias": "DISTANCE",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "COMMENTS",
+              "alias": "COMMENTS",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "CAT Bus Stops",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 154,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ABBR",
+              "alias": "ABBR",
+              "popuponly": true
+            },
+            {
+              "name": "INTERSECTION",
+              "alias": "INTERSECTION",
+              "popuponly": true
+            },
+            {
+              "name": "ROUTE",
+              "alias": "ROUTE"
+            },
+            {
+              "name": "TYPE",
+              "alias": "TYPE",
+              "popuponly": true
+            },
+            {
+              "name": "DIRECTION",
+              "alias": "DIRECTION"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "CAT Bus Routes",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 155,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "RTE_NO",
+              "alias": "RTE_NO"
+            },
+            {
+              "name": "RTE_NAME",
+              "alias": "RTE_NAME"
+            },
+            {
+              "name": "FULLNAME",
+              "alias": "FULLNAME",
+              "popuponly": true
+            },
+            {
+              "name": "DIR_TO_FROM_ORIGIN",
+              "alias": "DIR_TO_FROM_ORIGIN",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Bike Paths",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 162,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "RtA",
+              "alias": "Route A",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "RtB",
+              "alias": "Route B",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "RtC",
+              "alias": "Route C",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SegA",
+              "alias": "Segment on A",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SegB",
+              "alias": "Segment on B",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SegC",
+              "alias": "Segment on C",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Route_Nums",
+              "alias": "Route Numbers",
+              "popuponly": true
+            },
+            {
+              "name": "Rt_Name",
+              "alias": "Route Name"
+            },
+            {
+              "name": "St_Name",
+              "alias": "Street Name"
+            },
+            {
+              "name": "Existing",
+              "alias": "Existing Type"
+            },
+            {
+              "name": "Signed_Rt",
+              "alias": "On a Signed Route",
+              "popuponly": true
+            },
+            {
+              "name": "Class",
+              "alias": "Class Recommended",
+              "popuponly": true
+            },
+            {
+              "name": "Type",
+              "alias": "Type Recommended",
+              "popuponly": true
+            },
+            {
+              "name": "Status_Type",
+              "alias": "Status of Plan",
+              "isnumber": true
+            },
+            {
+              "name": "History",
+              "alias": "Plan Year Origin",
+              "popuponly": true
+            },
+            {
+              "name": "Avg_Daily_Traffic",
+              "alias": "Average Daily Traffic",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Directional_Factor",
+              "alias": "Directional Factor",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Peak_to_Daily_Factor",
+              "alias": "Peak to Daily Factor",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Peak_Hr_Factor",
+              "alias": "Peak Hour Factor",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Peak_15_Min",
+              "alias": "Directional Traffic per 15 Min",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Total_Directional_Thru_Lanes",
+              "alias": "Num Directional Thru Lanes",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Speed_Posted",
+              "alias": "Speed Posted",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Speed_Effective",
+              "alias": "Speed Effective",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Heavy_Veh_Percent",
+              "alias": "Heavy Vehicle Percent",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Pave_Rating_FHWA",
+              "alias": "Pavement Rating FHWA",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Total_Width_Outlane_Shldr",
+              "alias": "Width Outside Lane and Shoulder",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Occ_On_St_Park",
+              "alias": "Occupied On-street Parking Percent",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Width_Pave_Outstripe_to_Edge",
+              "alias": "Width Between Outside Line and Edge",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Width_On_St_Park",
+              "alias": "Width Striped On-street Parking",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Width_Function_of_Vol",
+              "alias": "Effective Lane Width Function of Volume",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "St_Undivided_Unstriped",
+              "alias": "Street Undivided, No Centerline",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Ln_Width_Avg_Effective",
+              "alias": "Average Effective Lane Width",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LOS_Score",
+              "alias": "Level of Service Score",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LOS_Category",
+              "alias": "Level of Service Category",
+              "popuponly": true
+            },
+            {
+              "name": "EXIST_CD",
+              "alias": "Existing Type",
+              "isnumber": true,
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Municipal Boundary",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 133,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ACRES",
+              "alias": "ACRES",
+              "isnumber": true
+            },
+            {
+              "name": "SYM",
+              "alias": "SYM",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            },
+            {
+              "name": "SQ_MILES",
+              "alias": "SQ_MILES",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "ZIP Codes",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 97,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ZIP",
+              "alias": "ZIP"
+            },
+            {
+              "name": "PO_NAME",
+              "alias": "PO_NAME",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Savannah LOMA Parcels",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 130,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "Id",
+              "alias": "Id",
+              "isnumber": true
+            },
+            {
+              "name": "CASE_NO",
+              "alias": "CASE_NO"
+            },
+            {
+              "name": "SYMBOL",
+              "alias": "SYMBOL",
+              "popuponly": true
+            },
+            {
+              "name": "ADDRESS",
+              "alias": "ADDRESS"
+            },
+            {
+              "name": "BLDG_NO",
+              "alias": "BLDG_NO",
+              "popuponly": true
+            },
+            {
+              "name": "PIN",
+              "alias": "PIN",
+              "popuponly": true
+            },
+            {
+              "name": "LEGAL",
+              "alias": "LEGAL",
+              "popuponly": true
+            },
+            {
+              "name": "FZ_NEW",
+              "alias": "FZ_NEW",
+              "popuponly": true
+            },
+            {
+              "name": "FZ_OLD",
+              "alias": "FZ_OLD",
+              "popuponly": true
+            },
+            {
+              "name": "ELEV_NEW",
+              "alias": "ELEV_NEW",
+              "isnumber": true
+            },
+            {
+              "name": "ELEV_OLD",
+              "alias": "ELEV_OLD",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LOMA_DATE",
+              "alias": "LOMA_DATE"
+            },
+            {
+              "name": "COMMENT",
+              "alias": "COMMENT",
+              "popuponly": true
+            },
+            {
+              "name": "PATH",
+              "alias": "PATH",
+              "popuponly": true
+            },
+            {
+              "name": "STATUS",
+              "alias": "STATUS"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Unincorporated Chatham LOMA Parcels",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 131,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "Id",
+              "alias": "Id",
+              "isnumber": true
+            },
+            {
+              "name": "CaseNo",
+              "alias": "CaseNo"
+            },
+            {
+              "name": "DateIssued",
+              "alias": "DateIssued",
+              "isdate": true
+            },
+            {
+              "name": "Identifier",
+              "alias": "Identifier",
+              "popuponly": true
+            },
+            {
+              "name": "MapPanelNo",
+              "alias": "MapPanelNo",
+              "popuponly": true
+            },
+            {
+              "name": "Zone_",
+              "alias": "Zone_",
+              "popuponly": true
+            },
+            {
+              "name": "OUTCOME",
+              "alias": "OUTCOME",
+              "popuponly": true
+            },
+            {
+              "name": "FLOODSRCE",
+              "alias": "FLOODSRCE",
+              "popuponly": true
+            },
+            {
+              "name": "Acre",
+              "alias": "Acre",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Acres",
+              "alias": "Acres",
+              "isnumber": true
+            },
+            {
+              "name": "Revalidated_Lomas_2014",
+              "alias": "Revalidated_Lomas_2014",
+              "popuponly": true
+            },
+            {
+              "name": "Revalidated_Lomas_2018",
+              "alias": "Revalidated_Lomas_2018",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Federal Opportunity Zones",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 153,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ZONE",
+              "alias": "Zone"
+            },
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Less Developed Census Tracts",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 125,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "CENSUS_Tract_2010.GEOID",
+              "alias": "GEOID"
+            },
+            {
+              "name": "CENSUS_Tract_2010.D001",
+              "alias": "TOTAL POPULATION",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Hurricane Evacuation Routes",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 139,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "FULLNAME",
+              "alias": "FULLNAME"
+            },
+            {
+              "name": "ALT_NAME",
+              "alias": "ALT_NAME"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Local Roads",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 111,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "FULLNAME",
+              "alias": "FULLNAME"
+            },
+            {
+              "name": "ALT_NAME",
+              "alias": "ALT_NAME"
+            },
+            {
+              "name": "RD_CLASS",
+              "alias": "RD_CLASS",
+              "popuponly": true
+            },
+            {
+              "name": "HWY_CLASS",
+              "alias": "Highway Classification",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Elevation Certificates (Savannah)",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 143,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ADD_ID",
+              "alias": "ADD_ID",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "PATH",
+              "alias": "PATH"
+            },
+            {
+              "name": "FULL_ADDRESS",
+              "alias": "FULL ADDRESS"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "NGS Benchmark",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 144,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "FEATUREID",
+              "alias": "FEATUREID",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "DATA_DATE",
+              "alias": "DATA_DATE",
+              "popuponly": true
+            },
+            {
+              "name": "DATA_SRCE",
+              "alias": "DATA_SRCE",
+              "popuponly": true
+            },
+            {
+              "name": "DEC_LONG",
+              "alias": "DEC_LONG",
+              "popuponly": true
+            },
+            {
+              "name": "DEC_LAT",
+              "alias": "DEC_LAT",
+              "popuponly": true
+            },
+            {
+              "name": "PID",
+              "alias": "PID",
+              "popuponly": true
+            },
+            {
+              "name": "NAME",
+              "alias": "NAME",
+              "popuponly": true
+            },
+            {
+              "name": "LATITUDE",
+              "alias": "LATITUDE",
+              "popuponly": true
+            },
+            {
+              "name": "LONGITUDE",
+              "alias": "LONGITUDE",
+              "popuponly": true
+            },
+            {
+              "name": "POS_DATUM",
+              "alias": "POS_DATUM",
+              "popuponly": true
+            },
+            {
+              "name": "DATUM_TAG",
+              "alias": "DATUM_TAG",
+              "popuponly": true
+            },
+            {
+              "name": "POS_SRCE",
+              "alias": "POS_SRCE",
+              "popuponly": true
+            },
+            {
+              "name": "ELEVATION",
+              "alias": "ELEVATION"
+            },
+            {
+              "name": "ELEV_DATUM",
+              "alias": "ELEV_DATUM"
+            },
+            {
+              "name": "ELEV_SRCE",
+              "alias": "ELEV_SRCE",
+              "popuponly": true
+            },
+            {
+              "name": "ELLIP_HT",
+              "alias": "ELLIP_HT",
+              "popuponly": true
+            },
+            {
+              "name": "ELLIP_SRCE",
+              "alias": "ELLIP_SRCE",
+              "popuponly": true
+            },
+            {
+              "name": "POS_ORDER",
+              "alias": "POS_ORDER",
+              "popuponly": true
+            },
+            {
+              "name": "POS_CHECK",
+              "alias": "POS_CHECK",
+              "popuponly": true
+            },
+            {
+              "name": "ELEV_ORDER",
+              "alias": "ELEV_ORDER",
+              "popuponly": true
+            },
+            {
+              "name": "ELEV_CLASS",
+              "alias": "ELEV_CLASS",
+              "popuponly": true
+            },
+            {
+              "name": "ELEV_CHECK",
+              "alias": "ELEV_CHECK",
+              "popuponly": true
+            },
+            {
+              "name": "DIST_RATE",
+              "alias": "DIST_RATE",
+              "popuponly": true
+            },
+            {
+              "name": "ELLP_ORDER",
+              "alias": "ELLP_ORDER",
+              "popuponly": true
+            },
+            {
+              "name": "ELLP_CLASS",
+              "alias": "ELLP_CLASS",
+              "popuponly": true
+            },
+            {
+              "name": "FIRST_RECV",
+              "alias": "FIRST_RECV",
+              "popuponly": true
+            },
+            {
+              "name": "LAST_RECV",
+              "alias": "LAST_RECV",
+              "popuponly": true
+            },
+            {
+              "name": "LAST_COND",
+              "alias": "LAST_COND",
+              "popuponly": true
+            },
+            {
+              "name": "LAST_RECBY",
+              "alias": "LAST_RECBY",
+              "popuponly": true
+            },
+            {
+              "name": "SAT_USE",
+              "alias": "SAT_USE",
+              "popuponly": true
+            },
+            {
+              "name": "SAT_DATE",
+              "alias": "SAT_DATE",
+              "popuponly": true
+            },
+            {
+              "name": "STABILITY",
+              "alias": "STABILITY",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "City Council Districts",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 157,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "UNIT",
+              "alias": "UNIT",
+              "isnumber": true
+            },
+            {
+              "name": "ALDERMAN",
+              "alias": "ALDERMAN"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Chatham County Commissioners",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 151,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "UNIT",
+              "alias": "DISTRICT",
+              "isnumber": true
+            },
+            {
+              "name": "COMISSIONER",
+              "alias": "COMMISSIONER"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Effective Flood Zones (2018)",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 150,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "DFIRM_ID",
+              "alias": "DFIRM_ID",
+              "popuponly": true
+            },
+            {
+              "name": "VERSION_ID",
+              "alias": "VERSION_ID",
+              "popuponly": true
+            },
+            {
+              "name": "FLD_AR_ID",
+              "alias": "FLD_AR_ID",
+              "popuponly": true
+            },
+            {
+              "name": "STUDY_TYP",
+              "alias": "STUDY_TYP",
+              "popuponly": true
+            },
+            {
+              "name": "FLD_ZONE",
+              "alias": "FLD_ZONE",
+              "popuponly": true
+            },
+            {
+              "name": "ZONE_SUBTY",
+              "alias": "ZONE_SUBTY",
+              "popuponly": true
+            },
+            {
+              "name": "SFHA_TF",
+              "alias": "SFHA_TF",
+              "popuponly": true
+            },
+            {
+              "name": "STATIC_BFE",
+              "alias": "STATIC_BFE",
+              "isnumber": true
+            },
+            {
+              "name": "V_DATUM",
+              "alias": "V_DATUM",
+              "popuponly": true
+            },
+            {
+              "name": "DEPTH",
+              "alias": "DEPTH",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "LEN_UNIT",
+              "alias": "LEN_UNIT",
+              "popuponly": true
+            },
+            {
+              "name": "VELOCITY",
+              "alias": "VELOCITY",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "VEL_UNIT",
+              "alias": "VEL_UNIT",
+              "popuponly": true
+            },
+            {
+              "name": "AR_REVERT",
+              "alias": "AR_REVERT",
+              "popuponly": true
+            },
+            {
+              "name": "AR_SUBTRV",
+              "alias": "AR_SUBTRV",
+              "popuponly": true
+            },
+            {
+              "name": "BFE_REVERT",
+              "alias": "BFE_REVERT",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "DEP_REVERT",
+              "alias": "DEP_REVERT",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "DUAL_ZONE",
+              "alias": "DUAL_ZONE",
+              "popuponly": true
+            },
+            {
+              "name": "SOURCE_CIT",
+              "alias": "SOURCE_CIT",
+              "popuponly": true
+            },
+            {
+              "name": "FLD_ZONE2",
+              "alias": "FLD_ZONE2"
+            },
+            {
+              "name": "FLD_LABEL",
+              "alias": "FLD_LABEL",
+              "popuponly": true
+            },
+            {
+              "name": "Shape_Length",
+              "alias": "Shape_Length",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Shape_Area",
+              "alias": "Shape_Area",
+              "isnumber": true,
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "SCCPSS K-8 Boundary",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 140,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            },
+            {
+              "name": "GRADES",
+              "alias": "GRADES"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "SCCPSS Elementary School Boundary",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 142,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            },
+            {
+              "name": "GRADES",
+              "alias": "GRADES"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "SCCPSS Middle School Boundary",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 134,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            },
+            {
+              "name": "GRADES",
+              "alias": "GRADES"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "SCCPSS High School Boundary",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 141,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            },
+            {
+              "name": "GRADES",
+              "alias": "GRADES"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Census 2010 Tracts",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 101,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "GEOID",
+              "alias": "GEOID"
+            },
+            {
+              "name": "D001",
+              "alias": "TOTAL POPULATION",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Census 2010 Block Groups",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 102,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "GEOID",
+              "alias": "GEOID"
+            },
+            {
+              "name": "D001",
+              "alias": "TOTAL POPULATION",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Census 2010 Blocks",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 103,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "GEOID",
+              "alias": "GEOID"
+            },
+            {
+              "name": "D001",
+              "alias": "TOTAL POPULATION",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "DFIRM Panels",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 158,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "FIRM_ID",
+              "alias": "FIRM_ID"
+            },
+            {
+              "name": "ST_FIPS",
+              "alias": "ST_FIPS",
+              "popuponly": true
+            },
+            {
+              "name": "PCOMM",
+              "alias": "PCOMM",
+              "popuponly": true
+            },
+            {
+              "name": "PANEL",
+              "alias": "PANEL"
+            },
+            {
+              "name": "SUFFIX",
+              "alias": "SUFFIX",
+              "popuponly": true
+            },
+            {
+              "name": "FIRM_PAN",
+              "alias": "FIRM_PAN",
+              "popuponly": true
+            },
+            {
+              "name": "PANEL_TYP",
+              "alias": "PANEL_TYP",
+              "popuponly": true
+            },
+            {
+              "name": "EFF_DATE",
+              "alias": "EFF_DATE",
+              "isdate": true,
+              "popuponly": true
+            },
+            {
+              "name": "SCALE",
+              "alias": "SCALE",
+              "popuponly": true
+            },
+            {
+              "name": "PNP_REASON",
+              "alias": "PNP_REASON",
+              "popuponly": true
+            },
+            {
+              "name": "NW_LAT",
+              "alias": "NW_LAT",
+              "popuponly": true
+            },
+            {
+              "name": "NW_LONG",
+              "alias": "NW_LONG",
+              "popuponly": true
+            },
+            {
+              "name": "SE_LAT",
+              "alias": "SE_LAT",
+              "popuponly": true
+            },
+            {
+              "name": "SE_LONG",
+              "alias": "SE_LONG",
+              "popuponly": true
+            },
+            {
+              "name": "SOURCE_CIT",
+              "alias": "SOURCE_CIT",
+              "popuponly": true
+            },
+            {
+              "name": "GlobalID",
+              "alias": "GlobalID",
+              "popuponly": true
+            },
+            {
+              "name": "Shape_Length",
+              "alias": "Shape_Length",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Shape_Area",
+              "alias": "Shape_Area",
+              "isnumber": true,
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "DFIRM Cobra Zones",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 159,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "CBRS_ID",
+              "alias": "CBRS_ID",
+              "popuponly": true
+            },
+            {
+              "name": "CBRS_TYP",
+              "alias": "CBRS_TYP",
+              "popuponly": true
+            },
+            {
+              "name": "CBRS_DATE",
+              "alias": "CBRS_DATE",
+              "isdate": true,
+              "popuponly": true
+            },
+            {
+              "name": "CBRS_TF",
+              "alias": "CBRS_TF",
+              "popuponly": true
+            },
+            {
+              "name": "SOURCE_CIT",
+              "alias": "SOURCE_CIT",
+              "popuponly": true
+            },
+            {
+              "name": "GlobalID",
+              "alias": "GlobalID",
+              "popuponly": true
+            },
+            {
+              "name": "Shape_Length",
+              "alias": "Shape_Length",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Shape_Area",
+              "alias": "Shape_Area",
+              "isnumber": true,
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Future Landuse",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 137,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "PIN",
+              "alias": "PIN"
+            },
+            {
+              "name": "FUTURE_LU",
+              "alias": "FUTURE_LU"
+            },
+            {
+              "name": "CALC_ACRES",
+              "alias": "CALC_ACRES",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "COMMENT",
+              "alias": "COMMENT",
+              "popuponly": true
+            },
+            {
+              "name": "COMMENT2",
+              "alias": "COMMENT2",
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "NWI Wetlands",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 188,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ATTRIBUTE",
+              "alias": "ATTRIBUTE"
+            },
+            {
+              "name": "WETLAND_TYPE",
+              "alias": "WETLAND_TYPE"
+            },
+            {
+              "name": "ACRES",
+              "alias": "ACRES",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Wetlands ADID",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGIS2018allLayers/MapServer",
+        "id": 99,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "LABEL",
+              "alias": "LABEL"
+            },
+            {
+              "name": "WETLANDSAD",
+              "alias": "WETLANDSAD",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Geology",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 118,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ACODE",
+              "alias": "ACODE"
+            },
+            {
+              "name": "CODE2",
+              "alias": "CODE2"
+            },
+            {
+              "name": "GEOLOGY_",
+              "alias": "GEOLOGY_",
+              "isnumber": true
+            },
+            {
+              "name": "GEOLOGY_ID",
+              "alias": "GEOLOGY_ID",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Soils",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 107,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "MUKEY",
+              "alias": "MUKEY",
+              "popuponly": true
+            },
+            {
+              "name": "SOILS_",
+              "alias": "SOILS_",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SOILS_ID",
+              "alias": "SOILS_ID",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "SOILTYPE",
+              "alias": "SOILTYPE"
+            },
+            {
+              "name": "HYDRIC",
+              "alias": "HYDRIC",
+              "popuponly": true
+            },
+            {
+              "name": "SOILNAME",
+              "alias": "SOILNAME"
+            },
+            {
+              "name": "LEGEND_DES",
+              "alias": "LEGEND_DES",
+              "popuponly": true
+            },
+            {
+              "name": "Shape_Length",
+              "alias": "Shape_Length",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Shape_Area",
+              "alias": "Shape_Area",
+              "isnumber": true,
+              "popuponly": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Limit of Moderate Wave Action (2018)",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 176,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "LIMWA_ID",
+              "alias": "LIMWA_ID"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Savannah Stormwater Canals",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 172,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "DITCHBK_NUMBER",
+              "alias": "DITCHBK_NUMBER"
+            },
+            {
+              "name": "SUBTYPEID",
+              "alias": "SUBTYPEID"
+            },
+            {
+              "name": "DITCH_LENGTH",
+              "alias": "DITCH_LENGTH",
+              "isnumber": true
+            },
+            {
+              "name": "BED_MAT_D",
+              "alias": "BED_MAT_D"
+            },
+            {
+              "name": "STREAM_FLOW",
+              "alias": "STREAM_FLOW"
+            },
+            {
+              "name": "HYPERLINK",
+              "alias": "HYPERLINK"
+            },
+            {
+              "name": "COMMENT",
+              "alias": "COMMENT"
+            },
+            {
+              "name": "SLOPE_BOTTOM",
+              "alias": "SLOPE_BOTTOM",
+              "isnumber": true
+            },
+            {
+              "name": "SLOPE_U_D",
+              "alias": "SLOPE_U_D"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Savannah 100-Year Storm Hydraulic Model",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 171,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "DRAINAGE_BASIN",
+              "alias": "DRAINAGE BASIN"
+            },
+            {
+              "name": "ENGINEERING_SOURCE",
+              "alias": "ENGINEERING_SOURCE"
+            },
+            {
+              "name": "COMMENT",
+              "alias": "COMMENT"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Local Enterprise & Opportunity Zones",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 189,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ZONE",
+              "alias": "Zone"
+            },
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Military Zones",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 190,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "ZONE",
+              "alias": "Zone"
+            },
+            {
+              "name": "NAME",
+              "alias": "NAME"
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Elevation Certificates (Unincorporated County)",
+        "url": "https://cloud.sagis.org/arcgis/rest/services/SagisOrg2018/SAGISOrg/MapServer",
+        "id": 194,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "Match_addr",
+              "alias": "Address_Matched",
+              "popuponly": true
+            },
+            {
+              "name": "ARC_Single",
+              "alias": "AddressFromCert"
+            },
+            {
+              "name": "Date",
+              "alias": "Date",
+              "isdate": true
+            },
+            {
+              "name": "OwnerLastN",
+              "alias": "OwnerLastName"
+            },
+            {
+              "name": "OwnerFirst",
+              "alias": "OwnerFirstName"
+            },
+            {
+              "name": "LotNumber",
+              "alias": "LotNumber",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Subdivisio",
+              "alias": "Subdivision",
+              "popuponly": true
+            },
+            {
+              "name": "HabitalFlo",
+              "alias": "HabitalFlo",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "RequiredEl",
+              "alias": "RequiredEl",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "PanelNo",
+              "alias": "PanelNo",
+              "isnumber": true,
+              "popuponly": true
+            },
+            {
+              "name": "Zone",
+              "alias": "Zone",
+              "popuponly": true
+            },
+            {
+              "name": "BFE",
+              "alias": "BFE"
+            },
+            {
+              "name": "Comments",
+              "alias": "Comments",
+              "popuponly": true
+            },
+            {
+              "name": "Datum",
+              "alias": "Datum",
+              "popuponly": true
+            },
+            {
+              "name": "Link",
+              "alias": "Link"
+            }
+          ]
+        },
+        "links": {}
+      }
+    ],
+    "excludelayer": [
+      {
+        "name": "Condos"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Reference/World_Transportation/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Reference/World_Reference_Overlay/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places_Alternate/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Reference/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/NatGeo_World_Map/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Ocean_Basemap/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/USA_Topo_Maps/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer"
+      },
+      {
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer"
+      },
+      {
+        "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer"
+      }
+    ]
+  },
+  "symbols": {
+    "simplemarkersymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        255
+      ],
+      "size": 9,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "outline": {
+        "color": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      }
+    },
+    "picturemarkersymbol": {
+      "url": "images/i_info.png",
+      "height": "20",
+      "width": "20",
+      "type": "esriPMS",
+      "angle": "0"
+    },
+    "simplelinesymbol": {
+      "color": [
+        245,
+        8,
+        8,
+        230
+      ],
+      "width": 1.5,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "simplefillsymbol": {
+      "color": [
+        153,
+        0,
+        255,
+        33
+      ],
+      "outline": {
+        "color": [
+          162,
+          0,
+          255,
+          255
+        ],
+        "width": 0.75,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "resultFormat": {
+    "attTitlesymbol": {
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "color": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "attValuesymbol": {
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "color": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "wrap": true
+  }
+}

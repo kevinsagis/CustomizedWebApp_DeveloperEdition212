@@ -1,0 +1,1069 @@
+[2019-04-14T13:58:21.958] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-04-14T13:58:36.230] [INFO] app - Find 6 predfinded apps.
+[2019-04-14T13:58:36.231] [INFO] repo - insert HTML.About
+[2019-04-14T13:58:36.232] [INFO] repo - insert HTML.AddData
+[2019-04-14T13:58:36.232] [INFO] repo - insert HTML.Analysis
+[2019-04-14T13:58:36.233] [INFO] repo - insert HTML.AttributeTable
+[2019-04-14T13:58:36.234] [INFO] repo - insert HTML.BasemapGallery
+[2019-04-14T13:58:36.235] [INFO] repo - insert HTML.BatchAttributeEditor
+[2019-04-14T13:58:36.235] [INFO] repo - insert HTML.Bookmark
+[2019-04-14T13:58:36.236] [INFO] repo - insert HTML.Chart
+[2019-04-14T13:58:36.237] [INFO] repo - insert HTML.Coordinate
+[2019-04-14T13:58:36.237] [INFO] repo - insert HTML.CoordinateConversion
+[2019-04-14T13:58:36.238] [INFO] repo - insert HTML.CostAnalysis
+[2019-04-14T13:58:36.239] [INFO] repo - insert HTML.DataAggregation
+[2019-04-14T13:58:36.241] [INFO] repo - insert HTML.Directions
+[2019-04-14T13:58:36.242] [INFO] repo - insert HTML.DistanceAndDirection
+[2019-04-14T13:58:36.243] [INFO] repo - insert HTML.DistrictLookup
+[2019-04-14T13:58:36.243] [INFO] repo - insert HTML.Draw
+[2019-04-14T13:58:36.244] [INFO] repo - insert HTML.Edit
+[2019-04-14T13:58:36.245] [INFO] repo - insert HTML.EmergencyResponseGuide
+[2019-04-14T13:58:36.246] [INFO] repo - insert HTML.ExtentNavigate
+[2019-04-14T13:58:36.247] [INFO] repo - insert HTML.Filter
+[2019-04-14T13:58:36.248] [INFO] repo - insert HTML.FullScreen
+[2019-04-14T13:58:36.248] [INFO] repo - insert HTML.GeoLookup
+[2019-04-14T13:58:36.251] [INFO] repo - insert HTML.Geoprocessing
+[2019-04-14T13:58:36.252] [INFO] repo - insert HTML.GriddedReferenceGraphic
+[2019-04-14T13:58:36.252] [INFO] repo - insert HTML.GridOverlay
+[2019-04-14T13:58:36.253] [INFO] repo - insert HTML.GroupFilter
+[2019-04-14T13:58:36.254] [INFO] repo - insert HTML.HomeButton
+[2019-04-14T13:58:36.255] [INFO] repo - insert HTML.ImageMeasurement
+[2019-04-14T13:58:36.256] [INFO] repo - insert HTML.IncidentAnalysis
+[2019-04-14T13:58:36.257] [INFO] repo - insert HTML.Infographic
+[2019-04-14T13:58:36.257] [INFO] repo - insert HTML.InfoSummary
+[2019-04-14T13:58:36.258] [INFO] repo - insert HTML.LayerList
+[2019-04-14T13:58:36.259] [INFO] repo - insert HTML.Legend
+[2019-04-14T13:58:36.262] [INFO] repo - insert HTML.Measurement
+[2019-04-14T13:58:36.263] [INFO] repo - insert HTML.MyLocation
+[2019-04-14T13:58:36.265] [INFO] repo - insert HTML.NearMe
+[2019-04-14T13:58:36.266] [INFO] repo - insert HTML.NetworkTrace
+[2019-04-14T13:58:36.267] [INFO] repo - insert HTML.ObliqueViewer
+[2019-04-14T13:58:36.268] [INFO] repo - insert HTML.OverviewMap
+[2019-04-14T13:58:36.269] [INFO] repo - insert HTML.ParcelDrafter
+[2019-04-14T13:58:36.270] [INFO] repo - insert HTML.Print
+[2019-04-14T13:58:36.273] [INFO] repo - insert HTML.PublicNotification
+[2019-04-14T13:58:36.274] [INFO] repo - insert HTML.Query
+[2019-04-14T13:58:36.276] [INFO] repo - insert HTML.RelatedTableCharts
+[2019-04-14T13:58:36.277] [INFO] repo - insert HTML.ReportFeature
+[2019-04-14T13:58:36.279] [INFO] repo - insert HTML.ReviewerDashboard
+[2019-04-14T13:58:36.280] [INFO] repo - insert HTML.Scalebar
+[2019-04-14T13:58:36.281] [INFO] repo - insert HTML.Screening
+[2019-04-14T13:58:36.283] [INFO] repo - insert HTML.Search
+[2019-04-14T13:58:36.284] [INFO] repo - insert HTML.Select
+[2019-04-14T13:58:36.286] [INFO] repo - insert HTML.Share
+[2019-04-14T13:58:36.286] [INFO] repo - insert HTML.SituationAwareness
+[2019-04-14T13:58:36.288] [INFO] repo - insert HTML.SmartEditor
+[2019-04-14T13:58:36.289] [INFO] repo - insert HTML.Splash
+[2019-04-14T13:58:36.290] [INFO] repo - insert HTML.Stream
+[2019-04-14T13:58:36.291] [INFO] repo - insert HTML.SuitabilityModeler
+[2019-04-14T13:58:36.294] [INFO] repo - insert HTML.Summary
+[2019-04-14T13:58:36.294] [INFO] repo - insert HTML.Swipe
+[2019-04-14T13:58:36.296] [INFO] repo - insert HTML.ThreatAnalysis
+[2019-04-14T13:58:36.297] [INFO] repo - insert HTML.TimeSlider
+[2019-04-14T13:58:36.298] [INFO] repo - insert HTML.Visibility
+[2019-04-14T13:58:36.298] [INFO] repo - insert HTML.ZoomSlider
+[2019-04-14T13:58:36.302] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-04-14T13:58:38.429] [INFO] repo - insert HTML.BillboardTheme
+[2019-04-14T13:58:38.432] [INFO] repo - insert HTML.DashboardTheme
+[2019-04-14T13:58:38.434] [INFO] repo - insert HTML.DartTheme
+[2019-04-14T13:58:38.436] [INFO] repo - insert HTML.JewelryBoxTheme
+[2019-04-14T13:58:38.437] [INFO] repo - insert HTML.BoxTheme
+[2019-04-14T13:58:38.438] [INFO] repo - insert HTML.LaunchpadTheme
+[2019-04-14T13:58:38.439] [INFO] repo - insert HTML.TabTheme
+[2019-04-14T13:58:38.442] [INFO] repo - insert HTML.PocketTheme
+[2019-04-14T13:58:38.444] [INFO] repo - insert HTML.PlateauTheme
+[2019-04-14T13:58:38.445] [INFO] repo - insert HTML.FoldableTheme
+[2019-04-14T13:58:38.446] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-04-14T13:58:41.815] [INFO] repo - insert HTML3D.Compass
+[2019-04-14T13:58:41.817] [INFO] repo - insert HTML3D.BasemapGallery
+[2019-04-14T13:58:41.818] [INFO] repo - insert HTML3D.About
+[2019-04-14T13:58:41.820] [INFO] repo - insert HTML3D.Search
+[2019-04-14T13:58:41.821] [INFO] repo - insert HTML3D.3DFx
+[2019-04-14T13:58:41.822] [INFO] repo - insert HTML3D.Home
+[2019-04-14T13:58:41.823] [INFO] repo - insert HTML3D.Legend
+[2019-04-14T13:58:41.824] [INFO] repo - insert HTML3D.LayerList
+[2019-04-14T13:58:41.828] [INFO] repo - insert HTML3D.Splash
+[2019-04-14T13:58:41.829] [INFO] repo - insert HTML3D.FullScreen
+[2019-04-14T13:58:41.830] [INFO] repo - insert HTML3D.Navigate
+[2019-04-14T13:58:41.831] [INFO] repo - insert HTML3D.MyLocation
+[2019-04-14T13:58:41.832] [INFO] repo - insert HTML3D.Coordinate
+[2019-04-14T13:58:41.833] [INFO] repo - insert HTML3D.ZoomSlider
+[2019-04-14T13:58:41.834] [INFO] repo - insert HTML3D.Share
+[2019-04-14T13:58:41.835] [INFO] repo - insert HTML3D.Daylight
+[2019-04-14T13:58:41.837] [INFO] repo - insert HTML3D.Measurement3D
+[2019-04-14T13:58:41.838] [INFO] repo - insert HTML3D.Slides
+[2019-04-14T13:58:41.839] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-04-14T13:58:43.083] [INFO] repo - insert HTML3D.BillboardTheme
+[2019-04-14T13:58:43.085] [INFO] repo - insert HTML3D.DartTheme
+[2019-04-14T13:58:43.087] [INFO] repo - insert HTML3D.DashboardTheme
+[2019-04-14T13:58:43.089] [INFO] repo - insert HTML3D.BoxTheme
+[2019-04-14T13:58:43.090] [INFO] repo - insert HTML3D.JewelryBoxTheme
+[2019-04-14T13:58:43.093] [INFO] repo - insert HTML3D.LaunchpadTheme
+[2019-04-14T13:58:43.095] [INFO] repo - insert HTML3D.TabTheme
+[2019-04-14T13:58:43.096] [INFO] repo - insert HTML3D.FoldableTheme
+[2019-04-14T14:00:01.671] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2019-04-14T14:00:08.246] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\images
+[2019-04-14T14:00:08.291] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\libs
+[2019-04-14T14:00:08.868] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2019-04-14T14:00:08.884] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2019-04-14T14:00:08.891] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2019-04-14T14:00:08.897] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2019-04-14T14:00:08.915] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2019-04-14T14:00:08.925] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2019-04-14T14:00:08.967] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2019-04-14T14:00:08.981] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2019-04-14T14:00:08.997] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\configs
+[2019-04-14T14:00:09.034] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2019-04-14T14:00:09.048] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2019-04-14T14:00:09.058] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2019-04-14T14:00:09.083] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme
+[2019-04-14T14:00:10.534] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2019-04-14T14:00:11.191] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2019-04-14T14:00:11.959] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2019-04-14T14:00:12.751] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2019-04-14T14:00:13.484] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2019-04-14T14:00:13.718] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2019-04-14T14:00:14.382] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2019-04-14T14:00:15.334] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2019-04-14T14:00:16.260] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2019-04-14T14:00:16.510] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2019-04-14T14:00:16.774] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2019-04-14T14:00:17.051] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2019-04-14T14:00:17.733] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-04-14T14:09:27.929] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\LaunchpadTheme
+[2019-04-14T14:09:46.839] [INFO] app - remove theme FoldableTheme from app 2
+[2019-04-14T14:27:04.560] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Bookmark
+[2019-04-14T14:27:05.923] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Directions
+[2019-04-14T14:27:06.760] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\DistanceAndDirection
+[2019-04-14T14:27:07.861] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\DistrictLookup
+[2019-04-14T14:27:09.097] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\IncidentAnalysis
+[2019-04-14T14:27:10.253] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\NearMe
+[2019-04-14T14:27:11.744] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Print
+[2019-04-14T14:27:12.474] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Screening
+[2019-04-14T14:27:14.221] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Select
+[2019-04-14T14:27:15.131] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\SituationAwareness
+[2019-04-14T14:27:16.501] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Swipe
+[2019-04-14T14:27:17.485] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ThreatAnalysis
+[2019-04-14T14:27:19.398] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\About
+[2019-04-14T14:27:20.088] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AddData
+[2019-04-14T14:27:21.289] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\BasemapGallery
+[2019-04-14T14:38:15.496] [INFO] app - remove widget ThreatAnalysis from app 2
+[2019-04-15T09:43:14.182] [INFO] repo - insert HTML.eSearch
+[2019-04-15T09:43:15.592] [INFO] repo - insert HTML.eDraw
+[2019-04-15T09:43:16.095] [INFO] repo - insert HTML.Pictometry
+[2019-04-15T09:43:16.474] [INFO] repo - insert HTML.Streetview
+[2019-04-15T12:00:30.509] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-04-15T12:00:45.317] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-04-15T12:00:47.393] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-04-15T12:00:50.614] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-04-15T15:09:40.923] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eDraw
+[2019-04-15T15:09:41.572] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Pictometry
+[2019-04-15T15:09:41.807] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Streetview
+[2019-04-15T15:14:41.949] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearch
+[2019-04-15T16:58:17.754] [INFO] repo - insert HTML.Identify
+[2019-04-15T16:58:48.565] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-04-15T16:58:54.013] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-04-15T16:58:55.248] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-04-15T16:58:56.620] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-04-15T16:59:12.907] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Identify
+[2019-04-15T17:00:13.628] [INFO] app - remove widget icon icon_widgets_Identify_Widget_42.png from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-04-15T17:20:37.522] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Share
+[2019-04-15T17:21:49.204] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-04-15T17:23:00.783] [INFO] app - remove widget Infographic from app 2
+[2019-05-01T08:53:04.803] [INFO] default - No token is found, redirect /webappbuilder/?id=2 to /webappbuilder/?id=2&action=setportalurl
+[2019-05-02T10:07:21.418] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\BillboardTheme\manifest.json
+[2019-05-02T10:07:21.529] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\BoxTheme\manifest.json
+[2019-05-02T10:07:21.847] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\DartTheme\manifest.json
+[2019-05-02T10:07:22.102] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\DashboardTheme\manifest.json
+[2019-05-02T10:07:22.716] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\DemoTheme\manifest.json
+[2019-05-02T10:07:23.222] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme\manifest.json
+[2019-05-02T10:07:23.233] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\JewelryBoxTheme\manifest.json
+[2019-05-02T10:07:23.450] [INFO] repo - insert HTML.DemoTheme
+[2019-05-02T10:07:23.739] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\LaunchpadTheme\manifest.json
+[2019-05-02T10:07:24.179] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\PlateauTheme\manifest.json
+[2019-05-02T10:07:24.538] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\PocketTheme\manifest.json
+[2019-05-02T10:07:24.639] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\TabTheme\manifest.json
+[2019-05-02T10:07:25.291] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\About\manifest.json
+[2019-05-02T10:07:25.435] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AddData\manifest.json
+[2019-05-02T10:07:25.700] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Analysis\manifest.json
+[2019-05-02T10:07:25.939] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable\manifest.json
+[2019-05-02T10:07:26.149] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\BasemapGallery\manifest.json
+[2019-05-02T10:07:26.389] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\BatchAttributeEditor\manifest.json
+[2019-05-02T10:07:26.605] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Bookmark\manifest.json
+[2019-05-02T10:07:26.824] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Chart\manifest.json
+[2019-05-02T10:07:26.924] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate\manifest.json
+[2019-05-02T10:07:27.127] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\CoordinateConversion\manifest.json
+[2019-05-02T10:07:27.464] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\CostAnalysis\manifest.json
+[2019-05-02T10:07:27.800] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\DataAggregation\manifest.json
+[2019-05-02T10:07:27.833] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Directions\manifest.json
+[2019-05-02T10:07:28.034] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\DistanceAndDirection\manifest.json
+[2019-05-02T10:07:28.349] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\DistrictLookup\manifest.json
+[2019-05-02T10:07:28.525] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Draw\manifest.json
+[2019-05-02T10:07:28.758] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Edit\manifest.json
+[2019-05-02T10:07:28.943] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eDraw\manifest.json
+[2019-05-02T10:07:29.279] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\EmergencyResponseGuide\manifest.json
+[2019-05-02T10:07:29.603] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearch\manifest.json
+[2019-05-02T10:07:29.663] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate\manifest.json
+[2019-05-02T10:07:29.767] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Filter\manifest.json
+[2019-05-02T10:07:29.968] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen\manifest.json
+[2019-05-02T10:07:29.998] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GeoLookup\manifest.json
+[2019-05-02T10:07:30.239] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Geoprocessing\manifest.json
+[2019-05-02T10:07:30.642] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GriddedReferenceGraphic\manifest.json
+[2019-05-02T10:07:30.903] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GridOverlay\manifest.json
+[2019-05-02T10:07:31.056] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GroupFilter\manifest.json
+[2019-05-02T10:07:31.157] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton\manifest.json
+[2019-05-02T10:07:31.268] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Identify\manifest.json
+[2019-05-02T10:07:31.285] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ImageMeasurement\manifest.json
+[2019-05-02T10:07:31.597] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\IncidentAnalysis\manifest.json
+[2019-05-02T10:07:31.799] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic\manifest.json
+[2019-05-02T10:07:32.185] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\InfoSummary\manifest.json
+[2019-05-02T10:07:32.385] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList\manifest.json
+[2019-05-02T10:07:32.523] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend\manifest.json
+[2019-05-02T10:07:32.728] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Measurement\manifest.json
+[2019-05-02T10:07:32.918] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation\manifest.json
+[2019-05-02T10:07:33.108] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\NearMe\manifest.json
+[2019-05-02T10:07:33.278] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\NetworkTrace\manifest.json
+[2019-05-02T10:07:33.497] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ObliqueViewer\manifest.json
+[2019-05-02T10:07:33.680] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap\manifest.json
+[2019-05-02T10:07:33.886] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ParcelDrafter\manifest.json
+[2019-05-02T10:07:34.189] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Pictometry\manifest.json
+[2019-05-02T10:07:34.330] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Print\manifest.json
+[2019-05-02T10:07:34.396] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\PublicNotification\manifest.json
+[2019-05-02T10:07:34.702] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Query\manifest.json
+[2019-05-02T10:07:34.852] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\RelatedTableCharts\manifest.json
+[2019-05-02T10:07:35.173] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ReportFeature\manifest.json
+[2019-05-02T10:07:35.423] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ReviewerDashboard\manifest.json
+[2019-05-02T10:07:35.681] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar\manifest.json
+[2019-05-02T10:07:35.941] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Screening\manifest.json
+[2019-05-02T10:07:36.096] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search\manifest.json
+[2019-05-02T10:07:36.453] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Select\manifest.json
+[2019-05-02T10:07:36.514] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Share\manifest.json
+[2019-05-02T10:07:36.665] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\SituationAwareness\manifest.json
+[2019-05-02T10:07:36.996] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\SmartEditor\manifest.json
+[2019-05-02T10:07:37.255] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash\manifest.json
+[2019-05-02T10:07:37.535] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Stream\manifest.json
+[2019-05-02T10:07:37.667] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Streetview\manifest.json
+[2019-05-02T10:07:37.713] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\SuitabilityModeler\manifest.json
+[2019-05-02T10:07:37.867] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Summary\manifest.json
+[2019-05-02T10:07:38.144] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Swipe\manifest.json
+[2019-05-02T10:07:38.586] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ThreatAnalysis\manifest.json
+[2019-05-02T10:07:38.732] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\TimeSlider\manifest.json
+[2019-05-02T10:07:38.929] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Visibility\manifest.json
+[2019-05-02T10:07:39.243] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider\manifest.json
+[2019-05-02T10:07:39.890] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes\BillboardTheme\manifest.json
+[2019-05-02T10:07:39.935] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes\BoxTheme\manifest.json
+[2019-05-02T10:07:40.240] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes\DartTheme\manifest.json
+[2019-05-02T10:07:40.516] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes\DashboardTheme\manifest.json
+[2019-05-02T10:07:40.932] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes\FoldableTheme\manifest.json
+[2019-05-02T10:07:41.142] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes\JewelryBoxTheme\manifest.json
+[2019-05-02T10:07:41.712] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes\LaunchpadTheme\manifest.json
+[2019-05-02T10:07:42.029] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes\TabTheme\manifest.json
+[2019-05-02T10:07:42.350] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\3DFx\manifest.json
+[2019-05-02T10:07:42.670] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\About\manifest.json
+[2019-05-02T10:07:42.830] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\BasemapGallery\manifest.json
+[2019-05-02T10:07:42.884] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\Compass\manifest.json
+[2019-05-02T10:07:43.120] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\Coordinate\manifest.json
+[2019-05-02T10:07:43.185] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\Daylight\manifest.json
+[2019-05-02T10:07:43.365] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\FullScreen\manifest.json
+[2019-05-02T10:07:43.504] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\Home\manifest.json
+[2019-05-02T10:07:43.584] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\LayerList\manifest.json
+[2019-05-02T10:07:43.664] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\Legend\manifest.json
+[2019-05-02T10:07:43.864] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\Measurement3D\manifest.json
+[2019-05-02T10:07:43.971] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\MyLocation\manifest.json
+[2019-05-02T10:07:44.204] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\Navigate\manifest.json
+[2019-05-02T10:07:44.380] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\Search\manifest.json
+[2019-05-02T10:07:44.579] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\Share\manifest.json
+[2019-05-02T10:07:45.028] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\Slides\manifest.json
+[2019-05-02T10:07:45.108] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\Splash\manifest.json
+[2019-05-02T10:07:45.262] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets\ZoomSlider\manifest.json
+[2019-05-03T17:38:25.905] [INFO] default - redirect /webappbuilder/apps/13 to /webappbuilder/404.html
+[2019-05-06T14:09:15.155] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2019-05-06T14:09:22.806] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\images
+[2019-05-06T14:09:22.854] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\libs
+[2019-05-06T14:09:23.443] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2019-05-06T14:09:23.460] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2019-05-06T14:09:23.466] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2019-05-06T14:09:23.472] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2019-05-06T14:09:23.488] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2019-05-06T14:09:23.499] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2019-05-06T14:09:23.543] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2019-05-06T14:09:23.556] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2019-05-06T14:09:23.574] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\configs
+[2019-05-06T14:09:23.614] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2019-05-06T14:09:23.628] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2019-05-06T14:09:23.637] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2019-05-06T14:09:23.660] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme
+[2019-05-06T14:09:25.425] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2019-05-06T14:09:26.307] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2019-05-06T14:09:27.213] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2019-05-06T14:09:28.486] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2019-05-06T14:09:29.682] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2019-05-06T14:09:30.227] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2019-05-06T14:09:31.220] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2019-05-06T14:09:32.582] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2019-05-06T14:09:33.701] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2019-05-06T14:09:34.113] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2019-05-06T14:09:34.549] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2019-05-06T14:09:35.035] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2019-05-06T14:09:35.907] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-05-07T09:29:46.788] [INFO] app - remove widget IncidentAnalysis from app 2
+[2019-05-07T09:46:06.871] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\IncidentAnalysis
+[2019-05-07T10:00:34.147] [INFO] app - remove widget Swipe from app 2
+[2019-05-07T12:09:05.767] [INFO] app - remove widget IncidentAnalysis from app 2
+[2019-05-07T12:13:08.206] [INFO] repo - insert HTML.GoogleMaps
+[2019-05-07T12:14:46.125] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GoogleMaps
+[2019-05-07T12:19:16.421] [INFO] app - remove widget GoogleMaps from app 2
+[2019-05-07T12:19:33.288] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GoogleMaps
+[2019-05-07T12:24:09.540] [INFO] app - remove widget GoogleMaps from app 2
+[2019-05-07T12:27:52.389] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GoogleMaps
+[2019-05-07T12:29:24.013] [INFO] app - remove widget GoogleMaps from app 2
+[2019-05-07T12:29:26.728] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GoogleMaps
+[2019-05-07T12:40:45.763] [INFO] app - remove widget DistrictLookup from app 2
+[2019-05-07T13:09:49.524] [INFO] app - remove widget config config_widgets_Screening_Widget_60.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-07T13:10:14.504] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-05-07T13:12:37.127] [INFO] app - remove widget Infographic from app 2
+[2019-05-07T13:12:46.827] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-05-09T09:57:47.295] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\PublicNotification
+[2019-05-09T10:02:42.458] [INFO] app - remove widget PublicNotification from app 2
+[2019-05-09T11:19:24.724] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2019-05-09T11:19:34.142] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\images
+[2019-05-09T11:19:34.210] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\libs
+[2019-05-09T11:19:35.191] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2019-05-09T11:19:35.208] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2019-05-09T11:19:35.224] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2019-05-09T11:19:35.241] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2019-05-09T11:19:35.256] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2019-05-09T11:19:35.268] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2019-05-09T11:19:35.312] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2019-05-09T11:19:35.326] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2019-05-09T11:19:35.343] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\configs
+[2019-05-09T11:19:35.382] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2019-05-09T11:19:35.395] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2019-05-09T11:19:35.407] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2019-05-09T11:19:35.431] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme
+[2019-05-09T11:19:37.446] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2019-05-09T11:19:38.402] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2019-05-09T11:19:39.508] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2019-05-09T11:19:40.833] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2019-05-09T11:19:41.937] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2019-05-09T11:19:42.380] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2019-05-09T11:19:43.402] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2019-05-09T11:19:44.743] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2019-05-09T11:19:46.084] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2019-05-09T11:19:46.558] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2019-05-09T11:19:47.032] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2019-05-09T11:19:47.548] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2019-05-09T11:19:48.475] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-05-09T11:20:29.264] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Screening
+[2019-05-09T11:21:02.124] [INFO] app - remove widget Screening from app 4
+[2019-05-09T11:21:09.184] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Screening
+[2019-05-09T11:23:44.939] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\LaunchpadTheme
+[2019-05-09T11:23:49.476] [INFO] app - remove theme FoldableTheme from app 4
+[2019-05-09T12:09:56.202] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-05-09T12:10:09.915] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-05-09T12:10:11.979] [INFO] repo - delete HTML.DemoTheme
+[2019-05-09T12:10:11.980] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-05-09T12:10:15.851] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-05-09T12:20:37.863] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-05-09T12:22:56.573] [INFO] app - remove widget Infographic from app 2
+[2019-05-09T12:22:56.577] [INFO] app - remove widget config config_widgets_Screening_Widget_48OLDoriginal.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-09T12:22:56.578] [INFO] app - remove widget config config_widgets_Screening_Widget_48_4.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-09T12:27:22.563] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-05-09T12:43:06.321] [INFO] app - remove widget icon icon_widgets_Infographic_Widget_63.png from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-09T12:43:06.331] [INFO] app - remove widget icon icon_widgets_Infographic_Widget_73.png from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-09T12:43:06.333] [INFO] app - remove widget icon icon_widgets_Infographic_Widget_74.png from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-09T12:43:06.336] [INFO] app - remove widget config config_widgets_Infographic_Widget_60old.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-09T12:43:06.337] [INFO] app - remove widget config config_widgets_Infographic_Widget_61old.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-09T12:43:06.341] [INFO] app - remove widget config config_widgets_Infographic_Widget_62old.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-09T13:04:26.626] [INFO] app - remove widget Infographic from app 2
+[2019-05-09T13:04:31.037] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-05-09T15:20:51.281] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-05-09T15:20:57.811] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-05-09T15:20:58.863] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-05-09T15:21:00.169] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-05-09T15:21:22.410] [INFO] app - remove widget Infographic from app 2
+[2019-05-09T15:28:35.022] [INFO] app - remove widget config config_widgets_Screening_Widget_48old.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-09T15:30:26.411] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-05-09T15:37:58.914] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2019-05-09T15:38:02.979] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\images
+[2019-05-09T15:38:03.030] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\libs
+[2019-05-09T15:38:03.253] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2019-05-09T15:38:03.263] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2019-05-09T15:38:03.271] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2019-05-09T15:38:03.277] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2019-05-09T15:38:03.285] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2019-05-09T15:38:03.291] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2019-05-09T15:38:03.315] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2019-05-09T15:38:03.322] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2019-05-09T15:38:03.329] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\configs
+[2019-05-09T15:38:03.358] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2019-05-09T15:38:03.366] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2019-05-09T15:38:03.373] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2019-05-09T15:38:03.396] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme
+[2019-05-09T15:38:04.589] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2019-05-09T15:38:05.215] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2019-05-09T15:38:05.807] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2019-05-09T15:38:06.431] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2019-05-09T15:38:07.052] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2019-05-09T15:38:07.328] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2019-05-09T15:38:07.924] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2019-05-09T15:38:08.698] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2019-05-09T15:38:09.415] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2019-05-09T15:38:09.679] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2019-05-09T15:38:09.967] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2019-05-09T15:38:10.240] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2019-05-09T15:38:10.788] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-05-09T15:39:16.490] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-05-09T15:39:35.807] [INFO] app - remove widget Infographic from app 5
+[2019-05-09T15:39:38.815] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-05-13T08:39:24.846] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-05-13T08:39:47.973] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-05-13T08:39:51.271] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-05-13T08:39:55.422] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-05-13T15:31:14.593] [INFO] app - remove widget NearMe from app 2
+[2019-05-13T15:59:02.264] [DEBUG] default - on tcp proxy error
+[2019-05-14T08:45:31.325] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=2 to /webappbuilder/apps/2
+[2019-05-17T11:31:18.995] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-05-17T11:31:34.720] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-05-17T11:31:37.088] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-05-17T11:31:40.706] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-05-17T12:43:15.324] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearchNEW\manifest.json
+[2019-05-17T12:43:15.531] [INFO] repo - insert HTML.eSearchNEW
+[2019-05-17T12:45:07.158] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-05-17T12:45:12.204] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-05-17T12:45:13.086] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-05-17T12:45:14.419] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-05-17T12:48:35.030] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearchNEW
+[2019-05-17T13:02:34.048] [INFO] app - remove widget icon icon_widgets_eSearch_Widget_64.png from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-17T13:02:34.051] [INFO] app - remove widget config config_widgets_eSearch_Widget_64.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-20T12:50:49.047] [DEBUG] default - on tcp proxy error
+[2019-05-20T12:50:49.050] [DEBUG] default - on tcp proxy error
+[2019-05-23T11:46:44.358] [INFO] default - No token is found, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2019-05-28T13:26:03.351] [INFO] repo - insert HTML.AppUpdate
+[2019-05-28T13:26:17.405] [INFO] repo - insert HTML.GoogleAnalytics
+[2019-05-28T13:26:34.378] [INFO] repo - insert HTML.SaveSession
+[2019-05-28T13:26:43.044] [INFO] repo - insert HTML.Weather
+[2019-05-28T13:27:37.596] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-05-28T13:27:53.415] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-05-28T13:27:55.702] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-05-28T13:28:00.045] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-05-28T13:28:05.274] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-05-28T13:28:06.274] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-05-28T13:28:09.606] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-05-28T13:30:04.407] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AppUpdate
+[2019-05-28T13:30:04.415] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GoogleAnalytics
+[2019-05-28T13:30:04.423] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Visibility
+[2019-05-28T13:30:05.519] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Weather
+[2019-05-28T13:30:05.723] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\CostAnalysis
+[2019-05-28T13:30:07.769] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\DistrictLookup
+[2019-05-28T13:30:09.221] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\SaveSession
+[2019-05-28T13:32:34.860] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AppUpdate
+[2019-05-28T13:33:28.200] [INFO] repo - delete C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Custom-WAB-widget-AppUpdate-master
+[2019-05-28T13:33:28.223] [INFO] repo - insert HTML.AppUpdate
+[2019-05-28T13:33:35.196] [INFO] repo - delete C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\esri-wab-widget-google-analytics-master
+[2019-05-28T13:33:35.215] [INFO] repo - insert HTML.GoogleAnalytics
+[2019-05-28T13:34:12.473] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AppUpdate
+[2019-05-28T13:35:41.313] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GoogleAnalytics
+[2019-05-28T13:36:29.371] [INFO] repo - delete C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\SaveSession-Widget
+[2019-05-28T13:36:29.391] [INFO] repo - insert HTML.SaveSession
+[2019-05-28T13:54:00.113] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-05-28T13:54:05.321] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-05-28T13:54:06.307] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-05-28T13:54:07.651] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-05-28T13:56:27.534] [DEBUG] default - on tcp proxy error
+[2019-05-28T13:56:46.304] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\SaveSession
+[2019-05-28T13:58:26.938] [INFO] app - remove widget AppUpdate from app 2
+[2019-05-28T13:58:27.082] [INFO] app - remove widget CostAnalysis from app 2
+[2019-05-28T13:58:27.214] [INFO] app - remove widget DistrictLookup from app 2
+[2019-05-28T13:58:27.339] [INFO] app - remove widget Visibility from app 2
+[2019-05-28T13:58:27.378] [INFO] app - remove widget Weather from app 2
+[2019-05-28T14:24:25.939] [DEBUG] default - on tcp proxy error
+[2019-05-28T14:24:25.940] [DEBUG] default - on tcp proxy error
+[2019-05-28T14:24:25.941] [DEBUG] default - on tcp proxy error
+[2019-05-30T14:27:11.124] [INFO] app - remove widget config config_widgets_eSearchNEW_Widget_67.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-30T14:29:50.180] [DEBUG] default - on tcp proxy error
+[2019-05-30T14:29:50.183] [DEBUG] default - on tcp proxy error
+[2019-05-30T14:29:50.183] [DEBUG] default - on tcp proxy error
+[2019-05-30T14:51:04.306] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-30T14:51:29.278] [INFO] app - Duplicate app undefined to sagisOrgv212_copy-1
+[2019-05-30T14:53:13.341] [INFO] app - remove widget About from app 6
+[2019-05-30T14:53:13.429] [INFO] app - remove widget AddData from app 6
+[2019-05-30T14:53:13.581] [INFO] app - remove widget BasemapGallery from app 6
+[2019-05-30T14:53:13.733] [INFO] app - remove widget Bookmark from app 6
+[2019-05-30T14:53:13.806] [INFO] app - remove widget Directions from app 6
+[2019-05-30T14:53:13.887] [INFO] app - remove widget DistanceAndDirection from app 6
+[2019-05-30T14:53:13.955] [INFO] app - remove widget eDraw from app 6
+[2019-05-30T14:53:13.965] [INFO] app - remove widget GoogleMaps from app 6
+[2019-05-30T14:53:13.985] [INFO] app - remove widget Identify from app 6
+[2019-05-30T14:53:14.132] [INFO] app - remove widget Infographic from app 6
+[2019-05-30T14:53:14.202] [INFO] app - remove widget Legend from app 6
+[2019-05-30T14:53:14.234] [INFO] app - remove widget Pictometry from app 6
+[2019-05-30T14:53:14.301] [INFO] app - remove widget Print from app 6
+[2019-05-30T14:53:14.397] [INFO] app - remove widget SaveSession from app 6
+[2019-05-30T14:53:14.498] [INFO] app - remove widget Screening from app 6
+[2019-05-30T14:53:14.577] [INFO] app - remove widget Select from app 6
+[2019-05-30T14:53:14.672] [INFO] app - remove widget SituationAwareness from app 6
+[2019-05-30T14:53:14.679] [INFO] app - remove widget Streetview from app 6
+[2019-05-30T15:07:52.047] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=6 to /webappbuilder/apps/6
+[2019-05-30T15:54:32.200] [INFO] app - remove widget config config_widgets_eSearch_Widget_55.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\6\
+[2019-05-30T15:55:01.387] [INFO] app - remove widget LayerList from app 6
+[2019-05-30T15:55:01.454] [INFO] app - remove widget Share from app 6
+[2019-05-30T15:55:06.210] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=6 to /webappbuilder/apps/6
+[2019-05-30T15:55:28.252] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=6 to /webappbuilder/apps/6
+[2019-05-30T16:07:58.376] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=2 to /webappbuilder/apps/2
+[2019-05-30T16:17:07.532] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=2 to /webappbuilder/apps/2
+[2019-05-30T17:28:25.808] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search2\manifest.json
+[2019-05-30T17:28:26.225] [INFO] repo - insert HTML.Search2
+[2019-05-30T17:28:47.108] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search2
+[2019-05-30T17:30:47.071] [INFO] app - remove widget config config_widgets_Search_Widget_67.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-05-30T17:36:09.143] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearchNEW2\manifest.json
+[2019-05-30T17:36:09.264] [INFO] repo - insert HTML.eSearchNEW2
+[2019-05-30T17:36:13.427] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearchNEW2
+[2019-05-31T09:31:50.788] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Query
+[2019-05-31T09:33:50.677] [INFO] app - remove widget eSearchNEW2 from app 2
+[2019-06-04T12:17:28.858] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-06-04T12:17:42.964] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-06-04T12:17:44.960] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-06-04T12:17:48.139] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-06-05T12:38:50.098] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-06-05T12:39:39.294] [INFO] app - Duplicate app undefined to sagisOrgv212_copy-2
+[2019-06-05T12:45:41.519] [INFO] app - remove widget About from app 7
+[2019-06-05T12:45:41.597] [INFO] app - remove widget AddData from app 7
+[2019-06-05T12:45:41.754] [INFO] app - remove widget BasemapGallery from app 7
+[2019-06-05T12:45:41.891] [INFO] app - remove widget Bookmark from app 7
+[2019-06-05T12:45:41.955] [INFO] app - remove widget Directions from app 7
+[2019-06-05T12:45:42.029] [INFO] app - remove widget DistanceAndDirection from app 7
+[2019-06-05T12:45:42.079] [INFO] app - remove widget eDraw from app 7
+[2019-06-05T12:45:42.086] [INFO] app - remove widget GoogleMaps from app 7
+[2019-06-05T12:45:42.104] [INFO] app - remove widget Identify from app 7
+[2019-06-05T12:45:42.229] [INFO] app - remove widget Infographic from app 7
+[2019-06-05T12:45:42.289] [INFO] app - remove widget Legend from app 7
+[2019-06-05T12:45:42.316] [INFO] app - remove widget Pictometry from app 7
+[2019-06-05T12:45:42.381] [INFO] app - remove widget Print from app 7
+[2019-06-05T12:45:42.457] [INFO] app - remove widget SaveSession from app 7
+[2019-06-05T12:45:42.546] [INFO] app - remove widget Screening from app 7
+[2019-06-05T12:45:42.608] [INFO] app - remove widget Search2 from app 7
+[2019-06-05T12:45:42.683] [INFO] app - remove widget Select from app 7
+[2019-06-05T12:45:42.822] [INFO] app - remove widget Share from app 7
+[2019-06-05T12:45:42.907] [INFO] app - remove widget SituationAwareness from app 7
+[2019-06-05T12:45:42.912] [INFO] app - remove widget Streetview from app 7
+[2019-06-05T16:18:44.904] [INFO] app - remove widget config config_widgets_eSearch_Widget_55.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\7\
+[2019-06-05T17:45:36.737] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\CostAnalysis
+[2019-06-05T17:45:38.987] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Filter
+[2019-06-05T17:45:40.074] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GriddedReferenceGraphic
+[2019-06-05T18:02:33.841] [INFO] app - remove widget CostAnalysis from app 2
+[2019-06-05T18:24:26.559] [INFO] app - remove widget Filter from app 2
+[2019-06-05T18:25:47.007] [INFO] app - remove widget eSearchNEW from app 2
+[2019-06-06T10:09:09.737] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-06-06T10:09:33.104] [INFO] app - Duplicate app undefined to sagisOrgv212_copy-3
+[2019-06-06T10:25:52.889] [INFO] app - remove widget About from app 8
+[2019-06-06T10:25:53.117] [INFO] app - remove widget BasemapGallery from app 8
+[2019-06-06T10:25:53.264] [INFO] app - remove widget Bookmark from app 8
+[2019-06-06T10:25:53.335] [INFO] app - remove widget Directions from app 8
+[2019-06-06T10:25:53.417] [INFO] app - remove widget DistanceAndDirection from app 8
+[2019-06-06T10:25:53.471] [INFO] app - remove widget eDraw from app 8
+[2019-06-06T10:25:53.542] [INFO] app - remove widget eSearch from app 8
+[2019-06-06T10:25:53.549] [INFO] app - remove widget GoogleMaps from app 8
+[2019-06-06T10:25:53.642] [INFO] app - remove widget GriddedReferenceGraphic from app 8
+[2019-06-06T10:25:53.661] [INFO] app - remove widget Identify from app 8
+[2019-06-06T10:25:53.850] [INFO] app - remove widget Infographic from app 8
+[2019-06-06T10:25:53.880] [INFO] app - remove widget Pictometry from app 8
+[2019-06-06T10:25:53.948] [INFO] app - remove widget Print from app 8
+[2019-06-06T10:25:54.031] [INFO] app - remove widget Query from app 8
+[2019-06-06T10:25:54.125] [INFO] app - remove widget Screening from app 8
+[2019-06-06T10:25:54.191] [INFO] app - remove widget Search2 from app 8
+[2019-06-06T10:25:54.265] [INFO] app - remove widget Select from app 8
+[2019-06-06T10:25:54.338] [INFO] app - remove widget Share from app 8
+[2019-06-06T10:25:54.549] [INFO] app - remove widget SituationAwareness from app 8
+[2019-06-06T10:25:54.554] [INFO] app - remove widget Streetview from app 8
+[2019-06-06T17:26:34.254] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-06-06T17:27:28.717] [INFO] app - Duplicate app undefined to sagisOrgv212 using PRODUCTION service_copy-1
+[2019-06-06T17:28:24.337] [ERROR] default - BadRequestError: request aborted
+    at IncomingMessage.onAborted (C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\node_modules\raw-body\index.js:231:10)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at abortIncoming (_http_server.js:439:9)
+    at socketOnClose (_http_server.js:433:3)
+    at emitOne (events.js:121:20)
+    at Socket.emit (events.js:211:7)
+    at TCP._handle.close [as _onclose] (net.js:561:12)
+[2019-06-06T17:32:53.825] [INFO] app - App removed, id: 9
+[2019-06-06T17:32:56.511] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=2 to /webappbuilder/apps/2
+[2019-06-06T17:35:35.770] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\2\
+[2019-06-06T17:35:57.635] [INFO] app - Duplicate app undefined to sagisOrgv212 using PRODUCTION service_copy-1
+[2019-06-10T08:52:05.037] [INFO] repo - insert HTML.Measure
+[2019-06-10T08:52:39.071] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Measure
+[2019-06-10T13:48:44.709] [INFO] repo - insert HTML.BusinessAnalyst
+[2019-06-10T13:49:09.065] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\BusinessAnalyst
+[2019-06-12T17:51:56.551] [INFO] default - No token is found, redirect /webappbuilder/?id=2 to /webappbuilder/?id=2&action=setportalurl
+[2019-06-12T17:51:58.831] [INFO] default - No token is found, redirect /webappbuilder/?id=10 to /webappbuilder/?id=10&action=setportalurl
+[2019-06-13T15:29:21.878] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-06-13T15:29:24.824] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=2 to /webappbuilder/apps/2
+[2019-06-14T12:27:02.297] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-06-14T12:27:04.223] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=2 to /webappbuilder/apps/2
+[2019-06-14T12:44:37.519] [DEBUG] default - on tcp proxy error
+[2019-06-14T12:46:55.592] [DEBUG] default - on tcp proxy error
+[2019-06-17T17:45:54.566] [DEBUG] default - on tcp proxy error
+[2019-06-17T17:45:54.570] [DEBUG] default - on tcp proxy error
+[2019-06-17T17:45:54.570] [DEBUG] default - on tcp proxy error
+[2019-06-17T17:45:54.571] [DEBUG] default - on tcp proxy error
+[2019-06-18T09:05:50.876] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=2 to /webappbuilder/apps/2
+[2019-06-18T14:42:40.762] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-06-18T14:42:56.873] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-06-18T14:42:59.144] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-06-18T14:43:02.719] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-06-18T17:30:34.396] [INFO] app - remove widget BusinessAnalyst from app 10
+[2019-06-18T17:30:34.497] [INFO] app - remove widget Directions from app 10
+[2019-06-19T08:38:44.401] [INFO] default - No portal URL is set, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2019-06-21T12:44:31.410] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-06-21T12:44:51.352] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-06-21T12:44:53.987] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-06-21T12:44:57.818] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-06-24T09:10:28.823] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-06-24T09:10:47.121] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-06-24T09:10:49.796] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-06-24T09:10:53.949] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-06-25T17:28:21.442] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-06-25T17:28:38.662] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-06-25T17:28:40.894] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-06-25T17:28:44.346] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-06-25T18:04:44.312] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Visibility
+[2019-06-26T10:10:33.043] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\10\
+[2019-06-26T10:11:11.799] [INFO] app - Duplicate app undefined to sagisOrgv212 using NEW service   SagisOrg
+[2019-06-26T10:23:46.807] [INFO] app - remove widget About from app 11
+[2019-06-26T10:23:47.054] [INFO] app - remove widget Bookmark from app 11
+[2019-06-26T10:23:47.152] [INFO] app - remove widget eDraw from app 11
+[2019-06-26T10:23:47.165] [INFO] app - remove widget GoogleMaps from app 11
+[2019-06-26T10:23:47.226] [INFO] app - remove widget Measure from app 11
+[2019-06-26T10:23:47.270] [INFO] app - remove widget Pictometry from app 11
+[2019-06-26T10:23:47.384] [INFO] app - remove widget Print from app 11
+[2019-06-26T10:23:47.562] [INFO] app - remove widget Screening from app 11
+[2019-06-26T10:23:47.667] [INFO] app - remove widget Search2 from app 11
+[2019-06-26T10:23:47.766] [INFO] app - remove widget Share from app 11
+[2019-06-26T10:23:47.928] [INFO] app - remove widget SituationAwareness from app 11
+[2019-06-26T10:23:47.937] [INFO] app - remove widget Streetview from app 11
+[2019-06-26T10:23:48.047] [INFO] app - remove widget Visibility from app 11
+[2019-06-26T10:24:19.043] [INFO] app - remove widget AddData from app 11
+[2019-06-26T10:24:19.379] [INFO] app - remove widget BasemapGallery from app 11
+[2019-06-26T10:24:19.502] [INFO] app - remove widget DistanceAndDirection from app 11
+[2019-06-26T10:24:19.659] [INFO] app - remove widget GriddedReferenceGraphic from app 11
+[2019-06-26T10:24:19.692] [INFO] app - remove widget Identify from app 11
+[2019-06-26T10:24:19.696] [INFO] app - remove widget icon icon_widgets_Infographic_Widget_61.png from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\11\
+[2019-06-26T10:24:19.697] [INFO] app - remove widget icon icon_widgets_Infographic_Widget_62.png from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\11\
+[2019-06-26T10:24:19.699] [INFO] app - remove widget icon icon_widgets_Infographic_Widget_63.png from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\11\
+[2019-06-26T10:24:19.701] [INFO] app - remove widget config config_widgets_Infographic_Widget_61.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\11\
+[2019-06-26T10:24:19.702] [INFO] app - remove widget config config_widgets_Infographic_Widget_62.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\11\
+[2019-06-26T10:24:19.707] [INFO] app - remove widget config config_widgets_Infographic_Widget_63.json from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\11\
+[2019-06-26T10:24:19.827] [INFO] app - remove widget LayerList from app 11
+[2019-06-26T10:24:19.973] [INFO] app - remove widget Legend from app 11
+[2019-06-26T10:24:20.108] [INFO] app - remove widget Query from app 11
+[2019-06-26T10:24:20.133] [INFO] app - remove widget SaveSession from app 11
+[2019-06-26T10:24:20.262] [INFO] app - remove widget Select from app 11
+[2019-06-26T10:25:26.562] [DEBUG] default - on tcp proxy error
+[2019-06-26T10:50:31.124] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2019-06-26T10:50:40.143] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\images
+[2019-06-26T10:50:40.203] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\libs
+[2019-06-26T10:50:41.029] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2019-06-26T10:50:41.048] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2019-06-26T10:50:41.064] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2019-06-26T10:50:41.082] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2019-06-26T10:50:41.092] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2019-06-26T10:50:41.100] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2019-06-26T10:50:41.141] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2019-06-26T10:50:41.151] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2019-06-26T10:50:41.177] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\configs
+[2019-06-26T10:50:41.220] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2019-06-26T10:50:41.236] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2019-06-26T10:50:41.254] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2019-06-26T10:50:41.284] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme
+[2019-06-26T10:50:43.860] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2019-06-26T10:50:44.938] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2019-06-26T10:50:46.122] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2019-06-26T10:50:47.413] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2019-06-26T10:50:48.635] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2019-06-26T10:50:49.109] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2019-06-26T10:50:50.089] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2019-06-26T10:50:51.376] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2019-06-26T10:50:52.648] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2019-06-26T10:50:53.087] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2019-06-26T10:50:53.547] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2019-06-26T10:50:54.003] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2019-06-26T10:50:54.995] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-06-26T10:54:34.042] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearch
+[2019-06-26T10:54:46.829] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-06-26T10:55:30.596] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\LaunchpadTheme
+[2019-06-26T10:55:50.290] [INFO] app - remove theme FoldableTheme from app 12
+[2019-06-26T10:57:55.184] [INFO] app - remove widget LayerList from app 12
+[2019-06-26T11:00:04.970] [INFO] app - remove widget Legend from app 12
+[2019-06-26T12:40:12.821] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-06-26T12:40:29.069] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-06-26T12:40:31.526] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-06-26T12:40:35.613] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-06-26T12:51:21.150] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-06-26T14:18:29.687] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-06-26T16:57:45.248] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-06-27T09:06:20.780] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-06-27T11:12:01.937] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-07-08T09:01:33.669] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-07-08T09:01:56.471] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-07-08T09:01:59.547] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-07-08T09:02:05.817] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-07-08T09:25:34.578] [INFO] app - remove widget Visibility from app 10
+[2019-07-08T09:27:27.501] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GridOverlay
+[2019-07-08T10:30:11.046] [INFO] app - remove widget GridOverlay from app 10
+[2019-07-08T16:41:44.125] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-07-08T16:42:02.652] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-07-08T16:42:05.523] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-07-08T16:42:09.716] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-07-09T13:05:13.450] [INFO] default - No token is found, redirect /webappbuilder/?id=10 to /webappbuilder/?id=10&action=setportalurl
+[2019-07-09T17:40:34.699] [INFO] app - remove widget Search2.zip from app 10
+[2019-07-10T13:18:48.834] [INFO] app - remove widget Search2 from app 10
+[2019-07-10T17:34:31.458] [INFO] app - remove widget Streetview.zip from app 10
+[2019-07-10T18:24:52.669] [INFO] repo - insert HTML.Google_Tools
+[2019-07-10T18:24:59.415] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Google_Tools
+[2019-07-11T10:05:34.453] [INFO] app - remove widget Google_Tools from app 10
+[2019-07-11T12:35:05.472] [INFO] app - remove widget GoogleMaps from app 10
+[2019-07-11T17:34:38.644] [INFO] app - remove widget Infographic from app 5
+[2019-07-12T14:43:13.429] [DEBUG] default - on tcp proxy error
+[2019-07-12T14:43:13.432] [DEBUG] default - on tcp proxy error
+[2019-07-12T15:52:35.070] [DEBUG] default - on tcp proxy error
+[2019-07-12T15:52:35.074] [DEBUG] default - on tcp proxy error
+[2019-07-15T10:16:46.027] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-07-16T12:48:47.353] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-07-16T12:49:05.768] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-07-16T12:49:08.605] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-07-16T12:49:12.872] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-07-16T17:27:22.470] [INFO] app - remove widget config config_widgets_Search_Widget_22.zip from app configs folder C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\10\
+[2019-07-17T11:57:27.303] [ERROR] default - BadRequestError: request aborted
+    at IncomingMessage.onAborted (C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\node_modules\raw-body\index.js:231:10)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at abortIncoming (_http_server.js:439:9)
+    at socketOnClose (_http_server.js:433:3)
+    at emitOne (events.js:121:20)
+    at Socket.emit (events.js:211:7)
+    at TCP._handle.close [as _onclose] (net.js:561:12)
+[2019-07-19T15:49:40.090] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-07-19T15:49:56.308] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-07-19T15:49:58.697] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-07-19T15:50:02.379] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-07-19T15:51:56.517] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearch
+[2019-07-19T15:52:36.489] [INFO] app - remove widget eSearch from app 4
+[2019-07-19T15:52:56.469] [INFO] repo - delete C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2019-07-19T15:54:31.657] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearch\manifest.json
+[2019-07-19T15:55:08.616] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearch
+[2019-07-26T10:29:59.437] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-07-26T10:30:17.011] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-07-26T10:30:19.676] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-07-26T10:30:23.488] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-08-01T16:42:46.073] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-08-01T16:43:15.182] [DEBUG] default - on tcp proxy error
+[2019-08-01T16:43:15.182] [DEBUG] default - on tcp proxy error
+[2019-08-01T16:43:15.183] [DEBUG] default - on tcp proxy error
+[2019-08-01T16:43:15.184] [DEBUG] default - on tcp proxy error
+[2019-08-05T11:48:47.735] [INFO] default - No token is found, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2019-08-05T11:49:01.710] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-08-05T13:57:45.944] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-08-05T13:58:24.425] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-08-05T15:35:29.331] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-08-08T09:21:55.057] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-08-08T09:22:13.104] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-08-08T09:22:15.937] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-08-08T09:22:19.481] [DEBUG] default - on tcp proxy error
+[2019-08-08T09:22:19.482] [DEBUG] default - on tcp proxy error
+[2019-08-08T09:22:20.085] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-08-22T17:42:45.118] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-08-22T17:43:03.732] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-08-22T17:43:06.225] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-08-22T17:43:09.819] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-08-26T09:27:25.613] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-08-26T09:27:43.542] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-08-26T09:27:46.075] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-08-26T09:27:49.961] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-08-26T09:51:27.660] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GridOverlay
+[2019-08-26T09:51:28.637] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Weather
+[2019-08-26T09:51:35.030] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GoogleAnalytics
+[2019-08-26T09:51:37.358] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GoogleAnalytics
+[2019-08-26T09:58:33.820] [INFO] app - remove widget Weather from app 10
+[2019-08-26T10:35:09.057] [INFO] app - remove widget GridOverlay from app 10
+[2019-08-26T19:29:35.513] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-08-27T10:32:26.231] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-08-27T10:32:42.382] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-08-27T10:32:44.724] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-08-27T10:32:48.788] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-08-27T10:34:14.842] [DEBUG] default - on tcp proxy error
+[2019-08-27T14:43:27.959] [DEBUG] default - on tcp proxy error
+[2019-08-27T14:43:27.961] [DEBUG] default - on tcp proxy error
+[2019-08-29T12:27:48.219] [DEBUG] default - on tcp proxy error
+[2019-08-29T12:27:48.221] [DEBUG] default - on tcp proxy error
+[2019-08-29T12:27:48.221] [DEBUG] default - on tcp proxy error
+[2019-09-09T11:55:24.702] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-09-09T11:55:41.140] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-09-09T11:55:43.410] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-09-09T11:55:47.024] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-09-09T12:19:59.707] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Select
+[2019-09-09T12:58:56.390] [INFO] repo - delete C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Select
+[2019-09-09T12:58:56.410] [INFO] repo - insert HTML.Select
+[2019-09-09T12:59:38.450] [INFO] app - remove widget Select from app 5
+[2019-09-09T12:59:43.871] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Select
+[2019-09-09T13:08:39.234] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-09-09T13:08:45.434] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-09-09T13:08:46.573] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-09-09T13:08:47.935] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-09-09T13:18:00.203] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearchNEW
+[2019-09-09T13:38:33.593] [INFO] app - remove widget eSearchNEW from app 5
+[2019-09-09T14:26:12.514] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-09-09T14:26:17.119] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-09-09T14:26:17.945] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-09-09T14:26:19.098] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-09-09T14:28:47.347] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearch
+[2019-09-11T08:57:52.069] [INFO] default - No token is found, redirect /webappbuilder/?id=10 to /webappbuilder/?id=10&action=setportalurl
+[2019-09-11T09:00:11.123] [INFO] app - remove widget SelectO from app 10
+[2019-09-16T14:33:26.350] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-09-16T14:33:45.459] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-09-16T14:33:48.118] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-09-16T14:33:52.187] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-09-19T12:28:38.533] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-09-19T12:28:56.335] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-09-19T12:28:58.801] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-09-19T12:29:02.517] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-09-19T12:38:28.699] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=5 to /webappbuilder/apps/5
+[2019-09-23T15:45:33.427] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-09-26T09:12:13.109] [INFO] default - No token is found, redirect /webappbuilder/?id=10 to /webappbuilder/?id=10&action=setportalurl
+[2019-09-26T09:12:53.561] [INFO] default - No token is found, redirect /webappbuilder/?id=10 to /webappbuilder/?id=10&action=setportalurl
+[2019-09-30T09:52:47.166] [INFO] default - No portal URL is set, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2019-10-15T13:55:17.680] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-10-15T13:55:36.495] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-10-15T13:55:39.098] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-10-15T13:55:43.095] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-10-15T13:56:54.230] [INFO] default - No token is found, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2019-10-15T14:08:51.368] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=4 to /webappbuilder/apps/4
+[2019-10-15T14:39:06.889] [ERROR] default - BadRequestError: request aborted
+    at IncomingMessage.onAborted (C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\node_modules\raw-body\index.js:231:10)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at abortIncoming (_http_server.js:439:9)
+    at socketOnClose (_http_server.js:433:3)
+    at emitOne (events.js:121:20)
+    at Socket.emit (events.js:211:7)
+    at TCP._handle.close [as _onclose] (net.js:561:12)
+[2019-10-16T11:30:59.335] [INFO] default - No portal URL is set, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2019-10-16T11:31:16.928] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-10-21T15:16:50.883] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-10-21T15:17:08.022] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-10-21T15:17:10.448] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-10-21T15:17:14.144] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-10-21T15:20:29.499] [INFO] default - No portal URL is set, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2019-10-22T18:03:54.054] [DEBUG] default - on tcp proxy error
+[2019-10-22T18:03:54.056] [DEBUG] default - on tcp proxy error
+[2019-10-22T18:03:54.057] [DEBUG] default - on tcp proxy error
+[2019-10-25T14:54:18.663] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-10-25T14:54:35.444] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-10-25T14:54:39.784] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-10-25T14:54:44.168] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-10-28T08:41:42.533] [INFO] app - remove widget eSearch.zip from app 10
+[2019-10-31T18:05:50.856] [DEBUG] default - on tcp proxy error
+[2019-11-04T17:33:10.057] [INFO] default - No token is found, redirect /webappbuilder/?id=10 to /webappbuilder/?id=10&action=setportalurl
+[2019-11-06T15:42:00.476] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2019-11-15T18:06:10.532] [INFO] default - No portal URL is set, redirect /webappbuilder/?id=10 to /webappbuilder/?id=10&action=setportalurl
+[2019-11-19T16:29:11.329] [INFO] default - No portal URL is set, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2019-12-10T11:00:24.435] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-12-10T11:00:43.665] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-12-10T11:00:46.375] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-12-10T11:00:50.563] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-12-11T08:54:49.186] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-12-11T08:55:07.391] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-12-11T08:55:09.950] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-12-11T08:55:13.935] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-12-11T09:31:39.166] [INFO] default - No portal URL is set, redirect /webappbuilder/?id=10 to /webappbuilder/?id=10&action=setportalurl
+[2019-12-11T14:50:20.502] [INFO] default - No portal URL is set, redirect /webappbuilder/?id=10 to /webappbuilder/?id=10&action=setportalurl
+[2019-12-13T16:34:36.829] [INFO] default - No portal URL is set, redirect /webappbuilder/?id=10 to /webappbuilder/?id=10&action=setportalurl
+[2019-12-17T14:30:23.763] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-12-17T14:30:44.430] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-12-17T14:30:49.134] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-12-17T14:30:53.493] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-12-17T14:33:58.586] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\10\
+[2019-12-17T14:34:52.543] [INFO] app - Duplicate app undefined to sagisOrgv212 using NEW service   SagisOrg
+[2019-12-18T14:26:47.664] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-12-18T14:27:07.905] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-12-18T14:27:10.633] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-12-18T14:27:14.775] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2020-01-06T09:08:36.810] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2020-01-06T09:08:54.865] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2020-01-06T09:08:57.421] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2020-01-06T09:09:03.292] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2020-01-06T09:10:03.738] [INFO] default - No token is found, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2020-01-06T09:11:59.189] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\10\
+[2020-01-06T09:12:50.467] [INFO] app - Duplicate app undefined to sagisOrgv212 using NEW service   SagisOrg
+[2020-01-07T17:24:42.112] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\apps\13\
+[2020-01-07T17:25:37.331] [INFO] app - Duplicate app undefined to Tybee Viewer 2020 built on -  sagisOrgv212 using NEW service   SagisOrg_copy-1
+[2020-01-07T17:28:17.374] [ERROR] default - BadRequestError: request aborted
+    at IncomingMessage.onAborted (C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\node_modules\raw-body\index.js:231:10)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at abortIncoming (_http_server.js:439:9)
+    at socketOnClose (_http_server.js:433:3)
+    at emitOne (events.js:121:20)
+    at Socket.emit (events.js:211:7)
+    at TCP._handle.close [as _onclose] (net.js:561:12)
+[2020-01-07T17:31:00.568] [INFO] app - remove widget DistanceAndDirection from app 15
+[2020-01-07T17:31:00.654] [INFO] app - remove widget GriddedReferenceGraphic from app 15
+[2020-01-07T17:31:00.671] [INFO] app - remove widget Identify from app 15
+[2020-01-07T17:31:00.788] [INFO] app - remove widget Infographic from app 15
+[2020-01-07T17:31:00.866] [INFO] app - remove widget Query from app 15
+[2020-01-07T17:31:00.945] [INFO] app - remove widget Screening from app 15
+[2020-01-07T17:31:01.026] [INFO] app - remove widget SituationAwareness from app 15
+[2020-01-07T17:33:44.633] [INFO] app - remove widget SaveSession from app 15
+[2020-01-09T14:53:59.847] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2020-01-09T14:54:18.558] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2020-01-09T14:54:21.238] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2020-01-09T14:54:25.239] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2020-01-10T10:21:56.698] [DEBUG] default - on tcp proxy error
+[2020-01-10T16:30:55.145] [ERROR] default - BadRequestError: request aborted
+    at IncomingMessage.onAborted (C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\server\node_modules\raw-body\index.js:231:10)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at abortIncoming (_http_server.js:439:9)
+    at socketOnClose (_http_server.js:433:3)
+    at emitOne (events.js:121:20)
+    at Socket.emit (events.js:211:7)
+    at TCP._handle.close [as _onclose] (net.js:561:12)
+[2020-01-21T10:23:06.271] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2020-01-21T10:23:26.189] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2020-01-21T10:37:06.765] [INFO] default - No token is found, redirect /webappbuilder/?id=10 to /webappbuilder/?id=10&action=setportalurl
+[2020-01-21T10:37:07.477] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2020-01-21T10:37:12.232] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2020-01-27T08:42:21.755] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2020-01-27T08:42:43.312] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2020-01-27T08:42:46.364] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2020-01-27T08:42:50.675] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2020-01-30T19:43:49.169] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2020-01-30T19:44:07.350] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2020-01-30T19:44:09.804] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2020-01-30T19:44:13.602] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2020-02-10T12:45:53.198] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2020-02-10T12:46:13.094] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2020-02-10T12:46:15.908] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2020-02-10T12:46:20.236] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2020-02-11T10:50:11.753] [INFO] app - App removed, id: 15
+[2020-02-11T10:50:34.158] [INFO] app - App removed, id: 13
+[2020-02-11T10:50:42.629] [INFO] app - App removed, id: 14
+[2020-02-11T10:50:50.917] [INFO] app - App removed, id: 5
+[2020-02-11T10:50:55.799] [INFO] app - App removed, id: 4
+[2020-02-11T10:51:00.081] [INFO] app - App removed, id: 12
+[2020-02-11T10:51:05.568] [INFO] app - App removed, id: 11
+[2020-02-11T10:51:25.321] [INFO] app - App removed, id: 2
+[2020-02-11T10:51:34.763] [INFO] app - App removed, id: 8
+[2020-02-11T10:51:41.842] [INFO] app - App removed, id: 7
+[2020-02-11T10:51:46.436] [INFO] app - App removed, id: 6
+[2020-02-11T10:51:50.298] [INFO] app - App removed, id: 3
+[2020-02-11T11:00:50.818] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\About\manifest.json
+[2020-02-11T11:00:51.605] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AddData\manifest.json
+[2020-02-11T11:00:52.885] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable\manifest.json
+[2020-02-11T11:00:54.050] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\BasemapGallery\manifest.json
+[2020-02-11T11:00:55.096] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Bookmark\manifest.json
+[2020-02-11T11:00:56.623] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate\manifest.json
+[2020-02-11T11:00:57.466] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\DistanceAndDirection\manifest.json
+[2020-02-11T11:00:58.688] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eDraw\manifest.json
+[2020-02-11T11:00:59.535] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearch\manifest.json
+[2020-02-11T11:01:01.060] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate\manifest.json
+[2020-02-11T11:01:01.506] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen\manifest.json
+[2020-02-11T11:01:01.897] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GriddedReferenceGraphic\manifest.json
+[2020-02-11T11:01:03.364] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton\manifest.json
+[2020-02-11T11:01:03.771] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Identify\manifest.json
+[2020-02-11T11:01:04.189] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic\manifest.json
+[2020-02-11T11:01:06.636] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList\manifest.json
+[2020-02-11T11:01:07.511] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend\manifest.json
+[2020-02-11T11:01:08.235] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Measure\manifest.json
+[2020-02-11T11:01:08.675] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation\manifest.json
+[2020-02-11T11:01:09.398] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap\manifest.json
+[2020-02-11T11:01:10.144] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Pictometry\manifest.json
+[2020-02-11T11:01:10.462] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Print\manifest.json
+[2020-02-11T11:01:11.195] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Query\manifest.json
+[2020-02-11T11:01:12.397] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\SaveSession\manifest.json
+[2020-02-11T11:01:12.656] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar\manifest.json
+[2020-02-11T11:01:13.375] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Screening\manifest.json
+[2020-02-11T11:01:14.976] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Select\manifest.json
+[2020-02-11T11:01:15.851] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Share\manifest.json
+[2020-02-11T11:01:16.497] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\SituationAwareness\manifest.json
+[2020-02-11T11:01:17.981] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash\manifest.json
+[2020-02-11T11:01:18.895] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider\manifest.json
+[2020-02-11T11:01:18.922] [INFO] repo - widget changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Streetview\manifest.json
+[2020-02-11T11:01:48.183] [INFO] repo - theme changed: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\LaunchpadTheme\manifest.json
+[2020-02-11T11:03:21.997] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2020-02-11T11:03:42.893] [INFO] repo - insert HTML.Search
+[2020-02-11T11:03:42.897] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes
+[2020-02-11T11:03:46.248] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2020-02-11T11:04:06.293] [INFO] repo - Read repository items: C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2020-02-11T11:14:48.546] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=10 to /webappbuilder/apps/10
+[2020-02-11T11:14:58.609] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2020-02-11T11:15:07.808] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\images
+[2020-02-11T11:15:07.864] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\libs
+[2020-02-11T11:15:09.071] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2020-02-11T11:15:09.096] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2020-02-11T11:15:09.118] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2020-02-11T11:15:09.125] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2020-02-11T11:15:09.146] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2020-02-11T11:15:09.157] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2020-02-11T11:15:09.210] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2020-02-11T11:15:09.224] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2020-02-11T11:15:09.239] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\configs
+[2020-02-11T11:15:09.277] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2020-02-11T11:15:09.292] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2020-02-11T11:15:09.303] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2020-02-11T11:15:09.338] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme
+[2020-02-11T11:15:11.187] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2020-02-11T11:15:11.866] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2020-02-11T11:15:12.793] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2020-02-11T11:15:13.638] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2020-02-11T11:15:14.494] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2020-02-11T11:15:14.755] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2020-02-11T11:15:15.504] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2020-02-11T11:15:16.594] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2020-02-11T11:15:17.522] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2020-02-11T11:15:17.792] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2020-02-11T11:15:18.137] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2020-02-11T11:15:18.471] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2020-02-11T11:15:19.190] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2020-02-11T11:32:24.055] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GoogleMaps
+[2020-02-11T11:32:47.180] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Streetview
+[2020-02-11T11:33:52.800] [INFO] repo - delete C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Google_Tools
+[2020-02-11T11:33:58.830] [INFO] repo - delete C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\GoogleMaps
+[2020-02-11T11:35:10.648] [INFO] repo - delete C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearchNEW
+[2020-02-11T11:35:32.203] [INFO] repo - delete C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearchNEW2
+[2020-02-11T11:37:09.259] [INFO] repo - delete C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search2
+[2020-02-11T11:50:26.215] [INFO] app - App removed, id: 11
+[2020-02-11T11:50:33.117] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2020-02-11T11:50:40.444] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\images
+[2020-02-11T11:50:40.546] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\libs
+[2020-02-11T11:50:41.272] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2020-02-11T11:50:41.279] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2020-02-11T11:50:41.283] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2020-02-11T11:50:41.289] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2020-02-11T11:50:41.305] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2020-02-11T11:50:41.316] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2020-02-11T11:50:41.355] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2020-02-11T11:50:41.370] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2020-02-11T11:50:41.385] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\configs
+[2020-02-11T11:50:41.414] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2020-02-11T11:50:41.428] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2020-02-11T11:50:41.437] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2020-02-11T11:50:41.460] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme
+[2020-02-11T11:50:42.895] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2020-02-11T11:50:43.639] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2020-02-11T11:50:44.465] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2020-02-11T11:50:45.321] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2020-02-11T11:50:46.177] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2020-02-11T11:50:46.534] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2020-02-11T11:50:47.255] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2020-02-11T11:50:48.322] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2020-02-11T11:50:49.350] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2020-02-11T11:50:49.707] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2020-02-11T11:50:50.097] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2020-02-11T11:50:50.486] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2020-02-11T11:50:51.228] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2020-02-11T11:56:02.687] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eDraw
+[2020-02-11T11:56:03.599] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\eSearch
+[2020-02-11T11:56:05.205] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Pictometry
+[2020-02-11T11:56:05.715] [DEBUG] utils - copy C:\inetpub\wwwroot\zzzzApril2019wab212\WebAppBuilderForArcGIS\client\stemapp\widgets\Streetview
+[2020-02-11T11:56:26.061] [INFO] app - App removed, id: 12
