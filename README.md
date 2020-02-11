@@ -5,9 +5,11 @@ See WebApp Builder Developer Customized Documentation.rtf
 Customized Esri WebApp Builder Developer Edition 2.12
 By: Kevin MacLeod
 Savannah Area Geographic Information System
+
 Discussion: https://community.esri.com/thread/188438-kevins-custom-wab-widgets
 
 I have added a lot of custom tweaks to the base product.
+
 
 1.	 Turning on popups for all layers that are visible (popups are automatically on)
 2.	Custom icons for tools (flat Esri style not legible)
