@@ -22,8 +22,9 @@ I have added a lot of custom tweaks to the base product.
 
 
 I wrote a user manual and series of YouTube training videos, which may be helpful for everyone!  You can take this Word document and modify it for your apps.  They’re included here in the repo.
-
-
+https://github.com/kevinsagis/CustomizedWebApp_DeveloperEdition212/blob/master/WebAppBuilderForArcGIS/wwwSAGISorg_LaunchpadTheme_Help2.pdf
+Word document: https://github.com/kevinsagis/CustomizedWebApp_DeveloperEdition212/blob/master/WebAppBuilderForArcGIS/wwwSAGISorg__LaunchpadTheme_Help.docx
+YouTube: https://www.youtube.com/watch?v=sr0MR7Mxljo&list=PLF-NDdpCXNK-_52wvFpJM9eX8SxnSTLRd&index=1
 
 Customizations to WebApp Builder files are commented at beginning and ending of code blocks as follows:
  ///////kevin m
